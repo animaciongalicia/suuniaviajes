@@ -6,6 +6,10 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // =============================================
+      // SPECIFIC WordPress URL redirects (from old site)
+      // =============================================
+
       // HOME / corporativo
       {
         source: "/contacto/quienes-somos/",
@@ -302,6 +306,76 @@ const nextConfig = {
         destination: "/receptivo-galicia",
         permanent: true,
       },
+
+      // =============================================
+      // GENERIC catch-all patterns for remaining WP URLs
+      // =============================================
+
+      // WordPress blog and post patterns
+      { source: "/blog", destination: "/", permanent: true },
+      { source: "/blog/:path*", destination: "/", permanent: true },
+      { source: "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug*", destination: "/", permanent: true },
+      { source: "/:year(\\d{4})/:month(\\d{2})/:slug*", destination: "/", permanent: true },
+
+      // WordPress categories and tags
+      { source: "/category/:path*", destination: "/", permanent: true },
+      { source: "/tag/:path*", destination: "/", permanent: true },
+      { source: "/categoria/:path*", destination: "/", permanent: true },
+      { source: "/etiqueta/:path*", destination: "/", permanent: true },
+
+      // WordPress author and archive pages
+      { source: "/author/:path*", destination: "/", permanent: true },
+      { source: "/archives/:path*", destination: "/", permanent: true },
+
+      // WordPress pagination
+      { source: "/page/:num(\\d+)", destination: "/", permanent: true },
+
+      // WordPress feeds
+      { source: "/feed", destination: "/", permanent: true },
+      { source: "/feed/:path*", destination: "/", permanent: true },
+      { source: "/comments/feed", destination: "/", permanent: true },
+
+      // WordPress system paths
+      { source: "/wp-content/:path*", destination: "/", permanent: true },
+      { source: "/wp-includes/:path*", destination: "/", permanent: true },
+      { source: "/wp-admin/:path*", destination: "/", permanent: true },
+      { source: "/wp-login.php", destination: "/", permanent: true },
+      { source: "/wp-json/:path*", destination: "/", permanent: true },
+      { source: "/xmlrpc.php", destination: "/", permanent: true },
+
+      // WordPress common pages (Spanish WP sites)
+      { source: "/contacto", destination: "/#contacto", permanent: true },
+      { source: "/sobre-nosotros", destination: "/receptivo-galicia", permanent: true },
+      { source: "/quienes-somos", destination: "/receptivo-galicia", permanent: true },
+      { source: "/servicios", destination: "/receptivo-galicia", permanent: true },
+      { source: "/servicios/:path*", destination: "/receptivo-galicia", permanent: true },
+
+      // Generic old service page patterns
+      { source: "/tours", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/tours/:path*", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/excursiones", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/excursiones/:path*", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/viajes", destination: "/viajes-grupos-galicia", permanent: true },
+      { source: "/viajes/:path*", destination: "/viajes-grupos-galicia", permanent: true },
+      { source: "/grupos", destination: "/viajes-grupos-galicia", permanent: true },
+      { source: "/grupos/:path*", destination: "/viajes-grupos-galicia", permanent: true },
+      { source: "/incentivos", destination: "/incentivos-empresa-galicia", permanent: true },
+      { source: "/incentivos/:path*", destination: "/incentivos-empresa-galicia", permanent: true },
+      { source: "/logistica", destination: "/logistica-servicios-galicia", permanent: true },
+      { source: "/logistica/:path*", destination: "/logistica-servicios-galicia", permanent: true },
+
+      // Catch-all for homepages subpaths not matched above
+      { source: "/homepages/:path*", destination: "/receptivo-galicia", permanent: true },
+      { source: "/coruna-especial/:path*", destination: "/tours-privados-galicia", permanent: true },
+
+      // WordPress search
+      { source: "/search/:path*", destination: "/", permanent: true },
+
+      // WordPress sample page and privacy
+      { source: "/sample-page", destination: "/", permanent: true },
+      { source: "/politica-de-privacidad", destination: "/", permanent: false },
+      { source: "/politica-de-cookies", destination: "/", permanent: false },
+      { source: "/aviso-legal", destination: "/", permanent: false },
     ];
   },
 };
