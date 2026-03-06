@@ -14,7 +14,9 @@
   body {
     color: var(--foreground);
     background: var(--background);
-    font-family: "Inter", system-ui, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
@@ -23,23 +25,46 @@
     @apply px-6 py-20 md:px-12 lg:px-20 xl:px-32;
   }
   .btn-primary {
-    @apply inline-flex items-center gap-2 rounded-lg bg-atlantic-700 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-atlantic-800 hover:shadow-lg;
+    @apply inline-flex items-center gap-2 rounded-lg bg-atlantic-700 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-atlantic-800 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-atlantic-600 focus-visible:ring-offset-2;
   }
   .btn-whatsapp {
-    @apply inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-green-700 hover:shadow-lg;
+    @apply inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-green-700 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-600 focus-visible:ring-offset-2;
   }
   .btn-outline {
-    @apply inline-flex items-center gap-2 rounded-lg border-2 border-atlantic-700 px-6 py-3 text-sm font-semibold text-atlantic-700 transition-all duration-300 hover:bg-atlantic-700 hover:text-white;
+    @apply inline-flex items-center gap-2 rounded-lg border-2 border-atlantic-700 px-6 py-3 text-sm font-semibold text-atlantic-700 transition-all duration-300 hover:bg-atlantic-700 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-atlantic-600 focus-visible:ring-offset-2;
   }
   .card-elegant {
-    @apply rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1;
+    @apply rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-atlantic-600;
   }
   .heading-section {
     @apply text-3xl font-bold tracking-tight text-gray-900 md:text-4xl;
   }
 }
 
-@keyframes fadeIn {
+/* Intersection Observer driven animation */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children */
+.animate-on-scroll.is-visible .stagger-child {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-on-scroll.is-visible .stagger-child:nth-child(1) { animation-delay: 0.1s; }
+.animate-on-scroll.is-visible .stagger-child:nth-child(2) { animation-delay: 0.2s; }
+.animate-on-scroll.is-visible .stagger-child:nth-child(3) { animation-delay: 0.3s; }
+.animate-on-scroll.is-visible .stagger-child:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(16px);
@@ -47,5 +72,18 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .animate-on-scroll.is-visible .stagger-child {
+    animation: none;
+    opacity: 1;
   }
 }

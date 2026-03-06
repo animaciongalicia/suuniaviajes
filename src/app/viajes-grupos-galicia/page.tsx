@@ -154,15 +154,15 @@ export default function ViajesGruposGalicia() {
             {tiposViaje.map((tipo, i) => (
               <div
                 key={tipo.title}
-                className={`grid items-start gap-8 md:grid-cols-2 ${i % 2 === 1 ? "md:direction-rtl" : ""}`}
+                className="grid items-start gap-8 md:grid-cols-2"
               >
-                <div>
+                <div className={i % 2 === 1 ? "md:order-2" : ""}>
                   <h3 className="text-xl font-semibold text-gray-900">{tipo.title}</h3>
                   <p className="mt-4 leading-relaxed text-gray-600">{tipo.description}</p>
                   <ul className="mt-6 space-y-3">
                     {tipo.details.map((detail, j) => (
                       <li key={j} className="flex gap-3 text-sm text-gray-600">
-                        <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         {detail}
@@ -170,7 +170,7 @@ export default function ViajesGruposGalicia() {
                     ))}
                   </ul>
                 </div>
-                <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${i % 2 === 1 ? "md:order-1" : ""}`}>
                   <Image
                     src={i % 2 === 0 ? "/images/experiencias-galicia.jpg" : "/images/ruta-mar-galicia.jpg"}
                     alt={tipo.title}
@@ -202,7 +202,7 @@ export default function ViajesGruposGalicia() {
               "Gestión de imprevistos y alternativas en caso de cambios",
             ].map((item, i) => (
               <div key={i} className="flex gap-3">
-                <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span className="text-sm leading-relaxed text-gray-600">{item}</span>

@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     "experiencias galicia",
     "servicios receptivos galicia",
   ],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "es_ES",
@@ -64,7 +68,7 @@ export default function RootLayout({
     <html lang="es">
       <body className="antialiased">
         <Header />
-        <main className="pt-[73px]">{children}</main>
+        <main>{children}</main>
         <Footer />
         <WhatsAppFloat />
 
@@ -76,7 +80,7 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Suunia",
               url: "https://suunia.com",
-              logo: "https://suunia.com/images/hero-galicia.jpg",
+              logo: "https://suunia.com/images/logo-suunia.svg",
               description:
                 "Agencia receptiva en Galicia especializada en viajes, experiencias y logística para grupos privados y empresas.",
               telephone: "+34678288284",
