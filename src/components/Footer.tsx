@@ -56,12 +56,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@sunia.com" className="hover:text-atlantic-700">
+                <a href="mailto:info@suunia.com" className="hover:text-atlantic-700">
                   info@sunia.com
                 </a>
               </li>
               <li>
-                <a href="mailto:suniaviajes@gmail.com" className="hover:text-atlantic-700">
+                <a href="mailto:suuniaviajes@gmail.com" className="hover:text-atlantic-700">
                   suniaviajes@gmail.com
                 </a>
               </li>
