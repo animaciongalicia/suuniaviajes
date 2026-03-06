@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -13,13 +14,14 @@ export const metadata: Metadata = {
     description:
       "Tours organizados para grupos privados en Galicia. Rutas culturales, gastronomía, naturaleza y experiencias a medida.",
     url: "https://suunia.com/viajes-grupos-galicia",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/viajes-grupos-hero.jpg", width: 1200, height: 630 }],
   },
 };
 
 const tiposViaje = [
   {
     title: "Tours privados para grupos",
+    image: "/images/viajes-grupos-tours.jpg",
     description:
       "Rutas diseñadas específicamente para vuestro grupo, con guía privado, transporte exclusivo y un programa que se ajusta a vuestros intereses y ritmo. Desde medio día hasta viajes de una semana.",
     details: [
@@ -31,6 +33,7 @@ const tiposViaje = [
   },
   {
     title: "Rutas culturales y patrimoniales",
+    image: "/images/viajes-grupos-cultura.jpg",
     description:
       "Santiago de Compostela, la catedral, el casco histórico, el Camino de Santiago, monasterios románicos, pazos señoriales y la huella celta. Galicia tiene un patrimonio cultural que abarca siglos y que se vive en cada piedra.",
     details: [
@@ -42,6 +45,7 @@ const tiposViaje = [
   },
   {
     title: "Excursiones y naturaleza",
+    image: "/images/viajes-grupos-naturaleza.jpg",
     description:
       "La naturaleza gallega ofrece paisajes atlánticos, bosques milenarios, cañones fluviales y parques naturales. Organizamos excursiones que combinan senderismo accesible, miradores espectaculares y contacto con la naturaleza.",
     details: [
@@ -53,6 +57,7 @@ const tiposViaje = [
   },
   {
     title: "Experiencias gastronómicas",
+    image: "/images/viajes-grupos-gastronomia.jpg",
     description:
       "La gastronomía es el gran motivo por el que muchos viajeros eligen Galicia. Organizamos experiencias culinarias que van más allá de la simple comida: talleres de cocina, visitas a bodegas, recorridos por mercados, marisqueo en la ría y cenas privadas con chef.",
     details: [
@@ -64,6 +69,7 @@ const tiposViaje = [
   },
   {
     title: "Actividades en el mar",
+    image: "/images/viajes-grupos-mar.jpg",
     description:
       "Galicia es un destino marítimo por excelencia. Las rías, las islas y la costa atlántica ofrecen un abanico de actividades náuticas que complementan cualquier programa de viaje para grupos.",
     details: [
@@ -75,6 +81,7 @@ const tiposViaje = [
   },
   {
     title: "Escapadas personalizadas",
+    image: "/images/viajes-grupos-escapada.jpg",
     description:
       "A veces el mejor viaje es el que no tiene un programa rígido. Diseñamos escapadas donde el grupo tiene margen para improvisar, con una base logística sólida y recomendaciones locales que garantizan que cada momento valga la pena.",
     details: [
@@ -92,93 +99,99 @@ export default function ViajesGruposGalicia() {
       <HeroPage
         title="Viajes organizados para grupos en Galicia"
         subtitle="Diseñamos y gestionamos viajes completos para grupos privados en Galicia. Cada programa se crea a medida según los intereses, el tamaño y el presupuesto de tu grupo."
-        imageSrc="/images/experiencias-galicia.jpg"
+        imageSrc="/images/viajes-grupos-hero.jpg"
       />
 
       {/* Intro */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section">Viajes de grupo diseñados para disfrutar, no para preocuparse</h2>
-          <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-            <p>
-              Organizar un viaje de grupo es complicado. Coordinar horarios, gustos, presupuestos y logística para varias personas multiplica las decisiones y los posibles problemas. ¿Dónde comer para 20 personas sin reservar con semanas de antelación? ¿Qué transporte funciona para un grupo de 40? ¿Cómo asegurar que el programa gusta a todos?
-            </p>
-            <p>
-              En Suunia nos encargamos de todo eso. Diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la logística y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
-            </p>
-            <p>
-              Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section">Viajes de grupo diseñados para disfrutar, no para preocuparse</h2>
+            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+              <p>
+                Organizar un viaje de grupo es complicado. Coordinar horarios, gustos, presupuestos y logística para varias personas multiplica las decisiones y los posibles problemas. ¿Dónde comer para 20 personas sin reservar con semanas de antelación? ¿Qué transporte funciona para un grupo de 40? ¿Cómo asegurar que el programa gusta a todos?
+              </p>
+              <p>
+                En Suunia nos encargamos de todo eso. Diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la logística y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
+              </p>
+              <p>
+                Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Cómo organizamos un viaje de grupo */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">Cómo organizamos tu viaje</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Un proceso claro y profesional para que desde el primer contacto hasta el último día todo fluya.
-            </p>
-          </div>
-          <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            {[
-              { step: "1", title: "Escuchamos", text: "Nos cuentas qué tipo de grupo es, cuántas personas, qué fechas manejáis, qué intereses tenéis y cuál es vuestro presupuesto orientativo. Con esa información ya podemos trabajar." },
-              { step: "2", title: "Diseñamos", text: "Creamos un programa a medida con propuestas de alojamiento, restaurantes, actividades y transporte. Te enviamos un itinerario detallado con opciones y precios para que elijas." },
-              { step: "3", title: "Coordinamos", text: "Una vez aprobado el programa, nos encargamos de todas las reservas, confirmaciones y coordinación con proveedores. Preparamos documentación completa para el grupo." },
-              { step: "4", title: "Acompañamos", text: "Durante el viaje, estamos disponibles para cualquier necesidad. Acompañamiento presencial si lo prefieres, o soporte telefónico permanente para resolver cualquier incidencia." },
-            ].map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-atlantic-700 text-lg font-bold text-white">
-                  {item.step}
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">Cómo organizamos tu viaje</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                Un proceso claro y profesional para que desde el primer contacto hasta el último día todo fluya.
+              </p>
+            </div>
+            <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+              {[
+                { step: "1", title: "Escuchamos", text: "Nos cuentas qué tipo de grupo es, cuántas personas, qué fechas manejáis, qué intereses tenéis y cuál es vuestro presupuesto orientativo. Con esa información ya podemos trabajar." },
+                { step: "2", title: "Diseñamos", text: "Creamos un programa a medida con propuestas de alojamiento, restaurantes, actividades y transporte. Te enviamos un itinerario detallado con opciones y precios para que elijas." },
+                { step: "3", title: "Coordinamos", text: "Una vez aprobado el programa, nos encargamos de todas las reservas, confirmaciones y coordinación con proveedores. Preparamos documentación completa para el grupo." },
+                { step: "4", title: "Acompañamos", text: "Durante el viaje, estamos disponibles para cualquier necesidad. Acompañamiento presencial si lo prefieres, o soporte telefónico permanente para resolver cualquier incidencia." },
+              ].map((item) => (
+                <div key={item.step} className="text-center">
+                  <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-atlantic-700 text-lg font-bold text-white">
+                    {item.step}
+                  </div>
+                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-gray-500">{item.text}</p>
                 </div>
-                <h3 className="font-semibold text-gray-900">{item.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-gray-500">{item.text}</p>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Tipos de viaje */}
       <section className="section-padding">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">Tipos de viajes para grupos</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Cada grupo es diferente. Por eso ofrecemos distintos tipos de experiencias que se pueden combinar en un programa único.
-            </p>
-          </div>
-          <div className="mt-12 space-y-12">
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">Tipos de viajes para grupos</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                Cada grupo es diferente. Por eso ofrecemos distintos tipos de experiencias que se pueden combinar en un programa único.
+              </p>
+            </div>
+          </AnimateOnScroll>
+          <div className="mt-12 space-y-16">
             {tiposViaje.map((tipo, i) => (
-              <div
-                key={tipo.title}
-                className="grid items-start gap-8 md:grid-cols-2"
-              >
-                <div className={i % 2 === 1 ? "md:order-2" : ""}>
-                  <h3 className="text-xl font-semibold text-gray-900">{tipo.title}</h3>
-                  <p className="mt-4 leading-relaxed text-gray-600">{tipo.description}</p>
-                  <ul className="mt-6 space-y-3">
-                    {tipo.details.map((detail, j) => (
-                      <li key={j} className="flex gap-3 text-sm text-gray-600">
-                        <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        {detail}
-                      </li>
-                    ))}
-                  </ul>
+              <AnimateOnScroll key={tipo.title}>
+                <div className="grid items-start gap-8 md:grid-cols-2">
+                  <div className={i % 2 === 1 ? "md:order-2" : ""}>
+                    <h3 className="text-xl font-semibold text-gray-900">{tipo.title}</h3>
+                    <p className="mt-4 leading-relaxed text-gray-600">{tipo.description}</p>
+                    <ul className="mt-6 space-y-3">
+                      {tipo.details.map((detail, j) => (
+                        <li key={j} className="flex gap-3 text-sm text-gray-600">
+                          <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${i % 2 === 1 ? "md:order-1" : ""}`}>
+                    <Image
+                      src={tipo.image}
+                      alt={tipo.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
-                <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${i % 2 === 1 ? "md:order-1" : ""}`}>
-                  <Image
-                    src={i % 2 === 0 ? "/images/experiencias-galicia.jpg" : "/images/ruta-mar-galicia.jpg"}
-                    alt={tipo.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
+              </AnimateOnScroll>
             ))}
           </div>
         </div>
@@ -187,28 +200,30 @@ export default function ViajesGruposGalicia() {
       {/* Qué incluyen nuestros viajes */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section text-center">¿Qué incluyen nuestros viajes de grupo?</h2>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2">
-            {[
-              "Diseño de itinerario personalizado según preferencias del grupo",
-              "Alojamiento seleccionado (hoteles, pazos, casas rurales, boutique)",
-              "Transporte adaptado al grupo (minibús, autocar, vehículos VIP)",
-              "Restaurantes reservados con menús acordados previamente",
-              "Guías locales especializados en las visitas programadas",
-              "Actividades y experiencias coordinadas y confirmadas",
-              "Documentación completa del viaje para todos los participantes",
-              "Contacto y soporte permanente durante todo el viaje",
-              "Seguro de responsabilidad civil y cumplimiento normativo",
-              "Gestión de imprevistos y alternativas en caso de cambios",
-            ].map((item, i) => (
-              <div key={i} className="flex gap-3">
-                <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span className="text-sm leading-relaxed text-gray-600">{item}</span>
-              </div>
-            ))}
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section text-center">¿Qué incluyen nuestros viajes de grupo?</h2>
+            <div className="mt-12 grid gap-6 sm:grid-cols-2">
+              {[
+                "Diseño de itinerario personalizado según preferencias del grupo",
+                "Alojamiento seleccionado (hoteles, pazos, casas rurales, boutique)",
+                "Transporte adaptado al grupo (minibús, autocar, vehículos VIP)",
+                "Restaurantes reservados con menús acordados previamente",
+                "Guías locales especializados en las visitas programadas",
+                "Actividades y experiencias coordinadas y confirmadas",
+                "Documentación completa del viaje para todos los participantes",
+                "Contacto y soporte permanente durante todo el viaje",
+                "Seguro de responsabilidad civil y cumplimiento normativo",
+                "Gestión de imprevistos y alternativas en caso de cambios",
+              ].map((item, i) => (
+                <div key={i} className="flex gap-3">
+                  <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="text-sm leading-relaxed text-gray-600">{item}</span>
+                </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
