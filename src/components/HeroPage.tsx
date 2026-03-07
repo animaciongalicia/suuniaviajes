@@ -37,7 +37,7 @@ export default function HeroPage({
             Solicitar presupuesto
           </a>
           <a
-            href="mailto:info@sunia.com"
+            href="mailto:info@suunia.com"
             className="inline-flex items-center gap-2 rounded-lg border-2 border-white/30 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:border-white hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
           >
             Contactar por email
