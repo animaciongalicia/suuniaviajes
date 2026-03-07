@@ -84,7 +84,7 @@ export default function RootLayout({
               description:
                 "Agencia receptiva en Galicia especializada en viajes, experiencias y logística para grupos privados y empresas.",
               telephone: "+34678288284",
-              email: "info@sunia.com",
+              email: "info@suunia.com",
               areaServed: {
                 "@type": "Place",
                 name: "Galicia, España",
