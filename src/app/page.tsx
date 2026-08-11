@@ -6,6 +6,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 const experiencias = [
   {
     title: "Rutas gastronómicas",
+    alt: "Mesa con marisco fresco, pulpo a feira y vino Albariño en un restaurante de las Rías Baixas",
     description:
       "Marisquerías, pulperías, bodegas de Albariño y mercados locales. La gastronomía gallega es una experiencia sensorial completa que conecta con la cultura y la tradición de cada comarca.",
     image: "/images/gastronomia-galicia.jpg",
@@ -13,6 +14,7 @@ const experiencias = [
   },
   {
     title: "Costa Atlántica y mar",
+    alt: "Velero navegando por las Rías Baixas con las Islas Cíes al fondo en la costa atlántica gallega",
     description:
       "Navegación por las Rías Baixas, visita a las Islas Cíes, paseos en barco con patrón privado y experiencias marineras. Galicia es mar, y desde el mar se entiende su esencia.",
     image: "/images/ruta-mar-galicia.jpg",
@@ -20,6 +22,7 @@ const experiencias = [
   },
   {
     title: "Cultura y patrimonio",
+    alt: "Fachada de la Catedral de Santiago de Compostela vista desde la Plaza del Obradoiro",
     description:
       "Santiago de Compostela, la Costa da Morte, pazos gallegos y rincones con siglos de historia. Recorridos diseñados para descubrir el patrimonio vivo de Galicia con guías locales.",
     image: "/images/experiencias-galicia.jpg",
@@ -148,9 +151,9 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="heading-section">Tu partner local en Galicia</h2>
               <p className="mt-6 text-lg leading-relaxed text-gray-600">
-                Suunia es una agencia receptiva con base en A Coruña que trabaja en
-                toda Galicia. Nos especializamos en organizar viajes, experiencias y
-                logística para grupos privados, agencias de viajes y empresas que
+                Suunia es una <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva</Link> con base en A Coruña que trabaja en
+                toda Galicia. Nos especializamos en organizar <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes para grupos</Link>, experiencias y
+                <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"> logística</Link> para grupos privados, agencias de viajes y empresas que
                 buscan descubrir el noroeste de España con un servicio profesional y
                 personalizado.
               </p>
@@ -186,7 +189,7 @@ export default function Home() {
                 gastronomía reconocida internacionalmente, paisajes de costa
                 atlántica y montaña interior, patrimonio cultural milenario con
                 Santiago de Compostela como referente, y una autenticidad que la
-                diferencia de otros destinos masificados.
+                diferencia de otros destinos masificados. Descúbrela con nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o con un <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de incentivos para tu empresa</Link>.
               </p>
               <p className="mt-4 leading-relaxed text-gray-600">
                 Desde las Rías Baixas hasta la Ribeira Sacra, desde la Costa da
@@ -248,7 +251,7 @@ export default function Home() {
                   <div className="relative h-56 overflow-hidden">
                     <Image
                       src={exp.image}
-                      alt={exp.title}
+                      alt={exp.alt}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 33vw"

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -22,6 +23,7 @@ const tiposViaje = [
   {
     title: "Tours privados para grupos",
     image: "/images/viajes-grupos-tours.jpg",
+    alt: "Grupo de viajeros en tour privado recorriendo el casco histórico de Santiago de Compostela con guía local",
     description:
       "Rutas diseñadas específicamente para vuestro grupo, con guía privado, transporte exclusivo y un programa que se ajusta a vuestros intereses y ritmo. Desde medio día hasta viajes de una semana.",
     details: [
@@ -34,6 +36,7 @@ const tiposViaje = [
   {
     title: "Rutas culturales y patrimoniales",
     image: "/images/viajes-grupos-cultura.jpg",
+    alt: "Interior de la Catedral de Santiago de Compostela con el botafumeiro durante una visita cultural guiada",
     description:
       "Santiago de Compostela, la catedral, el casco histórico, el Camino de Santiago, monasterios románicos, pazos señoriales y la huella celta. Galicia tiene un patrimonio cultural que abarca siglos y que se vive en cada piedra.",
     details: [
@@ -46,6 +49,7 @@ const tiposViaje = [
   {
     title: "Excursiones y naturaleza",
     image: "/images/viajes-grupos-naturaleza.jpg",
+    alt: "Acantilados de la Costa da Morte con vistas al océano Atlántico y vegetación verde gallega",
     description:
       "La naturaleza gallega ofrece paisajes atlánticos, bosques milenarios, cañones fluviales y parques naturales. Organizamos excursiones que combinan senderismo accesible, miradores espectaculares y contacto con la naturaleza.",
     details: [
@@ -58,6 +62,7 @@ const tiposViaje = [
   {
     title: "Experiencias gastronómicas",
     image: "/images/viajes-grupos-gastronomia.jpg",
+    alt: "Mesa con marisco gallego fresco, pulpo a feira y copas de vino Albariño en restaurante de las Rías Baixas",
     description:
       "La gastronomía es el gran motivo por el que muchos viajeros eligen Galicia. Organizamos experiencias culinarias que van más allá de la simple comida: talleres de cocina, visitas a bodegas, recorridos por mercados, marisqueo en la ría y cenas privadas con chef.",
     details: [
@@ -70,6 +75,7 @@ const tiposViaje = [
   {
     title: "Actividades en el mar",
     image: "/images/viajes-grupos-mar.jpg",
+    alt: "Catamarán navegando por la Ría de Arousa con las bateas de mejillones y la costa gallega al fondo",
     description:
       "Galicia es un destino marítimo por excelencia. Las rías, las islas y la costa atlántica ofrecen un abanico de actividades náuticas que complementan cualquier programa de viaje para grupos.",
     details: [
@@ -82,6 +88,7 @@ const tiposViaje = [
   {
     title: "Escapadas personalizadas",
     image: "/images/viajes-grupos-escapada.jpg",
+    alt: "Pazo gallego de piedra rodeado de jardines y camelias utilizado como alojamiento rural con encanto",
     description:
       "A veces el mejor viaje es el que no tiene un programa rígido. Diseñamos escapadas donde el grupo tiene margen para improvisar, con una base logística sólida y recomendaciones locales que garantizan que cada momento valga la pena.",
     details: [
@@ -112,10 +119,10 @@ export default function ViajesGruposGalicia() {
                 Organizar un viaje de grupo es complicado. Coordinar horarios, gustos, presupuestos y logística para varias personas multiplica las decisiones y los posibles problemas. ¿Dónde comer para 20 personas sin reservar con semanas de antelación? ¿Qué transporte funciona para un grupo de 40? ¿Cómo asegurar que el programa gusta a todos?
               </p>
               <p>
-                En Suunia nos encargamos de todo eso. Diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la logística y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
+                En Suunia nos encargamos de todo eso. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística completa</Link> y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
               </p>
               <p>
-                Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
+                Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Para grupos pequeños o parejas, nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> son la opción ideal. Para empresas que buscan motivar equipos, ofrecemos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos corporativos</Link>. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
               </p>
             </div>
           </AnimateOnScroll>
@@ -184,7 +191,7 @@ export default function ViajesGruposGalicia() {
                   <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${i % 2 === 1 ? "md:order-1" : ""}`}>
                     <Image
                       src={tipo.image}
-                      alt={tipo.title}
+                      alt={tipo.alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -231,6 +238,69 @@ export default function ViajesGruposGalicia() {
       <CTASection
         title="¿Tienes un grupo que quiere venir a Galicia?"
         description="Envíanos los datos básicos (fechas, número de personas, intereses) y te preparamos una propuesta detallada sin compromiso."
+      />
+
+      {/* FAQs */}
+      <section className="section-padding">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="heading-section text-center">Preguntas frecuentes sobre viajes de grupo en Galicia</h2>
+          <div className="mt-12 space-y-8">
+            {[
+              {
+                question: "¿Qué tamaño de grupo podéis gestionar?",
+                answer: "Trabajamos con grupos desde 8-10 personas hasta más de 100. Hemos organizado viajes para grupos de amigos de 12 personas y programas para asociaciones de más de 80. El tamaño del grupo condiciona la logística (transporte, restaurantes, alojamiento), pero eso es precisamente lo que gestionamos con experiencia.",
+              },
+              {
+                question: "¿Los viajes son paquetes cerrados o se diseñan a medida?",
+                answer: "Todos nuestros viajes de grupo se diseñan a medida. No vendemos paquetes cerrados. Partimos de las preferencias del grupo (intereses, fechas, presupuesto, perfil de los participantes) y construimos un programa personalizado. Cada viaje es único porque cada grupo es diferente.",
+              },
+              {
+                question: "¿Cuánto tiempo de antelación necesitáis?",
+                answer: "Lo recomendable es contactarnos con al menos 4-6 semanas de antelación para grupos pequeños y 8-10 semanas para grupos grandes o en temporada alta (junio-septiembre). En algunos casos hemos resuelto viajes con plazos más cortos, pero cuanto más margen tengamos, mejores opciones de alojamiento y restaurantes podemos conseguir.",
+              },
+              {
+                question: "¿Qué incluye el precio del viaje de grupo?",
+                answer: "Depende del programa, pero normalmente incluye: diseño del itinerario, alojamiento, transporte adaptado al grupo, restaurantes con menús acordados, guías locales, actividades y experiencias programadas, documentación del viaje y soporte durante toda la estancia. Te enviamos un presupuesto detallado sin compromiso.",
+              },
+              {
+                question: "¿Proporcionáis acompañante durante el viaje?",
+                answer: "Sí, ofrecemos servicio de acompañamiento presencial durante todo el viaje si el grupo lo necesita. También proporcionamos soporte telefónico permanente para resolver cualquier incidencia. La mayoría de grupos con programas de varios días prefieren tener un coordinador de Suunia presente.",
+              },
+              {
+                question: "¿Podéis organizar viajes para empresas o solo para grupos privados?",
+                answer: "Trabajamos con ambos perfiles. Para empresas que buscan viajes de motivación, team building o premiar resultados, contamos con un servicio específico de viajes de incentivos corporativos con actividades diseñadas para equipos profesionales. Para grupos privados (amigos, familias, asociaciones), diseñamos programas centrados en disfrutar de Galicia.",
+              },
+            ].map((faq, i) => (
+              <div key={i} className="border-b border-gray-100 pb-8 last:border-0">
+                <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
+                <p className="mt-3 leading-relaxed text-gray-600">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { question: "¿Qué tamaño de grupo podéis gestionar?", answer: "Trabajamos con grupos desde 8-10 personas hasta más de 100. Hemos organizado viajes para grupos de amigos de 12 personas y programas para asociaciones de más de 80. El tamaño del grupo condiciona la logística (transporte, restaurantes, alojamiento), pero eso es precisamente lo que gestionamos con experiencia." },
+              { question: "¿Los viajes son paquetes cerrados o se diseñan a medida?", answer: "Todos nuestros viajes de grupo se diseñan a medida. No vendemos paquetes cerrados. Partimos de las preferencias del grupo (intereses, fechas, presupuesto, perfil de los participantes) y construimos un programa personalizado. Cada viaje es único porque cada grupo es diferente." },
+              { question: "¿Cuánto tiempo de antelación necesitáis?", answer: "Lo recomendable es contactarnos con al menos 4-6 semanas de antelación para grupos pequeños y 8-10 semanas para grupos grandes o en temporada alta (junio-septiembre). En algunos casos hemos resuelto viajes con plazos más cortos, pero cuanto más margen tengamos, mejores opciones de alojamiento y restaurantes podemos conseguir." },
+              { question: "¿Qué incluye el precio del viaje de grupo?", answer: "Depende del programa, pero normalmente incluye: diseño del itinerario, alojamiento, transporte adaptado al grupo, restaurantes con menús acordados, guías locales, actividades y experiencias programadas, documentación del viaje y soporte durante toda la estancia. Te enviamos un presupuesto detallado sin compromiso." },
+              { question: "¿Proporcionáis acompañante durante el viaje?", answer: "Sí, ofrecemos servicio de acompañamiento presencial durante todo el viaje si el grupo lo necesita. También proporcionamos soporte telefónico permanente para resolver cualquier incidencia. La mayoría de grupos con programas de varios días prefieren tener un coordinador de Suunia presente." },
+              { question: "¿Podéis organizar viajes para empresas o solo para grupos privados?", answer: "Trabajamos con ambos perfiles. Para empresas que buscan viajes de motivación, team building o premiar resultados, contamos con un servicio específico de viajes de incentivos corporativos con actividades diseñadas para equipos profesionales. Para grupos privados (amigos, familias, asociaciones), diseñamos programas centrados en disfrutar de Galicia." },
+            ].map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
       />
 
       {/* JSON-LD */}

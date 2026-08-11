@@ -27,14 +27,14 @@ export default function CTASection({
             Escríbenos por WhatsApp
           </a>
           <a
-            href="mailto:info@sunia.com"
+            href="mailto:info@suunia.com"
             className="inline-flex items-center gap-2 rounded-lg border-2 border-white/30 px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:border-white hover:bg-white/10"
           >
             Enviar email
           </a>
         </div>
         <p className="mt-6 text-sm text-atlantic-200">
-          +34 678 288 284 · info@sunia.com
+          +34 678 288 284 · info@suunia.com
         </p>
       </div>
     </section>

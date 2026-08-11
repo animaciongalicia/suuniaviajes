@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -25,6 +26,7 @@ const tours = [
     description:
       "Recorrido privado por la ciudad que lleva siglos recibiendo peregrinos. La catedral y su Pórtico de la Gloria, las plazas del casco histórico, el mercado de abastos, las calles empedradas del centro y los rincones que los turistas no encuentran solos. El tour incluye guía privado, acceso preferente a la catedral y parada en alguno de los mejores locales de la ciudad para tapear como un compostelano.",
     image: "/images/tours-santiago.jpg",
+    alt: "Plaza del Obradoiro con la fachada barroca de la Catedral de Santiago de Compostela al atardecer",
   },
   {
     title: "Costa da Morte: el fin del mundo",
@@ -32,6 +34,7 @@ const tours = [
     description:
       "La Costa da Morte es uno de los tramos de litoral más impresionantes de Europa. Acantilados que caen al Atlántico, faros en el borde del mundo, playas salvajes y pueblos donde el tiempo parece haberse detenido. La ruta recorre Malpica, Camariñas (capital del encaje de bolillos), el cabo Vilán, Muxía y Fisterra. Incluye almuerzo en restaurante marinero con pescado del día y parada en el faro de Fisterra al atardecer.",
     image: "/images/tours-costa-da-morte.jpg",
+    alt: "Faro de Fisterra sobre los acantilados de la Costa da Morte con el océano Atlántico al fondo",
   },
   {
     title: "Rías Baixas: mar, vino y marisco",
@@ -39,6 +42,7 @@ const tours = [
     description:
       "Las Rías Baixas son la cara más luminosa de Galicia. Navegación en barco privado por la ría de Arousa o Pontevedra, visita a una batea de mejillones, parada en una isla o playa virgen, y almuerzo con el mejor marisco de la ría. Por la tarde, visita a bodega de Albariño con cata de vinos y paseo por Cambados, la capital del Albariño, o Sanxenxo.",
     image: "/images/tours-rias-baixas.jpg",
+    alt: "Velero navegando entre las bateas de mejillones en la Ría de Arousa con pueblos marineros en la costa",
   },
   {
     title: "Islas Cíes: el paraíso atlántico",
@@ -46,6 +50,7 @@ const tours = [
     description:
       "Las Islas Cíes forman parte del Parque Nacional de las Islas Atlánticas y su playa de Rodas ha sido considerada una de las mejores del mundo. Organizamos la visita con traslado al puerto, barco (público o privado según disponibilidad), permisos de acceso y planificación de la jornada. Senderismo por los senderos de la isla, baño en aguas cristalinas y almuerzo con vistas al océano.",
     image: "/images/tours-islas-cies.jpg",
+    alt: "Playa de Rodas en las Islas Cíes con arena blanca y aguas turquesas del Parque Nacional Islas Atlánticas",
   },
   {
     title: "Ruta gastronómica por Galicia",
@@ -53,6 +58,7 @@ const tours = [
     description:
       "Galicia se come. Este tour se diseña según los intereses gastronómicos del viajero: puede centrarse en el marisco de las rías, el pulpo del interior, las empanadas tradicionales, los quesos artesanos, los vinos de las cinco denominaciones de origen o la cocina de autor. Incluye visitas a mercados, lonjas, bodegas, queserías y talleres de cocina, con almuerzo y cena en restaurantes seleccionados.",
     image: "/images/tours-gastronomia.jpg",
+    alt: "Puesto del mercado de abastos de Santiago con marisco fresco, percebes y nécoras recién traídos de la lonja",
   },
   {
     title: "Ribeira Sacra y ruta del vino",
@@ -60,6 +66,7 @@ const tours = [
     description:
       "La Ribeira Sacra es una de las zonas vinícolas más espectaculares del mundo: viñedos plantados en bancales verticales sobre los cañones del río Sil. El tour incluye navegación en catamarán por los cañones, visita a bodega con cata de Mencía, almuerzo en restaurante con vistas al cañón y visita a monasterios románicos. Un paisaje que no se parece a nada que hayas visto.",
     image: "/images/tours-ribeira-sacra.jpg",
+    alt: "Viñedos en bancales sobre los cañones del río Sil en la Ribeira Sacra con el río al fondo",
   },
 ];
 
@@ -82,10 +89,10 @@ export default function ToursPrivadosGalicia() {
                 Un tour privado no es simplemente un viaje con menos gente. Es la posibilidad de descubrir un destino a tu ritmo, según tus intereses, con alguien que conoce el terreno como la palma de su mano. En Suunia diseñamos cada experiencia desde cero, adaptándola a lo que realmente te motiva: gastronomía, naturaleza, patrimonio, vino, mar o una combinación de todo.
               </p>
               <p>
-                Nuestros tours privados incluyen guía local profesional, transporte privado adaptado al grupo y un itinerario flexible que se puede ajustar sobre la marcha. No hay prisas, no hay autobuses turísticos y no hay visitas obligatorias a tiendas de souvenirs. Solo Galicia auténtica, contada por quienes la vivimos cada día.
+                Nuestros tours privados incluyen guía local profesional, <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">transporte privado</Link> adaptado al grupo y un itinerario flexible que se puede ajustar sobre la marcha. No hay prisas, no hay autobuses turísticos y no hay visitas obligatorias a tiendas de souvenirs. Solo Galicia auténtica, contada por quienes la vivimos cada día.
               </p>
               <p>
-                Trabajamos con parejas, familias, grupos de amigos y grupos reducidos de hasta 15-20 personas. Para grupos más grandes, nuestro servicio de viajes en grupo es la opción ideal. Cada tour se puede disfrutar como experiencia independiente o integrarse en un programa de varios días.
+                Trabajamos con parejas, familias, grupos de amigos y grupos reducidos de hasta 15-20 personas. Para grupos más grandes, nuestro servicio de <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes en grupo</Link> es la opción ideal. Para empresas que buscan premiar a sus equipos, organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos</Link>. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, cada tour se puede disfrutar como experiencia independiente o integrarse en un programa de varios días.
               </p>
             </div>
           </AnimateOnScroll>
@@ -129,7 +136,7 @@ export default function ToursPrivadosGalicia() {
                   <div className={`relative h-72 overflow-hidden rounded-2xl md:h-96 ${i % 2 === 1 ? "md:order-1" : ""}`}>
                     <Image
                       src={tour.image}
-                      alt={tour.title}
+                      alt={tour.alt}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -204,6 +211,69 @@ export default function ToursPrivadosGalicia() {
       <CTASection
         title="Diseña tu tour privado en Galicia"
         description="Cuéntanos qué te gustaría ver, hacer y comer en Galicia. Nosotros nos encargamos de crear una experiencia a tu medida."
+      />
+
+      {/* FAQs */}
+      <section className="section-padding">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="heading-section text-center">Preguntas frecuentes sobre tours privados en Galicia</h2>
+          <div className="mt-12 space-y-8">
+            {[
+              {
+                question: "¿Cuántas personas pueden participar en un tour privado?",
+                answer: "Nuestros tours privados están diseñados para grupos de 2 a 15-20 personas. Para parejas y familias usamos coches o monovolúmenes; para grupos más grandes, minibuses con conductor. Si tu grupo supera las 20 personas, te recomendamos nuestro servicio de viajes organizados para grupos, que está preparado para gestionar logísticas más complejas.",
+              },
+              {
+                question: "¿Los tours se pueden personalizar o son rutas fijas?",
+                answer: "Todos nuestros tours son 100% personalizables. Los itinerarios que mostramos son propuestas base que adaptamos según los intereses, el ritmo y las preferencias de cada cliente. Puedes combinar elementos de distintos tours, añadir paradas o cambiar el enfoque completamente. Diseñamos cada experiencia desde cero.",
+              },
+              {
+                question: "¿Qué incluye el precio de un tour privado?",
+                answer: "Cada tour incluye guía local profesional, transporte privado con conductor, reservas de restaurantes y accesos, y un programa flexible. Las comidas y entradas a monumentos o bodegas se indican en cada presupuesto. No hay costes ocultos: te detallamos todo antes de confirmar.",
+              },
+              {
+                question: "¿En qué idiomas están disponibles los guías?",
+                answer: "Disponemos de guías profesionales en español, inglés, francés y portugués. Para otros idiomas, consúltanos con antelación y buscaremos la mejor solución.",
+              },
+              {
+                question: "¿Con cuánta antelación debo reservar un tour privado?",
+                answer: "Lo ideal es contactarnos con al menos 2-3 semanas de antelación, especialmente en temporada alta (junio-septiembre) y para tours que incluyen visitas a bodegas, restaurantes populares o las Islas Cíes, donde los permisos de acceso se agotan. Para temporada baja, podemos organizar tours con menos margen.",
+              },
+              {
+                question: "¿Se pueden combinar varios tours en un programa de varios días?",
+                answer: "Por supuesto. De hecho, es una de las opciones más solicitadas. Podemos diseñar un programa de 2, 3 o más días combinando diferentes tours y experiencias, con alojamiento incluido en hoteles seleccionados, pazos o casas rurales con encanto. Es la mejor forma de conocer Galicia en profundidad.",
+              },
+            ].map((faq, i) => (
+              <div key={i} className="border-b border-gray-100 pb-8 last:border-0">
+                <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
+                <p className="mt-3 leading-relaxed text-gray-600">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { question: "¿Cuántas personas pueden participar en un tour privado?", answer: "Nuestros tours privados están diseñados para grupos de 2 a 15-20 personas. Para parejas y familias usamos coches o monovolúmenes; para grupos más grandes, minibuses con conductor. Si tu grupo supera las 20 personas, te recomendamos nuestro servicio de viajes organizados para grupos, que está preparado para gestionar logísticas más complejas." },
+              { question: "¿Los tours se pueden personalizar o son rutas fijas?", answer: "Todos nuestros tours son 100% personalizables. Los itinerarios que mostramos son propuestas base que adaptamos según los intereses, el ritmo y las preferencias de cada cliente. Puedes combinar elementos de distintos tours, añadir paradas o cambiar el enfoque completamente. Diseñamos cada experiencia desde cero." },
+              { question: "¿Qué incluye el precio de un tour privado?", answer: "Cada tour incluye guía local profesional, transporte privado con conductor, reservas de restaurantes y accesos, y un programa flexible. Las comidas y entradas a monumentos o bodegas se indican en cada presupuesto. No hay costes ocultos: te detallamos todo antes de confirmar." },
+              { question: "¿En qué idiomas están disponibles los guías?", answer: "Disponemos de guías profesionales en español, inglés, francés y portugués. Para otros idiomas, consúltanos con antelación y buscaremos la mejor solución." },
+              { question: "¿Con cuánta antelación debo reservar un tour privado?", answer: "Lo ideal es contactarnos con al menos 2-3 semanas de antelación, especialmente en temporada alta (junio-septiembre) y para tours que incluyen visitas a bodegas, restaurantes populares o las Islas Cíes, donde los permisos de acceso se agotan. Para temporada baja, podemos organizar tours con menos margen." },
+              { question: "¿Se pueden combinar varios tours en un programa de varios días?", answer: "Por supuesto. De hecho, es una de las opciones más solicitadas. Podemos diseñar un programa de 2, 3 o más días combinando diferentes tours y experiencias, con alojamiento incluido en hoteles seleccionados, pazos o casas rurales con encanto. Es la mejor forma de conocer Galicia en profundidad." },
+            ].map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
       />
 
       {/* JSON-LD */}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 
@@ -94,10 +95,10 @@ export default function ReceptivoGalicia() {
               Cuando un grupo, una empresa o una agencia de viajes quiere organizar un viaje a Galicia, se enfrenta a un problema común: no conoce el terreno. No sabe qué hoteles ofrecen la mejor relación calidad-precio, qué restaurantes están a la altura, qué actividades funcionan para su tipo de grupo, ni cómo coordinar todo para que el programa fluya sin contratiempos.
             </p>
             <p>
-              Ahí es donde entra una agencia receptiva como Suunia. Somos el socio local que se encarga de toda la operativa en destino. Diseñamos el programa, seleccionamos los proveedores, gestionamos las reservas, coordinamos el transporte, proporcionamos guías y resolvemos cualquier imprevisto sobre el terreno. El cliente solo tiene que llegar y disfrutar.
+              Ahí es donde entra una agencia receptiva como Suunia. Somos el socio local que se encarga de toda la operativa en destino. Diseñamos el programa, seleccionamos los proveedores, gestionamos las reservas, coordinamos el transporte, proporcionamos guías y resolvemos cualquier imprevisto sobre el terreno. Desde <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes para grupos</Link> hasta <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados personalizados</Link>, el cliente solo tiene que llegar y disfrutar.
             </p>
             <p>
-              Una DMC (Destination Management Company) no es una agencia de viajes convencional. No vendemos vuelos ni paquetes cerrados. Lo que ofrecemos es conocimiento profundo del destino, una red de proveedores de confianza y la capacidad operativa para que todo funcione. Galicia es nuestro territorio, y lo conocemos como la palma de nuestra mano.
+              Una DMC (Destination Management Company) no es una agencia de viajes convencional. No vendemos vuelos ni paquetes cerrados. Lo que ofrecemos es conocimiento profundo del destino, una red de proveedores de confianza y la capacidad operativa para que todo funcione. Gestionamos toda la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y servicios en Galicia</Link>, y también organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos para empresas</Link>. Galicia es nuestro territorio, y lo conocemos como la palma de nuestra mano.
             </p>
           </div>
         </div>

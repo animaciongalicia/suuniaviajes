@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 
@@ -101,13 +102,13 @@ export default function LogisticaServiciosGalicia() {
           <h2 className="heading-section">Logística profesional en Galicia para viajes y eventos</h2>
           <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
             <p>
-              Detrás de cada viaje de grupo, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
+              Detrás de cada <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de grupo</Link>, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
             </p>
             <p>
-              En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto.
+              En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos corporativos</Link>, cubrimos toda la operativa.
             </p>
             <p>
-              Si eres una agencia de viajes que necesita un receptivo fiable en Galicia, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
+              Si eres una agencia de viajes que necesita un <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">receptivo fiable en Galicia</Link>, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
             </p>
           </div>
         </div>
@@ -208,6 +209,69 @@ export default function LogisticaServiciosGalicia() {
       <CTASection
         title="¿Necesitas logística en Galicia?"
         description="Transporte, barcos, proveedores, coordinación... Cuéntanos qué necesitas y te damos solución. Un solo contacto para toda la logística de tu viaje o evento."
+      />
+
+      {/* FAQs */}
+      <section className="section-padding">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="heading-section text-center">Preguntas frecuentes sobre servicios logísticos</h2>
+          <div className="mt-12 space-y-8">
+            {[
+              {
+                question: "¿Qué tipo de transporte ofrecéis en Galicia?",
+                answer: "A través de nuestro partner LuxeGalicia, ofrecemos vehículos premium con conductor profesional: coches ejecutivos para traslados individuales, monovolúmenes para grupos pequeños, minibuses para grupos medianos y autocares para grupos grandes. Todos los vehículos son de última generación con climatización y WiFi. Servicio disponible 24 horas.",
+              },
+              {
+                question: "¿Podéis organizar experiencias náuticas para nuestro grupo?",
+                answer: "Sí. Con SeaGalicia, nuestro partner náutico, disponemos de veleros para 4-12 personas, catamaranes para hasta 40 personas, lanchas rápidas y yates para eventos premium. Todas las embarcaciones incluyen patrón profesional. Organizamos desde paseos tranquilos por la ría hasta regatas competitivas de team building.",
+              },
+              {
+                question: "¿Gestionáis los permisos para visitar las Islas Cíes?",
+                answer: "Sí, nos encargamos de gestionar los permisos de acceso a las Islas Cíes y otros espacios naturales protegidos de Galicia. Estos permisos tienen cupo limitado, especialmente en temporada alta, por lo que recomendamos contactarnos con la mayor antelación posible.",
+              },
+              {
+                question: "¿Trabajáis con agencias de viajes como receptivo?",
+                answer: "Sí, somos receptivo de confianza para agencias de viajes que necesitan un partner local en Galicia. Ofrecemos diseño de programas, cotizaciones con precios netos, confirmación de servicios, documentación completa y soporte 24h durante la operación. Trabajamos con rapidez y comisiones competitivas.",
+              },
+              {
+                question: "¿Cuál es la ventaja de contratar la logística con Suunia en lugar de hacerlo directamente?",
+                answer: "Al trabajar con nosotros tienes un solo interlocutor para todos los servicios. Nos encargamos de coordinar proveedores, gestionar reservas, negociar tarifas grupales y resolver imprevistos. Además, al trabajar volumen con nuestros proveedores, conseguimos precios que un cliente directo difícilmente puede obtener.",
+              },
+              {
+                question: "¿En qué zonas de Galicia ofrecéis servicios logísticos?",
+                answer: "Cubrimos toda Galicia: desde A Coruña y Santiago hasta Vigo y Pontevedra, pasando por Lugo, Ourense, Rías Baixas, Costa da Morte, Ribeira Sacra y cualquier punto del territorio gallego. Nuestra base está en A Coruña, pero nos desplazamos y coordinamos servicios en cualquier ubicación.",
+              },
+            ].map((faq, i) => (
+              <div key={i} className="border-b border-gray-100 pb-8 last:border-0">
+                <h3 className="text-lg font-semibold text-gray-900">{faq.question}</h3>
+                <p className="mt-3 leading-relaxed text-gray-600">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { question: "¿Qué tipo de transporte ofrecéis en Galicia?", answer: "A través de nuestro partner LuxeGalicia, ofrecemos vehículos premium con conductor profesional: coches ejecutivos para traslados individuales, monovolúmenes para grupos pequeños, minibuses para grupos medianos y autocares para grupos grandes. Todos los vehículos son de última generación con climatización y WiFi. Servicio disponible 24 horas." },
+              { question: "¿Podéis organizar experiencias náuticas para nuestro grupo?", answer: "Sí. Con SeaGalicia, nuestro partner náutico, disponemos de veleros para 4-12 personas, catamaranes para hasta 40 personas, lanchas rápidas y yates para eventos premium. Todas las embarcaciones incluyen patrón profesional. Organizamos desde paseos tranquilos por la ría hasta regatas competitivas de team building." },
+              { question: "¿Gestionáis los permisos para visitar las Islas Cíes?", answer: "Sí, nos encargamos de gestionar los permisos de acceso a las Islas Cíes y otros espacios naturales protegidos de Galicia. Estos permisos tienen cupo limitado, especialmente en temporada alta, por lo que recomendamos contactarnos con la mayor antelación posible." },
+              { question: "¿Trabajáis con agencias de viajes como receptivo?", answer: "Sí, somos receptivo de confianza para agencias de viajes que necesitan un partner local en Galicia. Ofrecemos diseño de programas, cotizaciones con precios netos, confirmación de servicios, documentación completa y soporte 24h durante la operación. Trabajamos con rapidez y comisiones competitivas." },
+              { question: "¿Cuál es la ventaja de contratar la logística con Suunia en lugar de hacerlo directamente?", answer: "Al trabajar con nosotros tienes un solo interlocutor para todos los servicios. Nos encargamos de coordinar proveedores, gestionar reservas, negociar tarifas grupales y resolver imprevistos. Además, al trabajar volumen con nuestros proveedores, conseguimos precios que un cliente directo difícilmente puede obtener." },
+              { question: "¿En qué zonas de Galicia ofrecéis servicios logísticos?", answer: "Cubrimos toda Galicia: desde A Coruña y Santiago hasta Vigo y Pontevedra, pasando por Lugo, Ourense, Rías Baixas, Costa da Morte, Ribeira Sacra y cualquier punto del territorio gallego. Nuestra base está en A Coruña, pero nos desplazamos y coordinamos servicios en cualquier ubicación." },
+            ].map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
       />
 
       {/* JSON-LD */}
