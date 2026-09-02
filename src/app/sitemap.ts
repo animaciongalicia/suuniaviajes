@@ -39,5 +39,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/viajes`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/grandes-rutas-galicia`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/galicia-premium`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }

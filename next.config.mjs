@@ -22,17 +22,8 @@ const nextConfig = {
         permanent: true,
       },
 
-      // EMPRESA / CORPORATIVO
-      {
-        source: "/empresas/",
-        destination: "/incentivos-empresa-galicia",
-        permanent: true,
-      },
-      {
-        source: "/empresas",
-        destination: "/incentivos-empresa-galicia",
-        permanent: true,
-      },
+      // EMPRESA / CORPORATIVO (old WP /empresas/ now has its own page at /empresas)
+      // Removed: /empresas redirect — now a real page
 
       // VIAJES EN GRUPO / RECEPTIVO
       {
@@ -353,9 +344,9 @@ const nextConfig = {
       // Generic old service page patterns
       { source: "/tours", destination: "/tours-privados-galicia", permanent: true },
       { source: "/tours/:path*", destination: "/tours-privados-galicia", permanent: true },
-      { source: "/excursiones", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/excursiones", destination: "/excursiones-privadas-galicia", permanent: true },
       { source: "/excursiones/:path*", destination: "/tours-privados-galicia", permanent: true },
-      { source: "/viajes", destination: "/viajes-grupos-galicia", permanent: true },
+      // Removed: /viajes redirect — now a real page at /viajes
       { source: "/viajes/:path*", destination: "/viajes-grupos-galicia", permanent: true },
       { source: "/grupos", destination: "/viajes-grupos-galicia", permanent: true },
       { source: "/grupos/:path*", destination: "/viajes-grupos-galicia", permanent: true },
