@@ -22,8 +22,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      // EMPRESA / CORPORATIVO (old WP /empresas/ now has its own page at /empresas)
-      // Removed: /empresas redirect — now a real page
+      // /empresas now has its own page — redirect removed
 
       // VIAJES EN GRUPO / RECEPTIVO
       {
@@ -346,7 +345,7 @@ const nextConfig = {
       { source: "/tours/:path*", destination: "/tours-privados-galicia", permanent: true },
       { source: "/excursiones", destination: "/excursiones-privadas-galicia", permanent: true },
       { source: "/excursiones/:path*", destination: "/tours-privados-galicia", permanent: true },
-      // Removed: /viajes redirect — now a real page at /viajes
+      // /viajes now has its own page — redirect removed
       { source: "/viajes/:path*", destination: "/viajes-grupos-galicia", permanent: true },
       { source: "/grupos", destination: "/viajes-grupos-galicia", permanent: true },
       { source: "/grupos/:path*", destination: "/viajes-grupos-galicia", permanent: true },

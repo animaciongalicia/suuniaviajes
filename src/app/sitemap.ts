@@ -57,5 +57,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/experiencias`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/gastronomia-bodegas-galicia`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/nautica-galicia`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/excursiones-privadas-galicia`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/cultura-naturaleza-galicia`,
+      lastModified: new Date("2026-09-02"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }
