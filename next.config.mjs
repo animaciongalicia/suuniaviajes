@@ -351,6 +351,9 @@ const nextConfig = {
       { source: "/grupos/:path*", destination: "/viajes-grupos-galicia", permanent: true },
       { source: "/incentivos", destination: "/incentivos-empresa-galicia", permanent: true },
       { source: "/incentivos/:path*", destination: "/incentivos-empresa-galicia", permanent: true },
+      { source: "/team-building", destination: "/team-building-galicia", permanent: true },
+      { source: "/eventos-corporativos", destination: "/eventos-corporativos-galicia", permanent: true },
+      { source: "/eventos", destination: "/eventos-corporativos-galicia", permanent: true },
       { source: "/logistica", destination: "/logistica-servicios-galicia", permanent: true },
       { source: "/logistica/:path*", destination: "/logistica-servicios-galicia", permanent: true },
 
