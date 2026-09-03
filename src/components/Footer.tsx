@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer id="contacto" className="border-t border-gray-100 bg-gray-50">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {/* Col 1 — Brand */}
           <div>
             <Link href="/" className="inline-flex items-center gap-2.5">
@@ -25,7 +25,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Col 2 — Empresas + Para agencias */}
+          {/* Col 2 — Empresas */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
               Empresas
@@ -47,11 +47,14 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
 
-            <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-900">
+          {/* Col 3 — Para agencias */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
               Para agencias
             </h3>
-            <ul className="mt-3 space-y-2.5">
+            <ul className="mt-4 space-y-2.5">
               {[
                 { name: "Receptivo Galicia", href: "/receptivo-galicia" },
                 { name: "Gastronomía y bodegas", href: "/gastronomia-bodegas-galicia" },
@@ -70,7 +73,32 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3 — Contacto */}
+          {/* Col 4 — Guías */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
+              Guías de viaje
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              {[
+                { name: "Rías Baixas", href: "/guias" },
+                { name: "Costa da Morte", href: "/guias" },
+                { name: "Ribeira Sacra", href: "/guias" },
+                { name: "Islas Atlánticas", href: "/guias" },
+                { name: "Restaurantes Michelin", href: "/guias" },
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-500 transition-colors hover:text-atlantic-700"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 5 — Contacto */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
               Contacto
@@ -104,31 +132,6 @@ export default function Footer() {
               </svg>
               WhatsApp
             </a>
-          </div>
-
-          {/* Col 4 — Guías */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
-              Guías de viaje
-            </h3>
-            <ul className="mt-4 space-y-2.5">
-              {[
-                { name: "Rías Baixas", href: "/guias" },
-                { name: "Costa da Morte", href: "/guias" },
-                { name: "Ribeira Sacra", href: "/guias" },
-                { name: "Islas Atlánticas", href: "/guias" },
-                { name: "Restaurantes Michelin", href: "/guias" },
-              ].map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-gray-500 transition-colors hover:text-atlantic-700"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
 
