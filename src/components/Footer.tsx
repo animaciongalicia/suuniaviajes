@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer id="contacto" className="border-t border-gray-100 bg-gray-50">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Col 1 — Brand */}
-          <div className="sm:col-span-2 lg:col-span-1">
+          <div>
             <Link href="/" className="inline-flex items-center gap-2.5">
               <Image
                 src="/images/logo-suunia.svg"
@@ -25,32 +25,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Col 2 — Viajes */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
-              Viajes
-            </h3>
-            <ul className="mt-4 space-y-2.5">
-              {[
-                { name: "Viajes en grupo", href: "/viajes-grupos-galicia" },
-                { name: "Tours privados", href: "/tours-privados-galicia" },
-                { name: "Grandes rutas", href: "/grandes-rutas-galicia" },
-                { name: "Galicia Premium", href: "/galicia-premium" },
-                { name: "Náutica", href: "/nautica-galicia" },
-              ].map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-gray-500 transition-colors hover:text-atlantic-700"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Col 3 — Empresas */}
+          {/* Col 2 — Empresas + Para agencias */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
               Empresas
@@ -95,7 +70,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4 — Contacto */}
+          {/* Col 3 — Contacto */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
               Contacto
@@ -129,6 +104,31 @@ export default function Footer() {
               </svg>
               WhatsApp
             </a>
+          </div>
+
+          {/* Col 4 — Guías */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
+              Guías de viaje
+            </h3>
+            <ul className="mt-4 space-y-2.5">
+              {[
+                { name: "Rías Baixas", href: "/guias" },
+                { name: "Costa da Morte", href: "/guias" },
+                { name: "Ribeira Sacra", href: "/guias" },
+                { name: "Islas Atlánticas", href: "/guias" },
+                { name: "Restaurantes Michelin", href: "/guias" },
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-500 transition-colors hover:text-atlantic-700"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

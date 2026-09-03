@@ -302,8 +302,8 @@ const nextConfig = {
       // =============================================
 
       // WordPress blog and post patterns
-      { source: "/blog", destination: "/", permanent: true },
-      { source: "/blog/:path*", destination: "/", permanent: true },
+      { source: "/blog", destination: "/guias", permanent: true },
+      { source: "/blog/:path*", destination: "/guias", permanent: true },
       { source: "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug*", destination: "/", permanent: true },
       { source: "/:year(\\d{4})/:month(\\d{2})/:slug*", destination: "/", permanent: true },
 

@@ -105,5 +105,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/guias`,
+      lastModified: new Date("2026-09-03"),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
   ];
 }
