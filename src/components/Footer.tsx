@@ -83,7 +83,7 @@ export default function Footer() {
                 { name: "Rías Baixas", href: "/guias/rias-baixas" },
                 { name: "Costa da Morte", href: "/guias/costa-da-morte" },
                 { name: "Ribeira Sacra", href: "/guias/ribeira-sacra" },
-                { name: "Islas Atlánticas", href: "/guias" },
+                { name: "Islas Atlánticas", href: "/guias/islas-atlanticas" },
                 { name: "Restaurantes Michelin", href: "/guias/restaurantes-michelin-galicia" },
               ].map((link) => (
                 <li key={link.name}>

@@ -73,7 +73,7 @@ const guias = [
     imagen: "/images/viajes-grupos-naturaleza.jpg",
     alt: "Paisaje verde de Galicia con bosques atlánticos y cielo despejado",
     tiempo: "8 min",
-    href: "/guias",
+    href: "/guias/cuando-viajar-galicia",
   },
   {
     title: "Las 5 denominaciones de origen del vino gallego",
@@ -83,7 +83,7 @@ const guias = [
     imagen: "/images/tours-gastronomia.jpg",
     alt: "Viñedos gallegos con uvas Albariño madurando al sol con el mar de fondo",
     tiempo: "11 min",
-    href: "/guias",
+    href: "/guias/vinos-denominaciones-origen-galicia",
   },
   {
     title: "Santiago de Compostela más allá del Camino",
@@ -93,7 +93,7 @@ const guias = [
     imagen: "/images/tours-santiago.jpg",
     alt: "Plaza del Obradoiro con la Catedral de Santiago de Compostela iluminada al atardecer",
     tiempo: "13 min",
-    href: "/guias",
+    href: "/guias/santiago-de-compostela",
   },
   {
     title: "Islas Atlánticas: Cíes, Ons, Sálvora y Cortegada",
@@ -103,7 +103,7 @@ const guias = [
     imagen: "/images/tours-islas-cies.jpg",
     alt: "Playa de Rodas en las Islas Cíes con arena blanca y aguas cristalinas del Atlántico",
     tiempo: "10 min",
-    href: "/guias",
+    href: "/guias/islas-atlanticas",
   },
   {
     title: "Cómo organizar un viaje en grupo a Galicia",
@@ -113,7 +113,7 @@ const guias = [
     imagen: "/images/viajes-grupos-hero.jpg",
     alt: "Grupo de viajeros recorriendo un paseo marítimo gallego con vistas al Atlántico",
     tiempo: "9 min",
-    href: "/guias",
+    href: "/guias/viaje-grupo-galicia",
   },
 ];
 
