@@ -298,6 +298,107 @@ const nextConfig = {
       },
 
       // =============================================
+      // SECOND BATCH — 404s from Search Console (Sept 2026)
+      // =============================================
+
+      // Old blog posts → best matching guide page
+      { source: "/los-rincones-de-la-ribeira-sacra-que-no", destination: "/guias/ribeira-sacra", permanent: true },
+      { source: "/los-rincones-de-la-ribeira-sacra-que-no/", destination: "/guias/ribeira-sacra", permanent: true },
+      { source: "/la-belleza-singular-de-combarro", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/la-belleza-singular-de-combarro/", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/rias-baixas-paradores-turismo", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/rias-baixas-paradores-turismo/", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/excursion-de-primaria-de-3-dias-por-las-rias-baixas", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/excursion-de-primaria-de-3-dias-por-las-rias-baixas/", destination: "/guias/rias-baixas", permanent: true },
+      { source: "/la-increible-playa-de-las-catedrales", destination: "/guias", permanent: true },
+      { source: "/la-increible-playa-de-las-catedrales/", destination: "/guias", permanent: true },
+      { source: "/los-6-pueblos-mas-emblematicos-de", destination: "/guias", permanent: true },
+      { source: "/los-6-pueblos-mas-emblematicos-de/", destination: "/guias", permanent: true },
+      { source: "/norte-del-camino-de-santiago", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/norte-del-camino-de-santiago/", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/jardines-y-pazos-ruta-camelia", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/jardines-y-pazos-ruta-camelia/", destination: "/tours-privados-galicia", permanent: true },
+      { source: "/ruta-del-vino-por-las-rias-baixas", destination: "/gastronomia-bodegas-galicia", permanent: true },
+      { source: "/ruta-del-vino-por-las-rias-baixas/", destination: "/gastronomia-bodegas-galicia", permanent: true },
+      { source: "/la-fiesta-del-marisco-de-o-grove", destination: "/gastronomia-bodegas-galicia", permanent: true },
+      { source: "/la-fiesta-del-marisco-de-o-grove/", destination: "/gastronomia-bodegas-galicia", permanent: true },
+      { source: "/descubre-galicia-en-cinco-dias", destination: "/grandes-rutas-galicia", permanent: true },
+      { source: "/descubre-galicia-en-cinco-dias/", destination: "/grandes-rutas-galicia", permanent: true },
+      { source: "/ruta-en-coche-de-3-dias-por-galicia", destination: "/grandes-rutas-galicia", permanent: true },
+      { source: "/ruta-en-coche-de-3-dias-por-galicia/", destination: "/grandes-rutas-galicia", permanent: true },
+      { source: "/un-camino-de-santiago-de-lujo", destination: "/galicia-premium", permanent: true },
+      { source: "/un-camino-de-santiago-de-lujo/", destination: "/galicia-premium", permanent: true },
+      { source: "/excursiones-organizadas-galicia", destination: "/excursiones-privadas-galicia", permanent: true },
+      { source: "/excursiones-organizadas-galicia/", destination: "/excursiones-privadas-galicia", permanent: true },
+      { source: "/oferta-salida-navegar-dormida-barco-sanxenxo", destination: "/nautica-galicia", permanent: true },
+      { source: "/oferta-salida-navegar-dormida-barco-sanxenxo/", destination: "/nautica-galicia", permanent: true },
+      { source: "/5-festivales-de-musica-en-galicia", destination: "/experiencias", permanent: true },
+      { source: "/5-festivales-de-musica-en-galicia/", destination: "/experiencias", permanent: true },
+      { source: "/descubre-los-campos-de-golf-de-galicia", destination: "/experiencias", permanent: true },
+      { source: "/descubre-los-campos-de-golf-de-galicia/", destination: "/experiencias", permanent: true },
+      { source: "/romeria-vikinga-en-catoira", destination: "/experiencias", permanent: true },
+      { source: "/romeria-vikinga-en-catoira/", destination: "/experiencias", permanent: true },
+      { source: "/la-guia-definitiva-para-planificar-la-luna-de-miel-de-ensueno", destination: "/receptivo-galicia", permanent: true },
+      { source: "/la-guia-definitiva-para-planificar-la-luna-de-miel-de-ensueno/", destination: "/receptivo-galicia", permanent: true },
+      { source: "/la-mejor-guia-para-viajeros-que-les-gusta-viajar-solo", destination: "/receptivo-galicia", permanent: true },
+      { source: "/la-mejor-guia-para-viajeros-que-les-gusta-viajar-solo/", destination: "/receptivo-galicia", permanent: true },
+
+      // Old /empresas subpaths → correct service pages
+      { source: "/empresas/eventos", destination: "/eventos-corporativos-galicia", permanent: true },
+      { source: "/empresas/eventos/", destination: "/eventos-corporativos-galicia", permanent: true },
+      { source: "/empresas/team-building", destination: "/team-building-galicia", permanent: true },
+      { source: "/empresas/team-building/", destination: "/team-building-galicia", permanent: true },
+      { source: "/empresas/incentivos", destination: "/incentivos-empresa-galicia", permanent: true },
+      { source: "/empresas/incentivos/", destination: "/incentivos-empresa-galicia", permanent: true },
+      { source: "/empresas/alquiler-de-vehiculos", destination: "/logistica-servicios-galicia", permanent: true },
+      { source: "/empresas/alquiler-de-vehiculos/", destination: "/logistica-servicios-galicia", permanent: true },
+
+      // Old /experiencias subpaths → matching service pages
+      { source: "/experiencias/mar", destination: "/nautica-galicia", permanent: true },
+      { source: "/experiencias/mar/", destination: "/nautica-galicia", permanent: true },
+
+      // Old /contacto subpaths
+      { source: "/contacto/solicitud-de-presupuesto", destination: "/#contacto", permanent: true },
+      { source: "/contacto/solicitud-de-presupuesto/", destination: "/#contacto", permanent: true },
+      { source: "/contacto/pagos-online", destination: "/#contacto", permanent: true },
+      { source: "/contacto/pagos-online/", destination: "/#contacto", permanent: true },
+
+      // Old structural sections → catch-all redirects
+      { source: "/viajes-tematicos", destination: "/viajes", permanent: true },
+      { source: "/viajes-tematicos/:path*", destination: "/viajes", permanent: true },
+      { source: "/perfil-del-viajero", destination: "/receptivo-galicia", permanent: true },
+      { source: "/perfil-del-viajero/:path*", destination: "/receptivo-galicia", permanent: true },
+      { source: "/viajes-a-medida", destination: "/receptivo-galicia", permanent: true },
+      { source: "/viajes-a-medida/:path*", destination: "/receptivo-galicia", permanent: true },
+      { source: "/seguros", destination: "/", permanent: true },
+      { source: "/seguros/:path*", destination: "/", permanent: true },
+      { source: "/textos-legales", destination: "/", permanent: true },
+      { source: "/textos-legales/:path*", destination: "/", permanent: true },
+
+      // Non-Galicia content and misc → home
+      { source: "/circuito-roma-florencia-estudiantes-fin-de-curso", destination: "/", permanent: true },
+      { source: "/circuito-roma-florencia-estudiantes-fin-de-curso/", destination: "/", permanent: true },
+      { source: "/12-experiencias-gratis-para-hacer-en-nueva-york", destination: "/", permanent: true },
+      { source: "/12-experiencias-gratis-para-hacer-en-nueva-york/", destination: "/", permanent: true },
+      { source: "/design-photography", destination: "/", permanent: true },
+      { source: "/design-photography/", destination: "/", permanent: true },
+      { source: "/regala-viajes", destination: "/", permanent: true },
+      { source: "/regala-viajes/", destination: "/", permanent: true },
+      { source: "/subvenciones-y-ayudas", destination: "/", permanent: true },
+      { source: "/subvenciones-y-ayudas/", destination: "/", permanent: true },
+      { source: "/gestion-de-viajes", destination: "/receptivo-galicia", permanent: true },
+      { source: "/gestion-de-viajes/", destination: "/receptivo-galicia", permanent: true },
+      { source: "/visita-express-galicia", destination: "/grandes-rutas-galicia", permanent: true },
+      { source: "/visita-express-galicia/", destination: "/grandes-rutas-galicia", permanent: true },
+
+      // /coruna-especial exact match (catch-all only covers subpaths)
+      { source: "/coruna-especial", destination: "/tours-privados-galicia", permanent: true },
+
+      // Old Michelin restaurant page from WP
+      { source: "/homepages/viajes-a-medida/destinos/excursiones-por-galicia/restaurantes-galicia-estrella-michelin", destination: "/guias/restaurantes-michelin-galicia", permanent: true },
+      { source: "/homepages/viajes-a-medida/destinos/excursiones-por-galicia/restaurantes-galicia-estrella-michelin/", destination: "/guias/restaurantes-michelin-galicia", permanent: true },
+
+      // =============================================
       // GENERIC catch-all patterns for remaining WP URLs
       // =============================================
 
