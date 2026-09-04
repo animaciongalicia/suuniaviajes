@@ -30,6 +30,26 @@ const restaurantes = [
     consejo: "Reservar con al menos 3-4 semanas de antelación. El menú largo es la mejor opción.",
   },
   {
+    name: "Pepe Vieira — Camiño da Serpe",
+    chef: "Xosé T. Cannas",
+    estrellas: 2,
+    ubicacion: "Raxó, Poio (Pontevedra)",
+    descripcion:
+      "Dos estrellas Michelin en un entorno privilegiado frente a la Ría de Pontevedra. Pepe Vieira ha creado en Camiño da Serpe un restaurante donde el paisaje y la cocina se funden: un edificio de cristal rodeado de huerta propia que se asoma a la ría. La propuesta gastronómica es radical en su compromiso con el territorio — prácticamente todo lo que llega al plato procede de un radio de pocos kilómetros. Los menús degustación son viajes sensoriales largos donde los vegetales y el mar se llevan todo el protagonismo.",
+    precio: "Menú degustación desde 160 €",
+    consejo: "La ubicación es espectacular. Reservar con al menos 3 semanas. Los menús son largos, ve con tiempo.",
+  },
+  {
+    name: "Retiro da Costiña",
+    chef: "Manuel Costiña",
+    estrellas: 2,
+    ubicacion: "Santa Comba (A Coruña)",
+    descripcion:
+      "Dos estrellas Michelin en un lugar inesperado: un pueblo del interior de A Coruña, en plena Costa da Morte. Manuel Costiña trabaja con producto local — carnes, verduras de huerta, pescados de la costa cercana — en una cocina que respeta la tradición pero la eleva sin complejos. El restaurante tiene un ambiente rural y acogedor que contrasta con la sofisticación de los platos. El salto de una a dos estrellas ha confirmado lo que los que conocían este rincón ya sabían: aquí se come de forma extraordinaria.",
+    precio: "Menú degustación desde 90 €",
+    consejo: "Vale la pena combinarlo con una ruta por la Costa da Morte. El entorno rural suma mucho a la experiencia.",
+  },
+  {
     name: "Pepe Solla",
     chef: "Pepe Solla",
     estrellas: 1,
@@ -50,26 +70,6 @@ const restaurantes = [
     consejo: "Restaurante pequeño, reservar con antelación. Uno de los más accesibles en precio.",
   },
   {
-    name: "Retiro da Costiña",
-    chef: "Manuel Costiña",
-    estrellas: 1,
-    ubicacion: "Santa Comba (A Coruña)",
-    descripcion:
-      "Una estrella Michelin en un lugar inesperado: un pueblo del interior de A Coruña, en plena Costa da Morte. Manuel Costiña trabaja con producto local — carnes, verduras de huerta, pescados de la costa cercana — en una cocina que respeta la tradición pero la eleva sin complejos. El restaurante tiene un ambiente rural y acogedor que contrasta con la sofisticación de los platos. Una de las sorpresas más agradables de la escena gastronómica gallega.",
-    precio: "Menú degustación desde 80 €",
-    consejo: "Vale la pena combinarlo con una ruta por la Costa da Morte. El entorno rural suma mucho.",
-  },
-  {
-    name: "Alborada",
-    chef: "Iván Domínguez",
-    estrellas: 1,
-    ubicacion: "A Coruña",
-    descripcion:
-      "Una estrella Michelin. Iván Domínguez construye una cocina personal y arriesgada que parte del producto gallego pero lo lleva a territorios propios. Los menús degustación son viajes largos con muchos pases donde cada plato tiene una historia y un juego de texturas y temperaturas. El restaurante está en la zona del puerto de A Coruña, en un espacio moderno y luminoso.",
-    precio: "Menú degustación desde 110 €",
-    consejo: "El menú largo (más de 15 pases) es el que mejor refleja la propuesta del chef.",
-  },
-  {
     name: "Maruja Limón",
     chef: "Rafa Centeno",
     estrellas: 1,
@@ -83,18 +83,78 @@ const restaurantes = [
     name: "Nova",
     chef: "Daniel López",
     estrellas: 1,
+    ubicacion: "Ourense",
+    descripcion:
+      "Una estrella Michelin en el corazón de Ourense. Daniel López apuesta por una cocina gallega contemporánea donde el mercado manda: los menús cambian según la temporada y el producto disponible. El restaurante combina la tradición del interior de Galicia con una visión moderna y depurada. Los platos de verduras de temporada, las carnes de la zona y los pescados son los puntos fuertes.",
+    precio: "Menú degustación desde 75 €",
+    consejo: "Excelente relación calidad-precio. Perfecto para completar una visita a Ourense y sus termas.",
+  },
+  {
+    name: "Yayo Daporta",
+    chef: "Yayo Daporta",
+    estrellas: 1,
+    ubicacion: "Cambados (Pontevedra)",
+    descripcion:
+      "Una estrella Michelin en la capital del Albariño. Yayo Daporta lleva años trabajando con el producto de las Rías Baixas — marisco, pescado y verduras — desde una perspectiva creativa pero siempre respetuosa con la materia prima. Su cocina es precisa, con platos que buscan la esencia del sabor sin sobrecargar. El restaurante está en el centro de Cambados, a pocos minutos del puerto y de los viñedos de Albariño.",
+    precio: "Menú degustación desde 85 €",
+    consejo: "Combina perfectamente con una ruta de bodegas por el Val do Salnés.",
+  },
+  {
+    name: "Casa Marcelo",
+    chef: "Marcelo Tejedor",
+    estrellas: 1,
     ubicacion: "Santiago de Compostela",
     descripcion:
-      "Una estrella Michelin en el corazón de Santiago. Daniel López apuesta por una cocina gallega contemporánea donde el mercado manda: los menús cambian según la temporada y el producto disponible. El restaurante está a dos minutos de la Catedral, en un edificio de piedra con un interiorismo moderno y acogedor. Los platos de verduras de temporada y los pescados son los puntos fuertes.",
+      "Una estrella Michelin en Santiago de Compostela. Casa Marcelo es una referencia de la ciudad, con un formato de cocina abierta donde los comensales se sientan alrededor de la barra y ven trabajar al equipo. La propuesta combina producto gallego con influencias asiáticas y latinoamericanas en un formato de platos para compartir que rompe con el concepto tradicional de restaurante de estrella.",
+    precio: "Menú degustación desde 80 €",
+    consejo: "El formato de barra y cocina abierta hace que la experiencia sea única. Reservar siempre.",
+  },
+  {
+    name: "Asador O Pazo",
+    chef: "Equipo Asador O Pazo",
+    estrellas: 1,
+    ubicacion: "Padrón (A Coruña)",
+    descripcion:
+      "Una estrella Michelin en Padrón, la tierra de los pimientos y de Rosalía de Castro. Asador O Pazo destaca por una cocina gallega de raíz con un dominio absoluto del producto: carnes a la brasa, pescados del día y verduras de la huerta padronesa. El asador eleva la cocina tradicional gallega a su máxima expresión con técnica impecable y producto irreprochable.",
     precio: "Menú degustación desde 75 €",
-    consejo: "Excelente relación calidad-precio. Perfecto para cerrar un día en Santiago.",
+    consejo: "Los pimientos de Padrón aquí son otra cosa. La combinación de brasa y producto local es excepcional.",
+  },
+  {
+    name: "As Garzas",
+    chef: "Fernando Agrasar",
+    estrellas: 1,
+    ubicacion: "Malpica de Bergantiños (A Coruña)",
+    descripcion:
+      "Una estrella Michelin en plena Costa da Morte. As Garzas es un restaurante que nace del mar: el producto llega directamente de la lonja de Malpica y de los pescadores de la zona. Fernando Agrasar cocina con lo que el Atlántico le da cada día, en una propuesta que combina respeto absoluto por la materia prima con una técnica que saca lo mejor de cada pieza. El entorno — un pueblo pesquero auténtico frente a las Islas Sisargas — es parte inseparable de la experiencia.",
+    precio: "Menú degustación desde 70 €",
+    consejo: "Uno de los restaurantes con estrella más auténticos de Galicia. El pueblo y el entorno merecen la visita.",
+  },
+  {
+    name: "Terra",
+    chef: "Equipo Terra",
+    estrellas: 1,
+    ubicacion: "Fisterra (A Coruña)",
+    descripcion:
+      "Una estrella Michelin en el fin del mundo. Terra está en Fisterra, el punto que durante siglos se consideró el confín de la tierra conocida. La cocina trabaja con producto local de costa y huerta en un formato que rinde homenaje al territorio. Comer aquí después de ver la puesta de sol en el cabo es una de las experiencias gastronómicas más memorables que se pueden vivir en Galicia.",
+    precio: "Menú degustación desde 70 €",
+    consejo: "Combinar con la puesta de sol en el Cabo de Fisterra. Reservar con antelación en verano.",
+  },
+  {
+    name: "Vértigo",
+    chef: "Equipo Vértigo",
+    estrellas: 1,
+    ubicacion: "Rober (Lugo)",
+    descripcion:
+      "Una estrella Michelin en la provincia de Lugo. Vértigo es una propuesta que pone en valor el producto del interior de Galicia — carnes, verduras, legumbres, lácteos — con una cocina de autor que sorprende por su nivel en un entorno rural. Una de las estrellas más recientes de la comunidad, que confirma que la alta cocina gallega no se limita a la costa.",
+    precio: "Menú degustación desde 70 €",
+    consejo: "Merece la pena desviarse para descubrir esta propuesta del interior de Galicia.",
   },
 ];
 
 const masalla = [
   {
-    title: "Bib Gourmand en Galicia",
-    text: "La distinción Bib Gourmand de Michelin reconoce restaurantes con buena cocina a precios moderados. Galicia tiene una docena larga repartidos por todo el territorio: desde tabernas en Santiago hasta casas de comidas en el rural. Son una alternativa excelente para comer bien sin el presupuesto de una estrella.",
+    title: "Bib Gourmand destacados",
+    text: "La distinción Bib Gourmand reconoce buena cocina a precios moderados. Entre los más destacados de Galicia: Térreo en A Coruña, con una propuesta de producto atlántico y de temporada en un espacio moderno; Morrofino en Vigo, cocina gallega creativa con producto de la ría; y Abastos 2.0 en Santiago, dentro del Mercado de Abastos, donde se trabaja con el producto fresco del mercado a pocos metros de los puestos.",
   },
   {
     title: "Marisquerías de lonja",
@@ -110,7 +170,7 @@ const faqs = [
   {
     question: "¿Cuántos restaurantes con estrella Michelin hay en Galicia?",
     answer:
-      "En 2024, Galicia cuenta con más de 10 restaurantes con estrella Michelin, incluyendo uno con dos estrellas (Culler de Pau). Las estrellas se reparten entre las cuatro provincias, con mayor concentración en la zona de las Rías Baixas y A Coruña. Además, hay más de 15 restaurantes con Bib Gourmand y una estrella verde de sostenibilidad.",
+      "Galicia cuenta con 13 restaurantes con estrella Michelin, incluyendo tres con dos estrellas (Culler de Pau, Pepe Vieira y Retiro da Costiña) y diez con una estrella repartidos entre las cuatro provincias. Además, hay numerosos restaurantes con Bib Gourmand — entre ellos Térreo (A Coruña), Morrofino (Vigo) y Abastos 2.0 (Santiago) — y una estrella verde de sostenibilidad.",
   },
   {
     question: "¿Hay que reservar con mucha antelación?",
@@ -125,7 +185,7 @@ const faqs = [
   {
     question: "¿Cuánto cuesta comer en un restaurante Michelin en Galicia?",
     answer:
-      "Los menús degustación en restaurantes de una estrella en Galicia van desde 75 € hasta 120 € por persona (sin bebidas ni maridaje). Culler de Pau, con dos estrellas, tiene su menú largo a partir de 155 €. En comparación con las estrellas Michelin de Madrid o Barcelona, los precios en Galicia son significativamente más accesibles manteniendo un nivel de producto y técnica equivalente o superior.",
+      "Los menús degustación en restaurantes de una estrella en Galicia van desde 70 € hasta 120 € por persona (sin bebidas ni maridaje). Los tres restaurantes con dos estrellas (Culler de Pau, Pepe Vieira y Retiro da Costiña) tienen menús desde 90 € hasta 160 €. En comparación con las estrellas Michelin de Madrid o Barcelona, los precios en Galicia son significativamente más accesibles manteniendo un nivel de producto y técnica equivalente o superior.",
   },
 ];
 
@@ -189,7 +249,7 @@ export default function GuiaRestaurantesMichelin() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="heading-section">Los restaurantes con estrella</h2>
               <p className="mt-4 text-lg text-gray-600">
-                De las dos estrellas de Culler de Pau a las propuestas con una estrella repartidas entre A Coruña, Santiago, Vigo y las Rías Baixas.
+                De los tres restaurantes con dos estrellas a las propuestas con una estrella repartidas por las cuatro provincias gallegas.
               </p>
             </div>
           </AnimateOnScroll>
