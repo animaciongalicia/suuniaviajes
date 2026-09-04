@@ -53,7 +53,7 @@ const guias = [
     imagen: "/images/tours-costa-da-morte.jpg",
     alt: "Acantilados de la Costa da Morte con el faro de Fisterra al fondo bajo un cielo atlántico",
     tiempo: "15 min",
-    href: "/guias",
+    href: "/guias/costa-da-morte",
   },
   {
     title: "Ribeira Sacra: viñedos, cañones y monasterios",
@@ -63,7 +63,7 @@ const guias = [
     imagen: "/images/tours-ribeira-sacra.jpg",
     alt: "Viñedos en bancales sobre los cañones del río Sil en la Ribeira Sacra gallega",
     tiempo: "14 min",
-    href: "/guias",
+    href: "/guias/ribeira-sacra",
   },
   {
     title: "Cuándo viajar a Galicia: la mejor época según lo que busques",

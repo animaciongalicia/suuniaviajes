@@ -80,11 +80,11 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 space-y-2.5">
               {[
-                { name: "Rías Baixas", href: "/guias" },
-                { name: "Costa da Morte", href: "/guias" },
-                { name: "Ribeira Sacra", href: "/guias" },
+                { name: "Rías Baixas", href: "/guias/rias-baixas" },
+                { name: "Costa da Morte", href: "/guias/costa-da-morte" },
+                { name: "Ribeira Sacra", href: "/guias/ribeira-sacra" },
                 { name: "Islas Atlánticas", href: "/guias" },
-                { name: "Restaurantes Michelin", href: "/guias" },
+                { name: "Restaurantes Michelin", href: "/guias/restaurantes-michelin-galicia" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link

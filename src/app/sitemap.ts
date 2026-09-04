@@ -123,5 +123,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    {
+      url: `${baseUrl}/guias/costa-da-morte`,
+      lastModified: new Date("2026-09-04"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/guias/ribeira-sacra`,
+      lastModified: new Date("2026-09-04"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
   ];
 }
