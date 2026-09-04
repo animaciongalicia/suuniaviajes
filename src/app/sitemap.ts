@@ -107,9 +107,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/guias`,
-      lastModified: new Date("2026-09-03"),
+      lastModified: new Date("2026-09-04"),
       changeFrequency: "weekly",
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/guias/rias-baixas`,
+      lastModified: new Date("2026-09-04"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/guias/restaurantes-michelin-galicia`,
+      lastModified: new Date("2026-09-04"),
+      changeFrequency: "monthly",
+      priority: 0.6,
     },
   ];
 }

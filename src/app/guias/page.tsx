@@ -33,7 +33,7 @@ const guias = [
     imagen: "/images/tours-rias-baixas.jpg",
     alt: "Vista aérea de la Ría de Arousa con bateas de mejillones y pueblos marineros en la costa gallega",
     tiempo: "12 min",
-    href: "/guias",
+    href: "/guias/rias-baixas",
   },
   {
     title: "Los restaurantes con estrella Michelin de Galicia",
@@ -43,7 +43,7 @@ const guias = [
     imagen: "/images/gastronomia-galicia.jpg",
     alt: "Plato de alta cocina gallega con mariscos frescos y presentación de autor",
     tiempo: "10 min",
-    href: "/guias",
+    href: "/guias/restaurantes-michelin-galicia",
   },
   {
     title: "Costa da Morte: ruta completa de 2-3 días",
@@ -166,35 +166,34 @@ export default function Guias() {
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {guias.map((guia) => (
-              <article
-                key={guia.title}
-                className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={guia.imagen}
-                    alt={guia.alt}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-atlantic-700 backdrop-blur-sm">
-                    {guia.categoria}
-                  </span>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold leading-snug text-gray-900 transition-colors group-hover:text-atlantic-700">
-                    {guia.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-gray-500">
-                    {guia.excerpt}
-                  </p>
-                  <div className="mt-4 flex items-center gap-2 text-xs text-gray-400">
-                    <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    {guia.tiempo} de lectura
+              <Link key={guia.title} href={guia.href} className="group">
+                <article className="h-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md">
+                  <div className="relative h-48 overflow-hidden">
+                    <img
+                      src={guia.imagen}
+                      alt={guia.alt}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-atlantic-700 backdrop-blur-sm">
+                      {guia.categoria}
+                    </span>
                   </div>
-                </div>
-              </article>
+                  <div className="p-6">
+                    <h3 className="text-lg font-semibold leading-snug text-gray-900 transition-colors group-hover:text-atlantic-700">
+                      {guia.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-gray-500">
+                      {guia.excerpt}
+                    </p>
+                    <div className="mt-4 flex items-center gap-2 text-xs text-gray-400">
+                      <svg aria-hidden="true" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {guia.tiempo} de lectura
+                    </div>
+                  </div>
+                </article>
+              </Link>
             ))}
           </div>
         </div>
