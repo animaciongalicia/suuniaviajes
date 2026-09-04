@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description:
       "Gastronomía, náutica, excursiones privadas, cultura y naturaleza en Galicia. Experiencias organizadas a medida.",
     url: "https://suunia.com/experiencias",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/playas-de-galicia-suunia.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -50,7 +50,7 @@ export default function Experiencias() {
       <HeroPage
         title="Experiencias en Galicia"
         subtitle="Actividades, visitas y momentos que convierten un viaje en algo memorable. Todo organizado por un equipo local que conoce cada rincón."
-        imageSrc="/images/experiencias-galicia.jpg"
+        imageSrc="/images/playas-de-galicia-suunia.jpg"
       />
 
       <section className="section-padding">

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Itinerarios de varios días por Galicia: costa, interior, patrimonio y gastronomía. Rutas diseñadas a medida.",
     url: "https://suunia.com/grandes-rutas-galicia",
-    images: [{ url: "/images/ruta-mar-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/faro-de-Finisterre-1.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -131,7 +131,7 @@ export default function GrandesRutasGalicia() {
       <HeroPage
         title="Grandes rutas por Galicia"
         subtitle="Itinerarios de varios días para recorrer Galicia en profundidad. Costa, interior, patrimonio y gastronomía en un viaje diseñado a tu medida."
-        imageSrc="/images/ruta-mar-galicia.jpg"
+        imageSrc="/images/faro-de-Finisterre-1.jpg"
       />
 
       {/* Intro */}

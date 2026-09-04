@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Patrimonio milenario, Camino de Santiago, parques naturales y paisajes atlánticos en Galicia.",
     url: "https://suunia.com/cultura-naturaleza-galicia",
-    images: [{ url: "/images/viajes-grupos-naturaleza.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/acantilados-san-andres-teixido.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -128,7 +128,7 @@ export default function CulturaNaturalezaGalicia() {
       <HeroPage
         title="Cultura y naturaleza en Galicia"
         subtitle="Patrimonio milenario, paisajes atlánticos y una identidad que se siente en cada rincón. Galicia es cultura y naturaleza a partes iguales."
-        imageSrc="/images/viajes-grupos-naturaleza.jpg"
+        imageSrc="/images/acantilados-san-andres-teixido.jpg"
       />
 
       {/* Intro */}

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Congresos, convenciones, jornadas directivas y programas de empresa en Galicia. Logística, experiencias y coordinación integral.",
     url: "https://suunia.com/eventos-corporativos-galicia",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/pueblo-pesquero-galicia-suunia.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -120,7 +120,7 @@ export default function EventosCorporativosGalicia() {
       <HeroPage
         title="Eventos corporativos en Galicia"
         subtitle="Congresos, convenciones, jornadas directivas, programas de acompañantes, cenas de gala y experiencias para empleados. Todo lo que tu empresa necesita en Galicia."
-        imageSrc="/images/experiencias-galicia.jpg"
+        imageSrc="/images/pueblo-pesquero-galicia-suunia.jpg"
       />
 
       {/* Intro */}

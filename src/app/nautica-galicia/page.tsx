@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Yates, veleros premium y rutas de navegación para conocer Galicia desde el mar. Charter de lujo por las rías gallegas.",
     url: "https://suunia.com/nautica-galicia",
-    images: [{ url: "/images/ruta-mar-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/playa-rodas-islas-cies-suunia-jpg.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -152,7 +152,7 @@ export default function NauticaGalicia() {
       <HeroPage
         title="Náutica en Galicia"
         subtitle="Descubre Galicia navegando. Yates y veleros premium, rutas por las rías, travesías a las Islas Atlánticas y chárter de lujo con los mejores restaurantes de la costa."
-        imageSrc="/images/ruta-mar-galicia.jpg"
+        imageSrc="/images/playa-rodas-islas-cies-suunia-jpg.jpg"
       />
 
       {/* Intro */}

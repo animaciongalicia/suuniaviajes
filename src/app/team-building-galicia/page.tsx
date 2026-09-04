@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Actividades de team building en Galicia: mar, gastronomía, aventura y naturaleza para equipos de empresa.",
     url: "https://suunia.com/team-building-galicia",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/playas-islote-areoco-suunia.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -148,7 +148,7 @@ export default function TeamBuildingGalicia() {
       <HeroPage
         title="Team building en Galicia"
         subtitle="Actividades de equipo que conectan con el mar, la gastronomía, la aventura y la naturaleza de Galicia. Cohesión real en un entorno que inspira."
-        imageSrc="/images/experiencias-galicia.jpg"
+        imageSrc="/images/playas-islote-areoco-suunia.jpg"
       />
 
       {/* Intro */}

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description:
       "Viajes organizados en Galicia para grupos, tours privados, grandes rutas y experiencias premium.",
     url: "https://suunia.com/viajes",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/galicia-increible.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -50,7 +50,7 @@ export default function Viajes() {
       <HeroPage
         title="Viajes organizados en Galicia"
         subtitle="Diseñamos viajes a medida para grupos, parejas y viajeros independientes. Conocemos cada rincón de Galicia y nos encargamos de toda la organización."
-        imageSrc="/images/experiencias-galicia.jpg"
+        imageSrc="/images/galicia-increible.jpg"
       />
 
       <section className="section-padding">

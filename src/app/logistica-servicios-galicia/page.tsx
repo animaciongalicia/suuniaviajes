@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description:
       "Logística completa para viajes y eventos en Galicia. Transporte VIP, barcos, coordinación de proveedores.",
     url: "https://suunia.com/logistica-servicios-galicia",
-    images: [{ url: "/images/ruta-mar-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/galicia-increible-top.jpg", width: 1200, height: 630 }],
   },
 };
 
@@ -93,7 +93,7 @@ export default function LogisticaServiciosGalicia() {
       <HeroPage
         title="Servicios logísticos para viajes y eventos en Galicia"
         subtitle="Transporte VIP, barcos con patrón, coordinación de proveedores y soporte operativo completo. La logística que necesitas para que todo funcione."
-        imageSrc="/images/ruta-mar-galicia.jpg"
+        imageSrc="/images/galicia-increible-top.jpg"
       />
 
       {/* Intro */}
