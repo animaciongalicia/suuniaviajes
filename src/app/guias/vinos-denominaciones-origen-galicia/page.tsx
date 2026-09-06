@@ -152,7 +152,7 @@ export default function GuiaVinosGalicia() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/tours-gastronomia.jpg"
+          src="/images/bodegas-Granbazan.jpg"
           alt="Vinedos gallegos con vistas a la ria al atardecer, copa de vino blanco Albarino en primer plano"
           fill
           className="object-cover"

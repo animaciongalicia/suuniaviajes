@@ -195,7 +195,7 @@ export default function GuiaRestaurantesMichelin() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/gastronomia-galicia.jpg"
+          src="/images/tours-gastronomia.jpg"
           alt="Plato de alta cocina gallega con mariscos frescos y presentación de autor en restaurante Michelin"
           fill
           className="object-cover"

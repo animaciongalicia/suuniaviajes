@@ -165,7 +165,7 @@ export default function GuiaCuandoViajar() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/viajes-grupos-naturaleza.jpg"
+          src="/images/Miradores-en-Galicia.jpg"
           alt="Paisaje verde de Galicia con bosques atlánticos y montañas bajo un cielo atlántico cambiante"
           fill
           className="object-cover"

@@ -140,7 +140,7 @@ export default function GuiaCostaDaMorte() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/faro-de-Finisterre-1.jpg"
+          src="/images/ruta-por-los-mejores-faros-de-a-costa-da-morte.jpg"
           alt="Faro de Finisterre al atardecer con persona contemplando la puesta de sol sobre el Atlántico"
           fill
           className="object-cover"

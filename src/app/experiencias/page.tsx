@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Experiencias en Galicia — Gastronomía, náutica, cultura y naturaleza",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Gastronomía, náutica, excursiones privadas, cultura y naturaleza en Galicia. Experiencias organizadas a medida.",
     url: "https://suunia.com/experiencias",
-    images: [{ url: "/images/playas-de-galicia-suunia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/playas-de-galicia-suunia.jpg", width: 1200, height: 630, alt: "Playas de Galicia con arena blanca y aguas atlánticas" }],
   },
 };
 
@@ -55,34 +56,37 @@ export default function Experiencias() {
 
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section text-center">
-            Descubre Galicia a través de sus experiencias
-          </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-center text-lg text-gray-600">
-            Cada experiencia está diseñada para conectar con lo auténtico de
-            Galicia. Se pueden disfrutar de forma independiente o integrarlas en
-            un <Link href="/viajes" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje organizado</Link> más
-            amplio.
-          </p>
+          <AnimateOnScroll>
+            <h2 className="heading-section text-center">
+              Descubre Galicia a través de sus experiencias
+            </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-center text-lg text-gray-600">
+              Cada experiencia está diseñada para conectar con lo auténtico de
+              Galicia. Se pueden disfrutar de forma independiente o integrarlas en
+              un <Link href="/viajes" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje organizado</Link> más
+              amplio.
+            </p>
+          </AnimateOnScroll>
         </div>
 
         <div className="mx-auto mt-14 grid max-w-7xl gap-8 md:grid-cols-2">
           {categorias.map((cat) => (
-            <Link
-              key={cat.title}
-              href={cat.href}
-              className="card-elegant group block"
-            >
-              <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
-                {cat.title}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-gray-500">
-                {cat.description}
-              </p>
-              <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
-                Ver más &rarr;
-              </span>
-            </Link>
+            <AnimateOnScroll key={cat.title}>
+              <Link
+                href={cat.href}
+                className="card-elegant group block"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
+                  {cat.title}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-gray-500">
+                  {cat.description}
+                </p>
+                <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
+                  Ver más &rarr;
+                </span>
+              </Link>
+            </AnimateOnScroll>
           ))}
         </div>
       </section>
@@ -90,6 +94,26 @@ export default function Experiencias() {
       <CTASection
         title="¿Qué experiencia te gustaría vivir en Galicia?"
         description="Cuéntanos qué os interesa y preparamos una propuesta con las experiencias que mejor encajan con vuestro grupo."
+      />
+
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Experiencias en Galicia",
+            description:
+              "Experiencias únicas en Galicia: gastronomía y bodegas, actividades náuticas, excursiones privadas, cultura y naturaleza. Organizadas por Suunia.",
+            url: "https://suunia.com/experiencias",
+            publisher: {
+              "@type": "Organization",
+              name: "Suunia",
+              url: "https://suunia.com",
+            },
+          }),
+        }}
       />
     </>
   );

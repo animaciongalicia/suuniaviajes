@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Viajes organizados en Galicia — Grupos, rutas y experiencias a medida",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Viajes organizados en Galicia para grupos, tours privados, grandes rutas y experiencias premium.",
     url: "https://suunia.com/viajes",
-    images: [{ url: "/images/galicia-increible.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/galicia-increible.jpg", width: 1200, height: 630, alt: "Paisaje de Galicia con costa atlántica, naturaleza verde y cielo despejado" }],
   },
 };
 

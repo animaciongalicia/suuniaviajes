@@ -119,7 +119,7 @@ export default function GuiaRibeiraSacra() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/Ribeira-Sacra-Mundiplus.jpg"
+          src="/images/ribeira-sacra-bodegas-top.jpg"
           alt="Cañones del río Sil en la Ribeira Sacra con el río serpenteando entre paredes de roca"
           fill
           className="object-cover"
