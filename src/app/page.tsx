@@ -1,7 +1,20 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+
+export const metadata: Metadata = {
+  title: "Suunia — DMC premium en Galicia | Viajes a medida y experiencias exclusivas",
+  description: "Agencia receptiva especializada en Galicia. Organizamos viajes a medida, tours privados, incentivos de empresa y experiencias exclusivas por las Rías Baixas, Costa da Morte y Ribeira Sacra.",
+  alternates: { canonical: "https://suunia.com" },
+  openGraph: {
+    title: "Suunia — DMC premium en Galicia",
+    description: "Agencia receptiva especializada en Galicia. Viajes a medida, tours privados, incentivos y experiencias exclusivas.",
+    url: "https://suunia.com",
+    images: [{ url: "/images/hero-galicia.jpg", width: 1200, height: 630, alt: "Paisaje de la costa atlántica de Galicia" }],
+  },
+};
 
 const experiencias = [
   {

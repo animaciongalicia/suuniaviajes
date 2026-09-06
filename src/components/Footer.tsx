@@ -57,6 +57,11 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5">
               {[
                 { name: "Receptivo Galicia", href: "/receptivo-galicia" },
+                { name: "Viajes", href: "/viajes" },
+                { name: "Experiencias", href: "/experiencias" },
+                { name: "Grandes rutas", href: "/grandes-rutas-galicia" },
+                { name: "Galicia premium", href: "/galicia-premium" },
+                { name: "Náutica", href: "/nautica-galicia" },
                 { name: "Gastronomía y bodegas", href: "/gastronomia-bodegas-galicia" },
                 { name: "Excursiones privadas", href: "/excursiones-privadas-galicia" },
                 { name: "Cultura y naturaleza", href: "/cultura-naturaleza-galicia" },

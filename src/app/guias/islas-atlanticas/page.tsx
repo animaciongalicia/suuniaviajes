@@ -299,7 +299,7 @@ export default function GuiaIslasAtlanticas() {
           <AnimateOnScroll>
             <div className="relative h-72 overflow-hidden rounded-2xl sm:h-80 lg:h-96">
               <Image
-                src="/images/playa-rodas-islas-cies-suunia-jpg.jpg"
+                src="/images/playa-rodas-islas-cies-suunia.jpg"
                 alt="Playa de Rodas en las Islas Cíes, arena blanca y aguas turquesas del Parque Nacional de las Islas Atlánticas"
                 fill
                 className="object-cover"

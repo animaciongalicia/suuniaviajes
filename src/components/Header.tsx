@@ -42,7 +42,7 @@ const navigation: NavItem[] = [
     ],
   },
   { name: "Guías", href: "/guias" },
-  { name: "Contacto", href: "#contacto" },
+  { name: "Contacto", href: "/#contacto" },
 ];
 
 function ChevronDown({ className }: { className?: string }) {
