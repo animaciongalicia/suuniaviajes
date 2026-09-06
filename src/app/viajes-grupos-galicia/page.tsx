@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Tours organizados para grupos privados en Galicia. Rutas culturales, gastronomía, naturaleza y experiencias a medida.",
     url: "https://suunia.com/viajes-grupos-galicia",
-    images: [{ url: "/images/viajes-grupos-hero.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/viajes-grupos-hero.jpg", width: 1200, height: 630, alt: "Grupo de viajeros disfrutando de una experiencia organizada en Galicia" }],
   },
 };
 

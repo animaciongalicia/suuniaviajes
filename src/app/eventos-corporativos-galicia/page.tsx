@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Congresos, convenciones, jornadas directivas y programas de empresa en Galicia. Logística, experiencias y coordinación integral.",
     url: "https://suunia.com/eventos-corporativos-galicia",
-    images: [{ url: "/images/pueblo-pesquero-galicia-suunia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/pueblo-pesquero-galicia-suunia.jpg", width: 1200, height: 630, alt: "Pueblo pesquero gallego con puerto tradicional y casas de colores" }],
   },
 };
 

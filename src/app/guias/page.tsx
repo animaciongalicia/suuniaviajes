@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Guías de viaje por Galicia — Rutas, consejos y destinos",
@@ -129,15 +130,17 @@ export default function Guias() {
       {/* Intro */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section">Galicia contada por locales</h2>
-          <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-            <p>
-              Estas guías no son listas genéricas copiadas de otras webs. Son el conocimiento real de un equipo que vive en Galicia, recorre sus carreteras cada semana, come en sus restaurantes y conoce cada ría, cada bosque y cada pueblo que merece una parada. Escribimos sobre lo que sabemos de primera mano para que tu viaje empiece antes de llegar.
-            </p>
-            <p>
-              Encontrarás rutas detalladas para recorrer las zonas más interesantes de Galicia, recomendaciones gastronómicas que van más allá del tópico, guías de destinos que profundizan en lo que realmente importa y consejos prácticos basados en años organizando viajes por todo el territorio gallego como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section">Galicia contada por locales</h2>
+            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+              <p>
+                Estas guías no son listas genéricas copiadas de otras webs. Son el conocimiento real de un equipo que vive en Galicia, recorre sus carreteras cada semana, come en sus restaurantes y conoce cada ría, cada bosque y cada pueblo que merece una parada. Escribimos sobre lo que sabemos de primera mano para que tu viaje empiece antes de llegar.
+              </p>
+              <p>
+                Encontrarás rutas detalladas para recorrer las zonas más interesantes de Galicia, recomendaciones gastronómicas que van más allá del tópico, guías de destinos que profundizan en lo que realmente importa y consejos prácticos basados en años organizando viajes por todo el territorio gallego como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
@@ -166,7 +169,8 @@ export default function Guias() {
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {guias.map((guia) => (
-              <Link key={guia.title} href={guia.href} className="group">
+              <AnimateOnScroll key={guia.title}>
+              <Link href={guia.href} className="group">
                 <article className="h-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md">
                   <div className="relative h-48 overflow-hidden">
                     <img
@@ -194,6 +198,7 @@ export default function Guias() {
                   </div>
                 </article>
               </Link>
+              </AnimateOnScroll>
             ))}
           </div>
         </div>
@@ -202,6 +207,7 @@ export default function Guias() {
       {/* CTA */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl text-center">
+          <AnimateOnScroll>
           <h2 className="heading-section">¿Prefieres que organicemos tu viaje?</h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
             Las guías te dan el conocimiento, pero si prefieres que nos encarguemos de todo — itinerario, alojamiento, transporte, restaurantes y experiencias — eso es exactamente lo que hacemos. Diseñamos <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link>, <Link href="/grandes-rutas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">grandes rutas de varios días</Link> y <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes completos para grupos</Link>.
@@ -214,6 +220,7 @@ export default function Guias() {
           >
             Cuéntanos tu viaje
           </a>
+          </AnimateOnScroll>
         </div>
       </section>
 

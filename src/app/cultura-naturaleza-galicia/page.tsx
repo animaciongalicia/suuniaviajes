@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Patrimonio milenario, Camino de Santiago, parques naturales y paisajes atlánticos en Galicia.",
     url: "https://suunia.com/cultura-naturaleza-galicia",
-    images: [{ url: "/images/acantilados-san-andres-teixido.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/acantilados-san-andres-teixido.jpg", width: 1200, height: 630, alt: "Acantilados de San Andrés de Teixido con vistas al océano Atlántico" }],
   },
 };
 

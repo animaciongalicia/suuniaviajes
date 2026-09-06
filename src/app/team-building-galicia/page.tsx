@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Actividades de team building en Galicia: mar, gastronomía, aventura y naturaleza para equipos de empresa.",
     url: "https://suunia.com/team-building-galicia",
-    images: [{ url: "/images/playas-islote-areoco-suunia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/playas-islote-areoco-suunia.jpg", width: 1200, height: 630, alt: "Islote de Areoso con playa virgen y aguas cristalinas en las Rías Baixas" }],
   },
 };
 

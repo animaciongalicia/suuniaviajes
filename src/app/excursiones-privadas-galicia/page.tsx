@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Rutas privadas con guía local por Santiago, Costa da Morte, Rías Baixas, Ribeira Sacra y más.",
     url: "https://suunia.com/excursiones-privadas-galicia",
-    images: [{ url: "/images/otra-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/otra-galicia.jpg", width: 1200, height: 630, alt: "Paisaje auténtico de Galicia con naturaleza verde y costa atlántica" }],
   },
 };
 

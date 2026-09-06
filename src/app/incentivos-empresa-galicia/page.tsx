@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Viajes de incentivos y experiencias corporativas en Galicia",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Programas de incentivos, team building y experiencias premium para empresas en Galicia.",
     url: "https://suunia.com/incentivos-empresa-galicia",
-    images: [{ url: "/images/pueblos-de-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/pueblos-de-galicia.jpg", width: 1200, height: 630, alt: "Pueblos con encanto de Galicia con arquitectura tradicional gallega" }],
   },
 };
 
@@ -85,27 +86,31 @@ export default function IncentivosEmpresaGalicia() {
       {/* Intro */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section">Galicia como destino de incentivos: mucho más que un viaje</h2>
-          <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-            <p>
-              Un viaje de incentivos bien organizado es una de las herramientas más potentes para motivar equipos, premiar resultados y reforzar la cultura de empresa. Pero para que funcione de verdad, necesita un destino que sorprenda, una logística impecable y experiencias que dejen huella. Galicia ofrece todo eso.
-            </p>
-            <p>
-              En Suunia diseñamos programas de incentivos para empresas que van más allá del típico hotel con spa y cena de gala. Creamos experiencias auténticas que conectan al equipo con el territorio: navegar por las rías, cocinar en grupo con un chef local, competir en una regata de veleros, recorrer viñedos al atardecer o descubrir los secretos de Santiago de Compostela con nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados guiados</Link>.
-            </p>
-            <p>
-              Cada programa se diseña a medida según los objetivos de la empresa, el perfil del grupo, el presupuesto y las fechas. No vendemos paquetes cerrados: construimos experiencias que tienen sentido para cada equipo. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, nos encargamos de absolutamente todo: desde la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y el transporte</Link> hasta el último detalle. Para grupos más grandes, consulta también nuestros <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes organizados para grupos</Link>.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section">Galicia como destino de incentivos: mucho más que un viaje</h2>
+            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+              <p>
+                Un viaje de incentivos bien organizado es una de las herramientas más potentes para motivar equipos, premiar resultados y reforzar la cultura de empresa. Pero para que funcione de verdad, necesita un destino que sorprenda, una logística impecable y experiencias que dejen huella. Galicia ofrece todo eso.
+              </p>
+              <p>
+                En Suunia diseñamos programas de incentivos para empresas que van más allá del típico hotel con spa y cena de gala. Creamos experiencias auténticas que conectan al equipo con el territorio: navegar por las rías, cocinar en grupo con un chef local, competir en una regata de veleros, recorrer viñedos al atardecer o descubrir los secretos de Santiago de Compostela con nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados guiados</Link>.
+              </p>
+              <p>
+                Cada programa se diseña a medida según los objetivos de la empresa, el perfil del grupo, el presupuesto y las fechas. No vendemos paquetes cerrados: construimos experiencias que tienen sentido para cada equipo. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, nos encargamos de absolutamente todo: desde la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y el transporte</Link> hasta el último detalle. Para grupos más grandes, consulta también nuestros <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes organizados para grupos</Link>.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Por qué Galicia para incentivos */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">¿Por qué Galicia para un viaje de incentivos?</h2>
-          </div>
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">¿Por qué Galicia para un viaje de incentivos?</h2>
+            </div>
+          </AnimateOnScroll>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { title: "Destino diferente", text: "Galicia sorprende porque no es el destino típico de sol y playa. Ofrece algo que pocos territorios pueden igualar: autenticidad, gastronomía excepcional y paisajes atlánticos que impresionan." },
@@ -127,10 +132,12 @@ export default function IncentivosEmpresaGalicia() {
       {/* Actividades de team building */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section text-center">Actividades de team building en Galicia</h2>
-          <p className="mt-4 text-center text-lg text-gray-600">
-            Experiencias diseñadas para fortalecer la cohesión de equipo en un entorno natural y estimulante.
-          </p>
+          <AnimateOnScroll>
+            <h2 className="heading-section text-center">Actividades de team building en Galicia</h2>
+            <p className="mt-4 text-center text-lg text-gray-600">
+              Experiencias diseñadas para fortalecer la cohesión de equipo en un entorno natural y estimulante.
+            </p>
+          </AnimateOnScroll>
           <div className="mt-12 grid gap-6 sm:grid-cols-2">
             {[
               { title: "Regata de veleros", text: "Competición por equipos en veleros en la ría. Cada equipo aprende a navegar con un patrón profesional y compite en una regata amistosa. Incluye trofeo y brindis de cierre." },
@@ -152,12 +159,14 @@ export default function IncentivosEmpresaGalicia() {
       {/* Programas ejemplo */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">Ejemplos de programas de incentivos</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Estos programas son orientativos. Cada uno se adapta y personaliza según las necesidades de la empresa.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">Ejemplos de programas de incentivos</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                Estos programas son orientativos. Cada uno se adapta y personaliza según las necesidades de la empresa.
+              </p>
+            </div>
+          </AnimateOnScroll>
           <div className="mt-12 space-y-12">
             {programas.map((prog) => (
               <div key={prog.title} className="card-elegant">
@@ -194,6 +203,7 @@ export default function IncentivosEmpresaGalicia() {
       {/* MilEventosGalicia */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl text-center">
+          <AnimateOnScroll>
           <h2 className="heading-section">Eventos corporativos con MilEventosGalicia</h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-600">
             Para eventos corporativos más complejos que incluyan producción, montaje, catering de gala, entretenimiento o escenografía, trabajamos con MilEventosGalicia, nuestra empresa partner especializada en la producción de eventos de empresa. Ellos se encargan de la parte de evento y nosotros de toda la logística de viaje, transporte y experiencias.
@@ -209,6 +219,7 @@ export default function IncentivosEmpresaGalicia() {
           >
             Consultar programa de incentivos
           </a>
+          </AnimateOnScroll>
         </div>
       </section>
 

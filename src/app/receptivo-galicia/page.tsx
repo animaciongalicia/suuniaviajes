@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Agencia receptiva en Galicia (DMC) para grupos y empresas",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "DMC en Galicia. Viajes para grupos, tours privados, incentivos de empresa y servicios logísticos completos.",
     url: "https://suunia.com/receptivo-galicia",
-    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/experiencias-galicia.jpg", width: 1200, height: 630, alt: "Experiencias turísticas en Galicia organizadas por agencia receptiva local" }],
   },
 };
 
@@ -89,30 +90,34 @@ export default function ReceptivoGalicia() {
       {/* Qué es una agencia receptiva */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section">¿Qué es una agencia receptiva y por qué la necesitas?</h2>
-          <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-            <p>
-              Cuando un grupo, una empresa o una agencia de viajes quiere organizar un viaje a Galicia, se enfrenta a un problema común: no conoce el terreno. No sabe qué hoteles ofrecen la mejor relación calidad-precio, qué restaurantes están a la altura, qué actividades funcionan para su tipo de grupo, ni cómo coordinar todo para que el programa fluya sin contratiempos.
-            </p>
-            <p>
-              Ahí es donde entra una agencia receptiva como Suunia. Somos el socio local que se encarga de toda la operativa en destino. Diseñamos el programa, seleccionamos los proveedores, gestionamos las reservas, coordinamos el transporte, proporcionamos guías y resolvemos cualquier imprevisto sobre el terreno. Desde <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes para grupos</Link> hasta <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados personalizados</Link>, el cliente solo tiene que llegar y disfrutar.
-            </p>
-            <p>
-              Una DMC (Destination Management Company) no es una agencia de viajes convencional. No vendemos vuelos ni paquetes cerrados. Lo que ofrecemos es conocimiento profundo del destino, una red de proveedores de confianza y la capacidad operativa para que todo funcione. Gestionamos toda la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y servicios en Galicia</Link>, y también organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos para empresas</Link>. Galicia es nuestro territorio, y lo conocemos como la palma de nuestra mano.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section">¿Qué es una agencia receptiva y por qué la necesitas?</h2>
+            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+              <p>
+                Cuando un grupo, una empresa o una agencia de viajes quiere organizar un viaje a Galicia, se enfrenta a un problema común: no conoce el terreno. No sabe qué hoteles ofrecen la mejor relación calidad-precio, qué restaurantes están a la altura, qué actividades funcionan para su tipo de grupo, ni cómo coordinar todo para que el programa fluya sin contratiempos.
+              </p>
+              <p>
+                Ahí es donde entra una agencia receptiva como Suunia. Somos el socio local que se encarga de toda la operativa en destino. Diseñamos el programa, seleccionamos los proveedores, gestionamos las reservas, coordinamos el transporte, proporcionamos guías y resolvemos cualquier imprevisto sobre el terreno. Desde <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes para grupos</Link> hasta <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados personalizados</Link>, el cliente solo tiene que llegar y disfrutar.
+              </p>
+              <p>
+                Una DMC (Destination Management Company) no es una agencia de viajes convencional. No vendemos vuelos ni paquetes cerrados. Lo que ofrecemos es conocimiento profundo del destino, una red de proveedores de confianza y la capacidad operativa para que todo funcione. Gestionamos toda la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y servicios en Galicia</Link>, y también organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos para empresas</Link>. Galicia es nuestro territorio, y lo conocemos como la palma de nuestra mano.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Por qué Galicia */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">¿Por qué Galicia es un destino ideal?</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Galicia combina gastronomía de primer nivel, paisajes atlánticos, patrimonio milenario y autenticidad. Un destino completo para cualquier tipo de viaje.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">¿Por qué Galicia es un destino ideal?</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                Galicia combina gastronomía de primer nivel, paisajes atlánticos, patrimonio milenario y autenticidad. Un destino completo para cualquier tipo de viaje.
+              </p>
+            </div>
+          </AnimateOnScroll>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { title: "Gastronomía excepcional", text: "Marisco, pulpo, empanada, Albariño, Ribeiro, quesos... La cocina gallega es uno de los principales motivos por los que los viajeros eligen Galicia. Cada comarca tiene su especialidad." },
@@ -134,6 +139,7 @@ export default function ReceptivoGalicia() {
       {/* Servicios que ofrece Suunia */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
+          <AnimateOnScroll>
           <h2 className="heading-section text-center">Servicios que ofrecemos como receptivo en Galicia</h2>
           <div className="mt-12 space-y-8">
             {[
@@ -154,18 +160,21 @@ export default function ReceptivoGalicia() {
               </div>
             ))}
           </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Ejemplos de programas */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">Ejemplos de programas</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Estos son algunos de los programas que hemos diseñado para nuestros clientes. Todos se adaptan según las necesidades y preferencias de cada grupo.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">Ejemplos de programas</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                Estos son algunos de los programas que hemos diseñado para nuestros clientes. Todos se adaptan según las necesidades y preferencias de cada grupo.
+              </p>
+            </div>
+          </AnimateOnScroll>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             {programas.map((prog) => (
               <div key={prog.title} className="card-elegant">

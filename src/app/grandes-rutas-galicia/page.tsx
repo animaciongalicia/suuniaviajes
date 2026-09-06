@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Itinerarios de varios días por Galicia: costa, interior, patrimonio y gastronomía. Rutas diseñadas a medida.",
     url: "https://suunia.com/grandes-rutas-galicia",
-    images: [{ url: "/images/faro-de-Finisterre-1.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/faro-de-Finisterre-1.jpg", width: 1200, height: 630, alt: "Faro de Finisterre en la costa gallega al atardecer" }],
   },
 };
 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Incentivos, team building y eventos corporativos en Galicia. Todo organizado por una agencia receptiva local.",
     url: "https://suunia.com/empresas",
-    images: [{ url: "/images/Qué-ver-en-La-Coruña.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/Qué-ver-en-La-Coruña.jpg", width: 1200, height: 630, alt: "Vista panorámica de A Coruña con la Torre de Hércules y el paseo marítimo" }],
   },
 };
 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Estrellas Michelin, bodegas premium, templos del producto y experiencias gastronómicas de lujo en Galicia.",
     url: "https://suunia.com/gastronomia-bodegas-galicia",
-    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630, alt: "Gastronomía gallega con mariscos, vinos y platos de autor" }],
   },
 };
 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Experiencias exclusivas en Galicia: lujo, gastronomía de autor, privacidad y atención personalizada.",
     url: "https://suunia.com/galicia-premium",
-    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630, alt: "Gastronomía gallega de autor con productos frescos del Atlántico" }],
   },
 };
 

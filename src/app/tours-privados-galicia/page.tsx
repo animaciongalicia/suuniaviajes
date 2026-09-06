@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Experiencias privadas y personalizadas en Galicia. Rutas gastronómicas, costa atlántica, patrimonio y naturaleza.",
     url: "https://suunia.com/tours-privados-galicia",
-    images: [{ url: "/images/tours-privados-hero.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/tours-privados-hero.jpg", width: 1200, height: 630, alt: "Tours privados por Galicia con guía local y paisajes atlánticos" }],
   },
 };
 

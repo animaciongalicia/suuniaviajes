@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
+import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Servicios logísticos para viajes y eventos en Galicia",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Logística completa para viajes y eventos en Galicia. Transporte VIP, barcos, coordinación de proveedores.",
     url: "https://suunia.com/logistica-servicios-galicia",
-    images: [{ url: "/images/galicia-increible-top.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/galicia-increible-top.jpg", width: 1200, height: 630, alt: "Vista panorámica de Galicia con paisaje verde y costa atlántica" }],
   },
 };
 
@@ -99,27 +100,31 @@ export default function LogisticaServiciosGalicia() {
       {/* Intro */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section">Logística profesional en Galicia para viajes y eventos</h2>
-          <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-            <p>
-              Detrás de cada <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de grupo</Link>, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
-            </p>
-            <p>
-              En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos corporativos</Link>, cubrimos toda la operativa.
-            </p>
-            <p>
-              Si eres una agencia de viajes que necesita un <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">receptivo fiable en Galicia</Link>, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
-            </p>
-          </div>
+          <AnimateOnScroll>
+            <h2 className="heading-section">Logística profesional en Galicia para viajes y eventos</h2>
+            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+              <p>
+                Detrás de cada <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de grupo</Link>, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
+              </p>
+              <p>
+                En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos corporativos</Link>, cubrimos toda la operativa.
+              </p>
+              <p>
+                Si eres una agencia de viajes que necesita un <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">receptivo fiable en Galicia</Link>, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Servicios */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="heading-section">Nuestros servicios logísticos</h2>
-          </div>
+          <AnimateOnScroll>
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="heading-section">Nuestros servicios logísticos</h2>
+            </div>
+          </AnimateOnScroll>
           <div className="mt-12 space-y-12">
             {servicios.map((srv) => (
               <div key={srv.title} className="card-elegant">
@@ -157,11 +162,12 @@ export default function LogisticaServiciosGalicia() {
       {/* Partners */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section text-center">Nuestros partners logísticos</h2>
-          <p className="mt-4 text-center text-lg text-gray-600">
-            Trabajamos con empresas especializadas en Galicia para ofrecer los mejores servicios en cada área.
-          </p>
-          <div className="mt-12 grid gap-8 md:grid-cols-2">
+          <AnimateOnScroll>
+            <h2 className="heading-section text-center">Nuestros partners logísticos</h2>
+            <p className="mt-4 text-center text-lg text-gray-600">
+              Trabajamos con empresas especializadas en Galicia para ofrecer los mejores servicios en cada área.
+            </p>
+            <div className="mt-12 grid gap-8 md:grid-cols-2">
             <div className="card-elegant">
               <h3 className="text-lg font-semibold text-atlantic-800">SeaGalicia</h3>
               <p className="mt-3 leading-relaxed text-gray-600">
@@ -175,12 +181,14 @@ export default function LogisticaServiciosGalicia() {
               </p>
             </div>
           </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
       {/* Ventajas */}
       <section className="section-padding bg-gray-50">
         <div className="mx-auto max-w-4xl">
+          <AnimateOnScroll>
           <h2 className="heading-section text-center">Ventajas de trabajar con Suunia</h2>
           <div className="mt-12 grid gap-6 sm:grid-cols-2">
             {[
@@ -202,6 +210,7 @@ export default function LogisticaServiciosGalicia() {
               </div>
             ))}
           </div>
+          </AnimateOnScroll>
         </div>
       </section>
 

@@ -56,33 +56,36 @@ export default function Viajes() {
 
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">
-          <h2 className="heading-section text-center">
-            Elige tu forma de viajar por Galicia
-          </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-center text-lg text-gray-600">
-            Cada viaje es diferente. Por eso ofrecemos distintas formas de
-            descubrir Galicia, todas con la organización y el acompañamiento de
-            un equipo local que conoce el terreno.
-          </p>
+          <AnimateOnScroll>
+            <h2 className="heading-section text-center">
+              Elige tu forma de viajar por Galicia
+            </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-center text-lg text-gray-600">
+              Cada viaje es diferente. Por eso ofrecemos distintas formas de
+              descubrir Galicia, todas con la organización y el acompañamiento de
+              un equipo local que conoce el terreno.
+            </p>
+          </AnimateOnScroll>
         </div>
 
         <div className="mx-auto mt-14 grid max-w-7xl gap-8 md:grid-cols-2">
           {categorias.map((cat) => (
-            <Link
-              key={cat.title}
-              href={cat.href}
-              className="card-elegant group block"
-            >
-              <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
-                {cat.title}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-gray-500">
-                {cat.description}
-              </p>
-              <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
-                Ver más &rarr;
-              </span>
-            </Link>
+            <AnimateOnScroll key={cat.title}>
+              <Link
+                href={cat.href}
+                className="card-elegant group block"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
+                  {cat.title}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-gray-500">
+                  {cat.description}
+                </p>
+                <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
+                  Ver más &rarr;
+                </span>
+              </Link>
+            </AnimateOnScroll>
           ))}
         </div>
       </section>
@@ -90,6 +93,26 @@ export default function Viajes() {
       <CTASection
         title="¿Planificamos tu viaje a Galicia?"
         description="Cuéntanos qué tipo de viaje te interesa y te preparamos una propuesta personalizada sin compromiso."
+      />
+
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Viajes organizados en Galicia",
+            description:
+              "Viajes a medida en Galicia: grupos, tours privados, grandes rutas y experiencias premium. Organizados por Suunia, tu agencia receptiva local.",
+            url: "https://suunia.com/viajes",
+            publisher: {
+              "@type": "Organization",
+              name: "Suunia",
+              url: "https://suunia.com",
+            },
+          }),
+        }}
       />
     </>
   );
