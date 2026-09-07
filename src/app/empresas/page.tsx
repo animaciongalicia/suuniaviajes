@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Incentivos, team building y eventos corporativos en Galicia. Todo organizado por una agencia receptiva local.",
     url: "https://suunia.com/empresas",
-    images: [{ url: "/images/Qué-ver-en-La-Coruña.jpg", width: 1200, height: 630, alt: "Vista panorámica de A Coruña con la Torre de Hércules y el paseo marítimo" }],
+    images: [{ url: "/images/pazo-eventos-tipos-.jpg", width: 1200, height: 630, alt: "Evento corporativo con producción profesional en espacio exclusivo en Galicia" }],
   },
 };
 
@@ -46,7 +46,7 @@ export default function Empresas() {
       <HeroPage
         title="Empresas en Galicia"
         subtitle="Incentivos, team building y eventos corporativos. Galicia como destino para tu empresa, con la logística y la experiencia de una agencia receptiva local."
-        imageSrc="/images/Qué-ver-en-La-Coruña.jpg"
+        imageSrc="/images/pazo-eventos-tipos-.jpg"
       />
 
       {/* Intro */}

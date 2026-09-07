@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Experiencias exclusivas en Galicia: lujo, gastronomía de autor, privacidad y atención personalizada.",
     url: "https://suunia.com/galicia-premium",
-    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630, alt: "Gastronomía gallega de autor con productos frescos del Atlántico" }],
+    images: [{ url: "/images/el-pazo-full.jpg", width: 1200, height: 630, alt: "Pazo gallego iluminado al atardecer con jardines y galerías de madera" }],
   },
 };
 
@@ -121,7 +121,7 @@ export default function GaliciaPremium() {
       <HeroPage
         title="Galicia Premium"
         subtitle="Para quienes buscan lo mejor de Galicia. Experiencias exclusivas, privacidad absoluta y una atención que cuida cada detalle."
-        imageSrc="/images/gastronomia-galicia.jpg"
+        imageSrc="/images/el-pazo-full.jpg"
       />
 
       {/* Intro */}

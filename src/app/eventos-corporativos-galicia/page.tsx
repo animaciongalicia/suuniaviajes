@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Congresos, convenciones, jornadas directivas y programas de empresa en Galicia. Logística, experiencias y coordinación integral.",
     url: "https://suunia.com/eventos-corporativos-galicia",
-    images: [{ url: "/images/pueblo-pesquero-galicia-suunia.jpg", width: 1200, height: 630, alt: "Pueblo pesquero gallego con puerto tradicional y casas de colores" }],
+    images: [{ url: "/images/pazo-eventos-corporativos.jpg", width: 1200, height: 630, alt: "Montaje de evento corporativo con mesas e iluminación elegante en Galicia" }],
   },
 };
 
@@ -74,8 +74,8 @@ const servicios = [
   },
   {
     title: "Jornadas de empresa y convenciones internas",
-    image: "/images/sala-eventos-empresas.jpg",
-    alt: "Sala de conferencias moderna preparada para evento corporativo",
+    image: "/images/pazo-eventos-tipos-.jpg",
+    alt: "Evento corporativo con producción profesional y decoración espectacular",
     text: "Cuando una empresa quiere sacar a su equipo de la oficina para un kick-off, una convención de ventas, una presentación de resultados o una jornada de planificación estratégica, Galicia ofrece espacios inspiradores y una logística que facilita el trabajo. Nos encargamos de todo lo que rodea las sesiones de trabajo: transporte, alojamiento, comidas, actividades de team building en los descansos y programa social para las tardes y noches.",
     details: [
       "Gestión de espacios de reunión y salas de trabajo",
@@ -125,7 +125,7 @@ export default function EventosCorporativosGalicia() {
       <HeroPage
         title="Eventos corporativos en Galicia"
         subtitle="Congresos, convenciones, jornadas directivas, programas de acompañantes, cenas de gala y experiencias para empleados. Todo lo que tu empresa necesita en Galicia."
-        imageSrc="/images/pueblo-pesquero-galicia-suunia.jpg"
+        imageSrc="/images/pazo-eventos-corporativos.jpg"
       />
 
       {/* Intro */}

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Programas de incentivos, team building y experiencias premium para empresas en Galicia.",
     url: "https://suunia.com/incentivos-empresa-galicia",
-    images: [{ url: "/images/pueblos-de-galicia.jpg", width: 1200, height: 630, alt: "Pueblos con encanto de Galicia con arquitectura tradicional gallega" }],
+    images: [{ url: "/images/evento-grupo-trabajo.jpg", width: 1200, height: 630, alt: "Equipo participando en actividad de incentivo corporativo en Galicia" }],
   },
 };
 
@@ -81,7 +81,7 @@ export default function IncentivosEmpresaGalicia() {
       <HeroPage
         title="Viajes de incentivos y experiencias corporativas en Galicia"
         subtitle="Programas motivacionales para equipos que combinan actividades exclusivas, gastronomía de primer nivel y la naturaleza atlántica de Galicia."
-        imageSrc="/images/pueblos-de-galicia.jpg"
+        imageSrc="/images/evento-grupo-trabajo.jpg"
       />
 
       {/* Intro */}

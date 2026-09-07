@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description:
       "Los restaurantes con estrella Michelin de Galicia: quién está detrás, qué se come, cuánto cuesta y cómo reservar.",
     url: "https://suunia.com/guias/restaurantes-michelin-galicia",
-    images: [{ url: "/images/gastronomia-galicia.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/pulgo-galicia.jpg", width: 1200, height: 630, alt: "Pulpo a la gallega, alta cocina en restaurante Michelin de Galicia" }],
   },
 };
 
@@ -195,8 +195,8 @@ export default function GuiaRestaurantesMichelin() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/tours-gastronomia.jpg"
-          alt="Plato de alta cocina gallega con mariscos frescos y presentación de autor en restaurante Michelin"
+          src="/images/pulgo-galicia.jpg"
+          alt="Pulpo a la gallega con patatas y pimentón, alta cocina en restaurante Michelin de Galicia"
           fill
           className="object-cover"
           priority

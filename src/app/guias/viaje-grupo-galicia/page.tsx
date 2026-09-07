@@ -147,8 +147,8 @@ export default function GuiaViajeGrupo() {
       {/* Hero editorial */}
       <section className="relative flex min-h-[55vh] items-center justify-center overflow-hidden pt-16 lg:min-h-[60vh]">
         <Image
-          src="/images/mirador-rianxo.jpg"
-          alt="Grupo de viajeros recorriendo un paseo marítimo gallego con vistas al océano Atlántico"
+          src="/images/rutas-canoas-equipo.jpg"
+          alt="Grupo de viajeros en kayaks disfrutando de una actividad en la costa gallega"
           fill
           className="object-cover"
           priority

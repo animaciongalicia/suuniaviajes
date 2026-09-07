@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Yates, veleros premium y rutas de navegación para conocer Galicia desde el mar. Charter de lujo por las rías gallegas.",
     url: "https://suunia.com/nautica-galicia",
-    images: [{ url: "/images/playa-rodas-islas-cies-suunia.jpg", width: 1200, height: 630, alt: "Playa de Rodas en las Islas Cíes, Galicia" }],
+    images: [{ url: "/images/charter-catamaran-5-dormitorios-galicia-vigo-cies-seagalicia.jpg", width: 1200, height: 630, alt: "Catamarán de charter navegando por las aguas de las Rías Baixas" }],
   },
 };
 
@@ -153,7 +153,7 @@ export default function NauticaGalicia() {
       <HeroPage
         title="Náutica en Galicia"
         subtitle="Descubre Galicia navegando. Yates y veleros premium, rutas por las rías, travesías a las Islas Atlánticas y chárter de lujo con los mejores restaurantes de la costa."
-        imageSrc="/images/playa-rodas-islas-cies-suunia.jpg"
+        imageSrc="/images/charter-catamaran-5-dormitorios-galicia-vigo-cies-seagalicia.jpg"
       />
 
       {/* Intro */}
@@ -173,7 +173,7 @@ export default function NauticaGalicia() {
                 </div>
               </div>
               <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
-                <Image src="/images/regata-teambuilding-galicia.jpg" alt="Regata de veleros navegando en las rías gallegas" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/images/yate-premium-galicia.jpg" alt="Yate de lujo fondeado en una cala de las rías gallegas" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
             </div>
           </AnimateOnScroll>

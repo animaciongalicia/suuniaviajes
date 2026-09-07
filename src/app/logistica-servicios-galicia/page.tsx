@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Logística completa para viajes y eventos en Galicia. Transporte VIP, barcos, coordinación de proveedores.",
     url: "https://suunia.com/logistica-servicios-galicia",
-    images: [{ url: "/images/galicia-increible-top.jpg", width: 1200, height: 630, alt: "Vista panorámica de Galicia con paisaje verde y costa atlántica" }],
+    images: [{ url: "/images/cabecera-flota-luxegalicia-.jpg", width: 1200, height: 630, alt: "Flota de vehículos premium Mercedes de LuxeGalicia para traslados en Galicia" }],
   },
 };
 
@@ -95,7 +95,7 @@ export default function LogisticaServiciosGalicia() {
       <HeroPage
         title="Servicios logísticos para viajes y eventos en Galicia"
         subtitle="Transporte VIP, barcos con patrón, coordinación de proveedores y soporte operativo completo. La logística que necesitas para que todo funcione."
-        imageSrc="/images/galicia-increible-top.jpg"
+        imageSrc="/images/cabecera-flota-luxegalicia-.jpg"
       />
 
       {/* Intro */}
@@ -118,7 +118,7 @@ export default function LogisticaServiciosGalicia() {
                 </div>
               </div>
               <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
-                <Image src="/images/traslados-premium-galicia.jpg" alt="Traslados premium con conductor privado en Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/images/traslados-artistas-cantantes-galicia.jpg" alt="Mercedes V-Class para traslados premium con conductor en Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
             </div>
           </AnimateOnScroll>
@@ -130,7 +130,7 @@ export default function LogisticaServiciosGalicia() {
         <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
             <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl">
-              <Image src="/images/coches-con-conductor-galicia-coruna.jpg" alt="Coches con conductor para servicios corporativos en A Coruña" fill className="object-cover" sizes="(max-width: 1280px) 100vw, 1280px" />
+              <Image src="/images/traslados-coruna-eventos.jpg" alt="Flota de vehículos Mercedes para eventos y traslados corporativos" fill className="object-cover" sizes="(max-width: 1280px) 100vw, 1280px" />
             </div>
           </AnimateOnScroll>
         </div>

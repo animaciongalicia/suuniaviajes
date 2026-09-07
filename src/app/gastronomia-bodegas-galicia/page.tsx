@@ -163,18 +163,22 @@ export default function GastronomiaBodegasGalicia() {
         </div>
       </section>
 
-      {/* Imagen */}
+      {/* Galería gastronómica */}
       <section className="px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl">
-              <Image
-                src="/images/tours-gastronomia.jpg"
-                alt="Experiencia gastronómica premium en Galicia — maridaje de vinos y productos locales"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1280px) 100vw, 1280px"
-              />
+            <div className="grid gap-4 md:grid-cols-3">
+              <div className="relative h-64 overflow-hidden rounded-2xl md:col-span-2 md:h-80">
+                <Image src="/images/maricasda-galicia.jpg" alt="Gran mariscada gallega con centollos, percebes, gambas, mejillones y pulpo" fill className="object-cover" sizes="(max-width: 768px) 100vw, 66vw" />
+              </div>
+              <div className="grid gap-4">
+                <div className="relative h-[calc(50%-0.5rem)] min-h-[7.5rem] overflow-hidden rounded-2xl">
+                  <Image src="/images/pulpo-a-la-gallega-octopus.jpg" alt="Pulpo a feira servido en plato de madera con pimentón y aceite" fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+                </div>
+                <div className="relative h-[calc(50%-0.5rem)] min-h-[7.5rem] overflow-hidden rounded-2xl">
+                  <Image src="/images/almejas-galicia.jpg" alt="Almejas gallegas abiertas a la plancha con perejil" fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+                </div>
+              </div>
             </div>
           </AnimateOnScroll>
         </div>
@@ -211,6 +215,25 @@ export default function GastronomiaBodegasGalicia() {
               </AnimateOnScroll>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Productos gallegos */}
+      <section className="px-6 py-10 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <AnimateOnScroll>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <div className="relative h-56 overflow-hidden rounded-2xl">
+                <Image src="/images/Pulpo-Gallego.jpg" alt="Pulpos gallegos recién cocidos en la pulpería" fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+              </div>
+              <div className="relative h-56 overflow-hidden rounded-2xl">
+                <Image src="/images/empanada-galicia.jpg" alt="Empanada gallega artesanal recién horneada" fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+              </div>
+              <div className="relative h-56 overflow-hidden rounded-2xl">
+                <Image src="/images/almejas-galicia.jpg" alt="Almejas gallegas abiertas a la plancha con perejil" fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+              </div>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
