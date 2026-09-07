@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Eventos corporativos en Galicia — Congresos, convenciones y programas de empresa",
@@ -51,6 +52,8 @@ const servicios = [
   },
   {
     title: "Cenas de gala y eventos sociales",
+    image: "/images/finca-montesqueiro-corporativo-presentacion.jpg",
+    alt: "Salón de eventos de lujo con techo espectacular en Finca Montesqueiro, Galicia",
     text: "Organizamos cenas de gala, cocktails de bienvenida, fiestas de cierre y eventos sociales dentro de programas corporativos. Seleccionamos los mejores espacios de Galicia — pazos, bodegas, restaurantes con encanto, terrazas con vistas al mar — y coordinamos catering, decoración, música, iluminación y producción. Para eventos que requieran producción completa, trabajamos con MilEventosGalicia, nuestra empresa partner especializada.",
     details: [
       "Selección de espacios exclusivos: pazos, bodegas, restaurantes",
@@ -71,6 +74,8 @@ const servicios = [
   },
   {
     title: "Jornadas de empresa y convenciones internas",
+    image: "/images/sala-eventos-empresas.jpg",
+    alt: "Sala de conferencias moderna preparada para evento corporativo",
     text: "Cuando una empresa quiere sacar a su equipo de la oficina para un kick-off, una convención de ventas, una presentación de resultados o una jornada de planificación estratégica, Galicia ofrece espacios inspiradores y una logística que facilita el trabajo. Nos encargamos de todo lo que rodea las sesiones de trabajo: transporte, alojamiento, comidas, actividades de team building en los descansos y programa social para las tardes y noches.",
     details: [
       "Gestión de espacios de reunión y salas de trabajo",
@@ -155,24 +160,49 @@ export default function EventosCorporativosGalicia() {
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
-            {servicios.map((s) => (
-              <AnimateOnScroll key={s.title}>
-                <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
-                  <h3 className="text-xl font-bold text-gray-900">{s.title}</h3>
-                  <p className="mt-4 leading-relaxed text-gray-600">{s.text}</p>
-                  <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-                    {s.details.map((d, j) => (
-                      <li key={j} className="flex gap-3 text-sm text-gray-600">
-                        <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        {d}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </AnimateOnScroll>
-            ))}
+            {servicios.map((s, i) => {
+              const imageIndex = servicios.slice(0, i).filter((srv) => srv.image).length;
+              return (
+                <AnimateOnScroll key={s.title}>
+                  {s.image ? (
+                    <div className="grid items-start gap-8 md:grid-cols-2">
+                      <div className={imageIndex % 2 === 1 ? "md:order-2" : ""}>
+                        <h3 className="text-xl font-bold text-gray-900">{s.title}</h3>
+                        <p className="mt-4 leading-relaxed text-gray-600">{s.text}</p>
+                        <ul className="mt-6 space-y-3">
+                          {s.details.map((d, j) => (
+                            <li key={j} className="flex gap-3 text-sm text-gray-600">
+                              <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              {d}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${imageIndex % 2 === 1 ? "md:order-1" : ""}`}>
+                        <Image src={s.image} alt={s.alt!} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+                      <h3 className="text-xl font-bold text-gray-900">{s.title}</h3>
+                      <p className="mt-4 leading-relaxed text-gray-600">{s.text}</p>
+                      <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                        {s.details.map((d, j) => (
+                          <li key={j} className="flex gap-3 text-sm text-gray-600">
+                            <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-atlantic-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            {d}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </AnimateOnScroll>
+              );
+            })}
           </div>
         </div>
       </section>

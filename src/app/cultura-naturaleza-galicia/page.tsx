@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -38,6 +39,8 @@ const experienciasCultura = [
       "Pazos señoriales con jardines de camelias",
       "Cascos históricos: Santiago, Lugo, Pontevedra, Ourense",
     ],
+    image: "/images/monforte-de-lemos.jpg",
+    imageAlt: "Monasterio de Monforte de Lemos, patrimonio monumental de Galicia",
   },
   {
     title: "Galicia celta y mística",
@@ -71,6 +74,8 @@ const experienciasNaturaleza = [
       "Soutos de castaños centenarios",
       "Rutas con guía naturalista especializado",
     ],
+    image: "/images/Fraga-da-Marronda-galicia-encantada.jpg",
+    imageAlt: "Fraga da Marronda, bosque mágico con puente de piedra y arroyo en Galicia",
   },
   {
     title: "Senderismo y rutas naturales",
@@ -163,9 +168,9 @@ export default function CulturaNaturalezaGalicia() {
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
-            {experienciasCultura.map((exp) => (
-              <AnimateOnScroll key={exp.title}>
-                <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+            {experienciasCultura.map((exp) => {
+              const cardContent = (
+                <>
                   <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
                   <p className="mt-4 leading-relaxed text-gray-600">{exp.text}</p>
                   <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -178,9 +183,23 @@ export default function CulturaNaturalezaGalicia() {
                       </li>
                     ))}
                   </ul>
-                </div>
-              </AnimateOnScroll>
-            ))}
+                </>
+              );
+              return (
+                <AnimateOnScroll key={exp.title}>
+                  <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+                    {"image" in exp ? (
+                      <div className="grid items-start gap-8 md:grid-cols-2">
+                        <div>{cardContent}</div>
+                        <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                          <Image src={exp.image as string} alt={exp.imageAlt as string} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                        </div>
+                      </div>
+                    ) : cardContent}
+                  </div>
+                </AnimateOnScroll>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -197,9 +216,9 @@ export default function CulturaNaturalezaGalicia() {
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
-            {experienciasNaturaleza.map((exp) => (
-              <AnimateOnScroll key={exp.title}>
-                <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+            {experienciasNaturaleza.map((exp) => {
+              const cardContent = (
+                <>
                   <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
                   <p className="mt-4 leading-relaxed text-gray-600">{exp.text}</p>
                   <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -212,9 +231,23 @@ export default function CulturaNaturalezaGalicia() {
                       </li>
                     ))}
                   </ul>
-                </div>
-              </AnimateOnScroll>
-            ))}
+                </>
+              );
+              return (
+                <AnimateOnScroll key={exp.title}>
+                  <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+                    {"image" in exp ? (
+                      <div className="grid items-start gap-8 md:grid-cols-2">
+                        <div>{cardContent}</div>
+                        <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                          <Image src={exp.image as string} alt={exp.imageAlt as string} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                        </div>
+                      </div>
+                    ) : cardContent}
+                  </div>
+                </AnimateOnScroll>
+              );
+            })}
           </div>
         </div>
       </section>

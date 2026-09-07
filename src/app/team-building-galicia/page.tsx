@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Team building en Galicia — Actividades de equipo en mar, naturaleza y gastronomía",
@@ -21,6 +22,8 @@ export const metadata: Metadata = {
 const categorias = [
   {
     title: "Team building náutico",
+    image: "/images/regata-teambuilding-galicia.jpg",
+    alt: "Regata de veleros en la ría durante actividad de team building en Galicia",
     intro: "El mar gallego es el escenario perfecto para actividades que combinan trabajo en equipo, adrenalina y un entorno natural impresionante. Las rías ofrecen aguas protegidas ideales para todo tipo de actividades náuticas, desde competiciones de alto nivel hasta experiencias relajadas en el agua.",
     actividades: [
       {
@@ -43,6 +46,8 @@ const categorias = [
   },
   {
     title: "Team building gastronómico",
+    image: "/images/Bodega_Regina-Viarum-teambuilding.jpg",
+    alt: "Bodega Regina Viarum en Ribeira Sacra, vista aérea sobre los viñedos en bancales",
     intro: "La gastronomía gallega es un argumento de venta por sí sola para cualquier evento de empresa. Transformamos los ingredientes y la tradición culinaria de Galicia en actividades competitivas, participativas y divertidas que unen a los equipos alrededor de una mesa.",
     actividades: [
       {
@@ -65,6 +70,8 @@ const categorias = [
   },
   {
     title: "Team building de aventura y naturaleza",
+    image: "/images/ideas-teambuilding.jpg",
+    alt: "Grupo haciendo actividad de aventura y rafting en equipo en Galicia",
     intro: "Galicia ofrece un entorno natural de una diversidad sorprendente: costa atlántica, bosques milenarios, ríos, montañas y paisajes que cambian en cada kilómetro. Actividades al aire libre que sacan a los equipos de su zona de confort y generan experiencias compartidas que refuerzan la cohesión.",
     actividades: [
       {
@@ -172,28 +179,45 @@ export default function TeamBuildingGalicia() {
       </section>
 
       {/* Categorías de actividades */}
-      {categorias.map((cat) => (
-        <section key={cat.title} className="section-padding odd:bg-gray-50">
-          <div className="mx-auto max-w-7xl">
-            <AnimateOnScroll>
-              <div className="mx-auto max-w-3xl text-center">
-                <h2 className="heading-section">{cat.title}</h2>
-                <p className="mt-4 text-lg text-gray-600">{cat.intro}</p>
-              </div>
-            </AnimateOnScroll>
-            <div className="mt-12 grid gap-8 sm:grid-cols-2">
-              {cat.actividades.map((act) => (
-                <AnimateOnScroll key={act.name}>
-                  <div className="card-elegant h-full">
-                    <h3 className="font-semibold text-gray-900">{act.name}</h3>
-                    <p className="mt-3 text-sm leading-relaxed text-gray-500">{act.text}</p>
+      {categorias.map((cat, catIdx) => {
+        const imageIndex = categorias.slice(0, catIdx).filter((c) => c.image).length;
+        return (
+          <section key={cat.title} className="section-padding odd:bg-gray-50">
+            <div className="mx-auto max-w-7xl">
+              {cat.image ? (
+                <AnimateOnScroll>
+                  <div className="grid items-start gap-8 md:grid-cols-2">
+                    <div className={imageIndex % 2 === 1 ? "md:order-2" : ""}>
+                      <h2 className="heading-section">{cat.title}</h2>
+                      <p className="mt-4 text-lg text-gray-600">{cat.intro}</p>
+                    </div>
+                    <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${imageIndex % 2 === 1 ? "md:order-1" : ""}`}>
+                      <Image src={cat.image} alt={cat.alt!} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                    </div>
                   </div>
                 </AnimateOnScroll>
-              ))}
+              ) : (
+                <AnimateOnScroll>
+                  <div className="mx-auto max-w-3xl text-center">
+                    <h2 className="heading-section">{cat.title}</h2>
+                    <p className="mt-4 text-lg text-gray-600">{cat.intro}</p>
+                  </div>
+                </AnimateOnScroll>
+              )}
+              <div className="mt-12 grid gap-8 sm:grid-cols-2">
+                {cat.actividades.map((act) => (
+                  <AnimateOnScroll key={act.name}>
+                    <div className="card-elegant h-full">
+                      <h3 className="font-semibold text-gray-900">{act.name}</h3>
+                      <p className="mt-3 text-sm leading-relaxed text-gray-500">{act.text}</p>
+                    </div>
+                  </AnimateOnScroll>
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
-      ))}
+          </section>
+        );
+      })}
 
       {/* Qué incluyen */}
       <section className="section-padding">

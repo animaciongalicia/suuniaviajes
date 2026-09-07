@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Galicia Premium — Experiencias exclusivas y viajes de lujo en Galicia",
@@ -21,6 +22,8 @@ export const metadata: Metadata = {
 const experiencias = [
   {
     title: "Alojamientos de lujo",
+    image: "/images/jardines-fachada-torre-do-rio-galicia.jpg",
+    alt: "Pazo de piedra con piscina y jardines en Galicia",
     text: "Pazos restaurados del siglo XVII con jardines de camelias, hoteles boutique frente al Atlántico, quintas vinícolas con bodega propia y las mejores suites de Galicia. No trabajamos con cadenas: seleccionamos alojamientos con personalidad, historia y un nivel de servicio que justifica cada noche.",
     details: [
       "Pazos señoriales con encanto e historia",
@@ -41,6 +44,8 @@ const experiencias = [
   },
   {
     title: "Experiencias privadas y exclusivas",
+    image: "/images/parador-baiona-top-premium.jpg",
+    alt: "Parador de Baiona, fortaleza medieval frente al mar en Galicia",
     text: "Lo que diferencia un viaje premium no es solo dónde duermes o dónde comes. Es acceder a experiencias que no están al alcance del turismo convencional. Navegación en velero privado al atardecer, catas en bodegas que no abren al público, visitas a pazos privados con sus propietarios, acceso a zonas restringidas de las Islas Atlánticas o un recorrido nocturno por la catedral de Santiago sin nadie más.",
     details: [
       "Navegación en velero privado por las rías",
@@ -121,19 +126,26 @@ export default function GaliciaPremium() {
 
       {/* Intro */}
       <section className="section-padding">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <h2 className="heading-section">Galicia como nunca la has vivido</h2>
-            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                Galicia tiene todo lo que un viajero exigente puede buscar: una gastronomía que compite con las mejores regiones del mundo, una costa atlántica de una belleza salvaje que no se encuentra en el Mediterráneo, un patrimonio cultural milenario y una autenticidad que los destinos más conocidos han perdido hace tiempo. Lo que le faltaba era alguien que supiera mostrar todo eso al nivel que merece.
-              </p>
-              <p>
-                Galicia Premium es nuestra línea de viajes para viajeros que buscan exclusividad, privacidad y experiencias que van más allá de lo convencional. No se trata solo de dormir en el mejor hotel o comer en el restaurante más caro: se trata de vivir Galicia desde dentro, con accesos que no están al alcance del turismo general y con la atención de un equipo que cuida cada detalle del viaje.
-              </p>
-              <p>
-                Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, conocemos a los mejores proveedores, los rincones más exclusivos y las personas que hacen posible experiencias irrepetibles. Cada programa premium se diseña desde cero combinando <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> con servicios de alta gama, y se puede integrar en una <Link href="/grandes-rutas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">gran ruta por Galicia</Link> de varios días.
-              </p>
+            <div className="grid items-start gap-8 md:grid-cols-2">
+              <div>
+                <h2 className="heading-section">Galicia como nunca la has vivido</h2>
+                <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    Galicia tiene todo lo que un viajero exigente puede buscar: una gastronomía que compite con las mejores regiones del mundo, una costa atlántica de una belleza salvaje que no se encuentra en el Mediterráneo, un patrimonio cultural milenario y una autenticidad que los destinos más conocidos han perdido hace tiempo. Lo que le faltaba era alguien que supiera mostrar todo eso al nivel que merece.
+                  </p>
+                  <p>
+                    Galicia Premium es nuestra línea de viajes para viajeros que buscan exclusividad, privacidad y experiencias que van más allá de lo convencional. No se trata solo de dormir en el mejor hotel o comer en el restaurante más caro: se trata de vivir Galicia desde dentro, con accesos que no están al alcance del turismo general y con la atención de un equipo que cuida cada detalle del viaje.
+                  </p>
+                  <p>
+                    Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, conocemos a los mejores proveedores, los rincones más exclusivos y las personas que hacen posible experiencias irrepetibles. Cada programa premium se diseña desde cero combinando <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> con servicios de alta gama, y se puede integrar en una <Link href="/grandes-rutas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">gran ruta por Galicia</Link> de varios días.
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/hotel-boutic-casa-breaatnik.jpg" alt="Hotel boutique ecléctico en Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
             </div>
           </AnimateOnScroll>
         </div>
@@ -151,24 +163,49 @@ export default function GaliciaPremium() {
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
-            {experiencias.map((exp) => (
-              <AnimateOnScroll key={exp.title}>
-                <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
-                  <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
-                  <p className="mt-4 leading-relaxed text-gray-600">{exp.text}</p>
-                  <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-                    {exp.details.map((d, j) => (
-                      <li key={j} className="flex gap-3 text-sm text-gray-600">
-                        <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        {d}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </AnimateOnScroll>
-            ))}
+            {experiencias.map((exp, i) => {
+              const imageIndex = experiencias.slice(0, i).filter((e) => e.image).length;
+              return (
+                <AnimateOnScroll key={exp.title}>
+                  {exp.image ? (
+                    <div className="grid items-start gap-8 md:grid-cols-2">
+                      <div className={imageIndex % 2 === 1 ? "md:order-2" : ""}>
+                        <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
+                        <p className="mt-4 leading-relaxed text-gray-600">{exp.text}</p>
+                        <ul className="mt-6 space-y-3">
+                          {exp.details.map((d, j) => (
+                            <li key={j} className="flex gap-3 text-sm text-gray-600">
+                              <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                              {d}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className={`relative h-64 overflow-hidden rounded-2xl md:h-80 ${imageIndex % 2 === 1 ? "md:order-1" : ""}`}>
+                        <Image src={exp.image} alt={exp.alt!} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+                      <h3 className="text-xl font-bold text-gray-900">{exp.title}</h3>
+                      <p className="mt-4 leading-relaxed text-gray-600">{exp.text}</p>
+                      <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                        {exp.details.map((d, j) => (
+                          <li key={j} className="flex gap-3 text-sm text-gray-600">
+                            <svg aria-hidden="true" className="mt-0.5 h-5 w-5 flex-shrink-0 text-gold-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            {d}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </AnimateOnScroll>
+              );
+            })}
           </div>
         </div>
       </section>

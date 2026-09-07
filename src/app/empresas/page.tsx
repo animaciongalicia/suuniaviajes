@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -50,16 +51,23 @@ export default function Empresas() {
 
       {/* Intro */}
       <section className="section-padding">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <h2 className="heading-section">Galicia, destino de empresa</h2>
-            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                Galicia ofrece todo lo que una empresa necesita para organizar un viaje de incentivos, un programa de team building o un evento corporativo: un destino diferente que sorprende, experiencias auténticas que conectan a los equipos, una gastronomía de primer nivel y una logística accesible con aeropuertos, hoteles y servicios de calidad.
-              </p>
-              <p>
-                En Suunia somos <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link> especializada en el segmento corporativo. Nos encargamos de todo: diseño del programa, <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y transporte</Link>, actividades, restaurantes, alojamiento y coordinación durante todo el evento. Un solo interlocutor para que la empresa solo tenga que disfrutar.
-              </p>
+            <div className="grid items-center gap-8 md:grid-cols-2">
+              <div>
+                <h2 className="heading-section">Galicia, destino de empresa</h2>
+                <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    Galicia ofrece todo lo que una empresa necesita para organizar un viaje de incentivos, un programa de team building o un evento corporativo: un destino diferente que sorprende, experiencias auténticas que conectan a los equipos, una gastronomía de primer nivel y una logística accesible con aeropuertos, hoteles y servicios de calidad.
+                  </p>
+                  <p>
+                    En Suunia somos <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link> especializada en el segmento corporativo. Nos encargamos de todo: diseño del programa, <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y transporte</Link>, actividades, restaurantes, alojamiento y coordinación durante todo el evento. Un solo interlocutor para que la empresa solo tenga que disfrutar.
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/sala-eventos-empresas.jpg" alt="Sala de reuniones y eventos corporativos en Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
             </div>
           </AnimateOnScroll>
         </div>
@@ -87,15 +95,31 @@ export default function Empresas() {
         </div>
       </section>
 
-      {/* Por qué Galicia */}
+      {/* Espacio de eventos */}
       <section className="section-padding">
         <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <h2 className="heading-section text-center">¿Por qué Galicia para tu empresa?</h2>
-            <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid items-center gap-8 md:grid-cols-2">
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/finca-montesqueiro-corporativo-presentacion.jpg" alt="Finca Montesqueiro, espacio de eventos corporativos de lujo en Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <div>
+                <h2 className="heading-section">¿Por qué Galicia para tu empresa?</h2>
+                <p className="mt-4 text-lg text-gray-600 leading-relaxed">
+                  Galicia no es el destino corporativo típico. Eso es precisamente lo que lo hace memorable: paisajes atlánticos, gastronomía excepcional y autenticidad sin turismo masivo. Un abanico de experiencias que permite diseñar programas equilibrados y diferentes cada vez.
+                </p>
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Por qué Galicia */}
+      <section className="section-padding bg-gray-50">
+        <div className="mx-auto max-w-7xl">
+          <AnimateOnScroll>
+            <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                { title: "Destino que sorprende", text: "Galicia no es el destino corporativo típico. Eso es precisamente lo que lo hace memorable: paisajes atlánticos, gastronomía excepcional y autenticidad sin turismo masivo." },
-                { title: "Variedad de experiencias", text: "Mar, montaña, gastronomía, cultura, aventura. Un abanico de actividades que permite diseñar programas equilibrados y diferentes cada vez." },
                 { title: "Logística accesible", text: "Aeropuertos en Santiago y Vigo con conexiones nacionales e internacionales. Distancias cortas entre puntos de interés. Buena red hotelera." },
                 { title: "Relación calidad-precio", text: "Experiencias de altísima calidad a precios más competitivos que Barcelona, Madrid, Baleares o destinos europeos equivalentes." },
                 { title: "Gastronomía como argumento", text: "Marisco, Albariño, pulpo, empanada, restaurantes con estrella Michelin. Las cenas corporativas en Galicia se recuerdan durante años." },

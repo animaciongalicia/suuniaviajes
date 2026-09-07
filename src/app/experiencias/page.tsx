@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -24,24 +25,32 @@ const categorias = [
     href: "/gastronomia-bodegas-galicia",
     description:
       "Catas de Albariño, visitas a bodegas de las Rías Baixas y Ribeira Sacra, mercados de abastos, marisquerías y talleres de cocina gallega.",
+    image: "/images/gastronomia-galicia.jpg",
+    alt: "Gastronomía gallega con mariscos, vinos y productos locales",
   },
   {
     title: "Náutica",
     href: "/nautica-galicia",
     description:
       "Navegación por las rías, paseos en velero, kayak, marisqueo, avistamiento de cetáceos y experiencias en el mar atlántico gallego.",
+    image: "/images/tours-islas-cies.jpg",
+    alt: "Islas Cíes con playas paradisíacas y aguas cristalinas del Atlántico",
   },
   {
     title: "Excursiones privadas",
     href: "/excursiones-privadas-galicia",
     description:
       "Rutas de medio día o jornada completa con guía privado. Santiago, Costa da Morte, Rías Baixas, Ribeira Sacra y más.",
+    image: "/images/viajes-grupos-cultura.jpg",
+    alt: "Excursión cultural por el patrimonio histórico de Galicia",
   },
   {
     title: "Cultura y naturaleza",
     href: "/cultura-naturaleza-galicia",
     description:
       "Patrimonio milenario, catedrales románicas, Camino de Santiago, parques naturales, bosques atlánticos y paisajes únicos.",
+    image: "/images/experiencias-galicia.jpg",
+    alt: "Naturaleza y cultura de Galicia con paisajes verdes y patrimonio histórico",
   },
 ];
 
@@ -74,17 +83,22 @@ export default function Experiencias() {
             <AnimateOnScroll key={cat.title}>
               <Link
                 href={cat.href}
-                className="card-elegant group block"
+                className="card-elegant group block overflow-hidden p-0"
               >
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
-                  {cat.title}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-gray-500">
-                  {cat.description}
-                </p>
-                <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
-                  Ver más &rarr;
-                </span>
+                <div className="relative h-48 overflow-hidden rounded-t-2xl">
+                  <Image src={cat.image} alt={cat.alt} fill className="object-cover transition-transform duration-300 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 33vw" />
+                </div>
+                <div className="p-8">
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
+                    {cat.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-gray-500">
+                    {cat.description}
+                  </p>
+                  <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
+                    Ver más &rarr;
+                  </span>
+                </div>
               </Link>
             </AnimateOnScroll>
           ))}

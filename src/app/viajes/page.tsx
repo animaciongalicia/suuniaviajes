@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -24,24 +25,32 @@ const categorias = [
     href: "/viajes-grupos-galicia",
     description:
       "Programas completos para grupos privados, asociaciones, colegios y colectivos. Transporte, alojamiento, actividades y guía incluidos.",
+    image: "/images/tours-rias-baixas.jpg",
+    alt: "Grupo de viajeros disfrutando de las Rías Baixas en Galicia",
   },
   {
     title: "Tours privados",
     href: "/tours-privados-galicia",
     description:
       "Experiencias personalizadas con guía local privado. Desde medio día hasta rutas de varios días adaptadas a tus intereses.",
+    image: "/images/tours-santiago.jpg",
+    alt: "Tour privado por Santiago de Compostela con guía local",
   },
   {
     title: "Grandes rutas por Galicia",
     href: "/grandes-rutas-galicia",
     description:
       "Itinerarios de varios días que recorren las zonas más representativas de Galicia: costa atlántica, interior, Camino de Santiago y Rías.",
+    image: "/images/tours-costa-da-morte.jpg",
+    alt: "Costa da Morte con acantilados y paisaje atlántico de Galicia",
   },
   {
     title: "Galicia Premium",
     href: "/galicia-premium",
     description:
       "Experiencias exclusivas para viajeros que buscan lo mejor de Galicia: alojamientos de lujo, gastronomía de autor y accesos privilegiados.",
+    image: "/images/tours-ribeira-sacra.jpg",
+    alt: "Ribeira Sacra con viñedos en terrazas y cañones del Sil",
   },
 ];
 
@@ -73,17 +82,22 @@ export default function Viajes() {
             <AnimateOnScroll key={cat.title}>
               <Link
                 href={cat.href}
-                className="card-elegant group block"
+                className="card-elegant group block overflow-hidden p-0"
               >
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
-                  {cat.title}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-gray-500">
-                  {cat.description}
-                </p>
-                <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
-                  Ver más &rarr;
-                </span>
+                <div className="relative h-48 overflow-hidden rounded-t-2xl">
+                  <Image src={cat.image} alt={cat.alt} fill className="object-cover transition-transform duration-300 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 33vw" />
+                </div>
+                <div className="p-8">
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-atlantic-700 transition-colors">
+                    {cat.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-gray-500">
+                    {cat.description}
+                  </p>
+                  <span className="mt-4 inline-block text-sm font-medium text-atlantic-700">
+                    Ver más &rarr;
+                  </span>
+                </div>
               </Link>
             </AnimateOnScroll>
           ))}

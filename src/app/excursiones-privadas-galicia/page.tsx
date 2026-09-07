@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -73,6 +74,8 @@ const excursiones = [
       "Ciudad vieja y plaza de María Pita",
       "Ruta de tapas por los barrios del centro",
     ],
+    image: "/images/coruña-cuerno-torre-hercules.jpg",
+    imageAlt: "Torre de Hércules en A Coruña, excursión privada",
   },
   {
     title: "Lugo y muralla romana",
@@ -84,6 +87,8 @@ const excursiones = [
       "Casco histórico y termas romanas",
       "Tapas en la Rúa Nova y el centro",
     ],
+    image: "/images/muralla-de-lugo-suunia.jpg",
+    imageAlt: "Muralla romana de Lugo, la única muralla romana íntegra del mundo",
   },
 ];
 
@@ -167,9 +172,9 @@ export default function ExcursionesPrivadasGalicia() {
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
-            {excursiones.map((exc) => (
-              <AnimateOnScroll key={exc.title}>
-                <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+            {excursiones.map((exc) => {
+              const cardContent = (
+                <>
                   <span className="text-xs font-semibold uppercase tracking-wider text-atlantic-600">
                     {exc.duration}
                   </span>
@@ -185,9 +190,23 @@ export default function ExcursionesPrivadasGalicia() {
                       </li>
                     ))}
                   </ul>
-                </div>
-              </AnimateOnScroll>
-            ))}
+                </>
+              );
+              return (
+                <AnimateOnScroll key={exc.title}>
+                  <div className="overflow-hidden rounded-2xl border border-gray-100 bg-white p-8 shadow-sm md:p-10">
+                    {"image" in exc ? (
+                      <div className="grid items-start gap-8 md:grid-cols-2">
+                        <div>{cardContent}</div>
+                        <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                          <Image src={exc.image as string} alt={exc.imageAlt as string} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                        </div>
+                      </div>
+                    ) : cardContent}
+                  </div>
+                </AnimateOnScroll>
+              );
+            })}
           </div>
         </div>
       </section>

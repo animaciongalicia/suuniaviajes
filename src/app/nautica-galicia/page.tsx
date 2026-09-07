@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -157,16 +158,27 @@ export default function NauticaGalicia() {
 
       {/* Intro */}
       <section className="section-padding">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <h2 className="heading-section">Galicia desde el mar</h2>
-            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                Las rías gallegas son uno de los mejores escenarios de navegación de Europa: aguas protegidas entre montañas que caen al mar, pueblos marineros con puertos donde amarrar y cenar marisco a pie de muelle, islas declaradas Parque Nacional con playas desiertas de arena blanca, y una costa que cambia de carácter cada pocas millas. Navegar por Galicia es descubrir un destino que desde tierra solo se intuye.
-              </p>
-              <p>
-                En Suunia organizamos experiencias náuticas premium para quienes quieren conocer Galicia de la forma más exclusiva: a bordo de un velero o un yate, parando en los mejores restaurantes y marisquerías de cada ría, fondeando en calas a las que solo se llega por mar y visitando pueblos, bodegas y mercados en cada escala. No es solo navegación: es una forma de viajar por Galicia donde el barco es tu hotel, tu medio de transporte y tu mirador privado.
-              </p>
+            <div className="grid items-center gap-8 md:grid-cols-2">
+              <div>
+                <h2 className="heading-section">Galicia desde el mar</h2>
+                <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    Las rías gallegas son uno de los mejores escenarios de navegación de Europa: aguas protegidas entre montañas que caen al mar, pueblos marineros con puertos donde amarrar y cenar marisco a pie de muelle, islas declaradas Parque Nacional con playas desiertas de arena blanca, y una costa que cambia de carácter cada pocas millas. Navegar por Galicia es descubrir un destino que desde tierra solo se intuye.
+                  </p>
+                  <p>
+                    En Suunia organizamos experiencias náuticas premium para quienes quieren conocer Galicia de la forma más exclusiva: a bordo de un velero o un yate, parando en los mejores restaurantes y marisquerías de cada ría, fondeando en calas a las que solo se llega por mar y visitando pueblos, bodegas y mercados en cada escala. No es solo navegación: es una forma de viajar por Galicia donde el barco es tu hotel, tu medio de transporte y tu mirador privado.
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/regata-teambuilding-galicia.jpg" alt="Regata de veleros navegando en las rías gallegas" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+            </div>
+          </AnimateOnScroll>
+          <AnimateOnScroll>
+            <div className="mx-auto mt-10 max-w-4xl space-y-6 text-gray-600 leading-relaxed">
               <p>
                 Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, conocemos cada ría, cada puerto, cada restaurante costero que merece una parada. Seleccionamos las mejores embarcaciones con tripulación profesional y diseñamos rutas que combinan la navegación con lo mejor de cada zona: <Link href="/gastronomia-bodegas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">gastronomía y bodegas</Link>, <Link href="/cultura-naturaleza-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">cultura y naturaleza</Link>, y todo lo que convierte un chárter en Galicia en algo que no se puede vivir en ningún otro lugar. Se puede integrar en una <Link href="/grandes-rutas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">gran ruta por Galicia</Link> o en un programa <Link href="/galicia-premium" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">Galicia Premium</Link>.
               </p>

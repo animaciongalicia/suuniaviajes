@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
@@ -136,19 +137,45 @@ export default function GrandesRutasGalicia() {
 
       {/* Intro */}
       <section className="section-padding">
-        <div className="mx-auto max-w-4xl">
+        <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <h2 className="heading-section">Galicia merece más de un día</h2>
-            <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                Galicia no es un destino que se pueda entender en una visita rápida. Su costa tiene más de 1.600 kilómetros de acantilados, playas y rías. Su interior esconde cañones fluviales, bosques milenarios y viñedos imposibles. Su patrimonio abarca desde la catedral de Santiago hasta castros celtas de 2.000 años. Y su gastronomía es, por sí sola, motivo suficiente para un viaje de una semana.
-              </p>
-              <p>
-                Las grandes rutas son programas de varios días diseñados para recorrer Galicia con calma, sin prisas, descubriendo cada zona con la profundidad que merece. No son circuitos turísticos al uso: son itinerarios creados a medida por un equipo local que conoce cada pueblo, cada restaurante y cada mirador que vale la pena.
-              </p>
-              <p>
-                Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, nos encargamos de toda la organización: alojamiento, transporte privado, restaurantes, guías, actividades y logística. Cada ruta se puede disfrutar como <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tour privado</Link> para parejas y familias, o como programa para <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">grupos</Link> de cualquier tamaño. También diseñamos rutas en formato <Link href="/galicia-premium" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">Galicia Premium</Link> con alojamientos de lujo y experiencias exclusivas.
-              </p>
+            <div className="grid items-start gap-8 md:grid-cols-2">
+              <div>
+                <h2 className="heading-section">Galicia merece más de un día</h2>
+                <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
+                  <p>
+                    Galicia no es un destino que se pueda entender en una visita rápida. Su costa tiene más de 1.600 kilómetros de acantilados, playas y rías. Su interior esconde cañones fluviales, bosques milenarios y viñedos imposibles. Su patrimonio abarca desde la catedral de Santiago hasta castros celtas de 2.000 años. Y su gastronomía es, por sí sola, motivo suficiente para un viaje de una semana.
+                  </p>
+                  <p>
+                    Las grandes rutas son programas de varios días diseñados para recorrer Galicia con calma, sin prisas, descubriendo cada zona con la profundidad que merece. No son circuitos turísticos al uso: son itinerarios creados a medida por un equipo local que conoce cada pueblo, cada restaurante y cada mirador que vale la pena.
+                  </p>
+                  <p>
+                    Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, nos encargamos de toda la organización: alojamiento, transporte privado, restaurantes, guías, actividades y logística. Cada ruta se puede disfrutar como <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tour privado</Link> para parejas y familias, o como programa para <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">grupos</Link> de cualquier tamaño. También diseñamos rutas en formato <Link href="/galicia-premium" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">Galicia Premium</Link> con alojamientos de lujo y experiencias exclusivas.
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/rutas-galicia-alojamientos.jpg" alt="Alojamientos rurales en las grandes rutas de Galicia" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Imagen rutas */}
+      <section className="section-padding bg-gray-50">
+        <div className="mx-auto max-w-7xl">
+          <AnimateOnScroll>
+            <div className="grid items-start gap-8 md:grid-cols-2">
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80 md:order-1">
+                <Image src="/images/hotel-balares.jpg" alt="Hotel Balarés en la Costa da Morte, parada en la ruta" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <div className="md:order-2">
+                <h2 className="heading-section">Alojamientos con encanto en cada etapa</h2>
+                <p className="mt-6 text-gray-600 leading-relaxed">
+                  Cada noche de la ruta es una experiencia en sí misma. Seleccionamos hoteles boutique, pazos rehabilitados, casas rurales de diseño y paradores históricos que complementan el viaje. No son solo sitios donde dormir: son parte del itinerario, elegidos por su ubicación, su carácter y su relación con el territorio.
+                </p>
+              </div>
             </div>
           </AnimateOnScroll>
         </div>

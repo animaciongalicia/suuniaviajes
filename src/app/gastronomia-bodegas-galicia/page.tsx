@@ -214,15 +214,20 @@ export default function GastronomiaBodegasGalicia() {
         </div>
       </section>
 
-      {/* Denominaciones de origen */}
+      {/* Imagen vendimia */}
       <section className="section-padding">
         <div className="mx-auto max-w-7xl">
           <AnimateOnScroll>
-            <div className="mx-auto max-w-3xl text-center">
-              <h2 className="heading-section">Bodegas por denominación de origen</h2>
-              <p className="mt-4 text-lg text-gray-600">
-                Cinco denominaciones de origen, cinco mundos vinícolas diferentes. Visitas privadas a bodegas de referencia con cata guiada por el enólogo.
-              </p>
+            <div className="grid items-start gap-8 md:grid-cols-2">
+              <div className="relative h-64 overflow-hidden rounded-2xl md:h-80">
+                <Image src="/images/vendimia-ribeira-sacra.jpg" alt="Vendimia en la Ribeira Sacra, experiencia enológica" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <div>
+                <h2 className="heading-section">Bodegas por denominación de origen</h2>
+                <p className="mt-4 text-lg text-gray-600">
+                  Cinco denominaciones de origen, cinco mundos vinícolas diferentes. Visitas privadas a bodegas de referencia con cata guiada por el enólogo.
+                </p>
+              </div>
             </div>
           </AnimateOnScroll>
           <div className="mt-14 space-y-12">
@@ -277,6 +282,17 @@ export default function GastronomiaBodegasGalicia() {
               </AnimateOnScroll>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Imagen bodegas otoño */}
+      <section className="px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <AnimateOnScroll>
+            <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl">
+              <Image src="/images/galicia-bodegas-oto%C3%B1o.jpg" alt="Bodegas de Galicia en otoño entre viñedos" fill className="object-cover" sizes="(max-width: 1280px) 100vw, 1280px" />
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
