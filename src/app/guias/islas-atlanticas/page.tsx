@@ -16,7 +16,12 @@ export const metadata: Metadata = {
       "Todo lo que necesitas saber para visitar las Islas Cíes, Ons, Sálvora y Cortegada: permisos, ferris, playas, rutas y consejos prácticos de un equipo local.",
     url: "https://suunia.com/guias/islas-atlanticas",
     images: [
-      { url: "/images/tours-islas-cies.jpg", width: 1200, height: 630 },
+      {
+        url: "/images/tours-islas-cies.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Playa de Rodas en las Islas Cíes con aguas turquesas, Parque Nacional de las Islas Atlánticas",
+      },
     ],
   },
 };

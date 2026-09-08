@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "De Malpica a Fisterra: acantilados, faros, playas salvajes y pueblos marineros. La guía definitiva para recorrer la Costa da Morte.",
     url: "https://suunia.com/guias/costa-da-morte",
-    images: [{ url: "/images/faro-de-Finisterre-1.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/faro-de-Finisterre-1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Faro de Fisterra al atardecer sobre los acantilados de la Costa da Morte en Galicia",
+      },
+    ],
   },
 };
 

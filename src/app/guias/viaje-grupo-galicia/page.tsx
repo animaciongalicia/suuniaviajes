@@ -17,7 +17,12 @@ export const metadata: Metadata = {
       "Logística, transporte, alojamientos, restaurantes y actividades para grupos. La guía práctica definitiva para organizar un viaje de grupo a Galicia.",
     url: "https://suunia.com/guias/viaje-grupo-galicia",
     images: [
-      { url: "/images/viajes-grupos-hero.jpg", width: 1200, height: 630 },
+      {
+        url: "/images/viajes-grupos-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Grupo de viajeros recorriendo Galicia, guía práctica para organizar un viaje en grupo",
+      },
     ],
   },
 };

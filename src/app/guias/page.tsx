@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "Todo lo que necesitas saber para viajar a Galicia: rutas, destinos, gastronomía y experiencias recomendadas por locales.",
     url: "https://suunia.com/guias",
-    images: [{ url: "/images/hero-galicia.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/hero-galicia.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Paisaje de Galicia con costa atlántica y vegetación verde, guías de viaje escritas por locales",
+      },
+    ],
   },
 };
 

@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "Cañones del Sil, viñedos heroicos, monasterios y la zona vinícola más espectacular de Europa. Guía completa.",
     url: "https://suunia.com/guias/ribeira-sacra",
-    images: [{ url: "/images/Ribeira-Sacra-Mundiplus.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/Ribeira-Sacra-Mundiplus.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Cañones del río Sil con viñedos en bancales en la Ribeira Sacra, Galicia",
+      },
+    ],
   },
 };
 

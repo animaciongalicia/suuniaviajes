@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "Todo sobre las cinco denominaciones de origen del vino en Galicia: Albariño, Godello, Mencía, Treixadura, bodegas que visitar y rutas del vino.",
     url: "https://suunia.com/guias/vinos-denominaciones-origen-galicia",
-    images: [{ url: "/images/tours-gastronomia.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/tours-gastronomia.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Copas de vino gallego y viñedos, guía de las denominaciones de origen de Galicia",
+      },
+    ],
   },
 };
 

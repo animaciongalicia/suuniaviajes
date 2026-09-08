@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "Todo lo que hay que ver, comer y hacer en Santiago de Compostela más allá del Camino: el casco histórico, el Mercado de Abastos, restaurantes, vida nocturna y excursiones.",
     url: "https://suunia.com/guias/santiago-de-compostela",
-    images: [{ url: "/images/tours-santiago.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/tours-santiago.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Catedral de Santiago de Compostela y su casco histórico visto desde la Praza do Obradoiro",
+      },
+    ],
   },
 };
 

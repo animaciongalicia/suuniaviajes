@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     description:
       "Todo lo que hay que saber para recorrer las Rías Baixas con criterio: pueblos, playas, bodegas, marisco y experiencias que no están en las guías turísticas.",
     url: "https://suunia.com/guias/rias-baixas",
-    images: [{ url: "/images/tours-rias-baixas.jpg", width: 1200, height: 630 }],
+    images: [
+      {
+        url: "/images/tours-rias-baixas.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Vista aérea de la Ría de Arousa con bateas de mejillones y pueblos marineros en las Rías Baixas",
+      },
+    ],
   },
 };
 

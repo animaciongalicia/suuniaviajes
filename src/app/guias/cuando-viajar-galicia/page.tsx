@@ -21,6 +21,7 @@ export const metadata: Metadata = {
         url: "/images/viajes-grupos-naturaleza.jpg",
         width: 1200,
         height: 630,
+        alt: "Naturaleza gallega en distintas estaciones, guía para elegir la mejor época para viajar a Galicia",
       },
     ],
   },
