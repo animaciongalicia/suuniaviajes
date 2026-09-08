@@ -27,9 +27,12 @@ export default function Footer() {
 
           {/* Col 2 — Empresas */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
+            <Link
+              href="/empresas"
+              className="text-sm font-semibold uppercase tracking-wider text-gray-900 transition-colors hover:text-atlantic-700"
+            >
               Empresas
-            </h3>
+            </Link>
             <ul className="mt-4 space-y-2.5">
               {[
                 { name: "Viajes de incentivos", href: "/incentivos-empresa-galicia" },
@@ -119,11 +122,6 @@ export default function Footer() {
                   info@suunia.com
                 </a>
               </li>
-              <li>
-                <a href="mailto:suuniaviajes@gmail.com" className="transition-colors hover:text-atlantic-700">
-                  suuniaviajes@gmail.com
-                </a>
-              </li>
               <li className="pt-1">A Coruña, Galicia, España</li>
             </ul>
             <a
@@ -140,8 +138,24 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-gray-200 pt-8 text-center text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Suunia. Todos los derechos reservados.</p>
+        <div className="mt-12 border-t border-gray-200 pt-8">
+          <div className="flex flex-col items-center gap-4 text-center text-xs text-gray-500">
+            <p>&copy; {new Date().getFullYear()} Suunia. Todos los derechos reservados.</p>
+            <p className="text-gray-400">
+              Inversiones SHISO SL &middot; CIF B70319223 &middot; Ronda de Montealto, 4 – 5ºA &middot; 15002 A Coruña
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link href="/aviso-legal" className="text-gray-400 transition-colors hover:text-atlantic-700">
+                Aviso legal
+              </Link>
+              <Link href="/politica-privacidad" className="text-gray-400 transition-colors hover:text-atlantic-700">
+                Política de privacidad
+              </Link>
+              <Link href="/politica-cookies" className="text-gray-400 transition-colors hover:text-atlantic-700">
+                Política de cookies
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

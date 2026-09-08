@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Náutica en Galicia — Yates, veleros y rutas de navegación por las rías",
+  title: "Náutica en Galicia — Yates, veleros y navegación",
   description:
     "Descubre Galicia navegando: alquiler de yates y veleros premium, rutas de fin de semana por las rías, travesías a las Islas Atlánticas y chárter de lujo de una semana. Organizado por Suunia.",
   alternates: { canonical: "https://suunia.com/nautica-galicia" },

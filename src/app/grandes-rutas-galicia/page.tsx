@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Grandes rutas por Galicia — Itinerarios de varios días a medida",
+  title: "Grandes rutas por Galicia — Itinerarios a medida",
   description:
     "Grandes rutas organizadas por Galicia: itinerarios de varios días recorriendo costa atlántica, Rías Baixas, Ribeira Sacra, Camino de Santiago y más. Organizados por Suunia, tu agencia receptiva local.",
   alternates: { canonical: "https://suunia.com/grandes-rutas-galicia" },

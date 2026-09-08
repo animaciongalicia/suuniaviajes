@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Empresas en Galicia — Incentivos, team building y eventos corporativos",
+  title: "Empresas en Galicia — Incentivos y eventos",
   description:
     "Servicios para empresas en Galicia: viajes de incentivos, team building, eventos corporativos y experiencias de grupo. Organizados por Suunia, agencia receptiva local.",
   alternates: { canonical: "https://suunia.com/empresas" },

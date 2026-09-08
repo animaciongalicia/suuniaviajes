@@ -6,7 +6,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Team building en Galicia — Actividades de equipo en mar, naturaleza y gastronomía",
+  title: "Team building en Galicia — Actividades de equipo",
   description:
     "Actividades de team building en Galicia: regatas, kayak, talleres de cocina, marisqueo, gymkanas, rutas de aventura y experiencias en la naturaleza atlántica. Organizadas por Suunia.",
   alternates: { canonical: "https://suunia.com/team-building-galicia" },

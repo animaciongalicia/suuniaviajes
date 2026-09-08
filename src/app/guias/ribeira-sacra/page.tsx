@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Ribeira Sacra — Viñedos, cañones del Sil y monasterios románicos",
+  title: "Ribeira Sacra — Viñedos, cañones y monasterios",
   description:
     "Guía completa de la Ribeira Sacra: cañones del Sil, viñedos en bancales, bodegas de Mencía, monasterios románicos, catamarán y dónde comer. Escrita por locales.",
   alternates: { canonical: "https://suunia.com/guias/ribeira-sacra" },

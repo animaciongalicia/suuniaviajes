@@ -288,7 +288,7 @@ export default function GuiaViajeGrupo() {
               sizes="(max-width: 896px) 100vw, 896px"
             />
           </div>
-          <p className="mt-3 text-center text-sm text-gray-400">
+          <p className="mt-3 text-center text-sm text-gray-500">
             Excursiones náuticas como la visita al Islote de Areoso funcionan
             muy bien en grupos.
           </p>

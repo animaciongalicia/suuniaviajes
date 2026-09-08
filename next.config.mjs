@@ -465,11 +465,11 @@ const nextConfig = {
       // WordPress search
       { source: "/search/:path*", destination: "/", permanent: true },
 
-      // WordPress sample page and privacy
+      // WordPress sample page
       { source: "/sample-page", destination: "/", permanent: true },
-      { source: "/politica-de-privacidad", destination: "/", permanent: false },
-      { source: "/politica-de-cookies", destination: "/", permanent: false },
-      { source: "/aviso-legal", destination: "/", permanent: false },
+      // Redirect old WordPress legal slugs to new pages
+      { source: "/politica-de-privacidad", destination: "/politica-privacidad", permanent: true },
+      { source: "/politica-de-cookies", destination: "/politica-cookies", permanent: true },
     ];
   },
 };

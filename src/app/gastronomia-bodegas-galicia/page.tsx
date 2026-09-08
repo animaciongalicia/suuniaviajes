@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Gastronomía y bodegas en Galicia — Estrellas Michelin, bodegas premium y templos del producto",
+  title: "Gastronomía y bodegas en Galicia — Suunia DMC",
   description:
     "Recorre Galicia a través de su gastronomía: restaurantes con estrella Michelin, templos del producto, bodegas premium por denominación de origen, lonjas, marisquerías y experiencias culinarias de lujo.",
   alternates: { canonical: "https://suunia.com/gastronomia-bodegas-galicia" },

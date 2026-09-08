@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Cultura y naturaleza en Galicia — Patrimonio, paisajes y rutas",
+  title: "Cultura y naturaleza en Galicia — Patrimonio",
   description:
     "Experiencias culturales y de naturaleza en Galicia: Camino de Santiago, catedrales románicas, pazos, parques naturales, bosques atlánticos y paisajes únicos.",
   alternates: { canonical: "https://suunia.com/cultura-naturaleza-galicia" },

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroPage from "@/components/HeroPage";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
@@ -173,10 +174,12 @@ export default function Guias() {
               <Link href={guia.href} className="group">
                 <article className="h-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-shadow hover:shadow-md">
                   <div className="relative h-48 overflow-hidden">
-                    <img
+                    <Image
                       src={guia.imagen}
                       alt={guia.alt}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-atlantic-700 backdrop-blur-sm">
                       {guia.categoria}

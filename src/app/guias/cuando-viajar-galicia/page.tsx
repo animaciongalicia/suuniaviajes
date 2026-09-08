@@ -336,7 +336,7 @@ export default function GuiaCuandoViajar() {
               sizes="(max-width: 896px) 100vw, 896px"
             />
           </div>
-          <p className="mt-3 text-center text-sm text-gray-400">
+          <p className="mt-3 text-center text-sm text-gray-500">
             Los bosques atlánticos de Galicia alcanzan su máximo esplendor en
             primavera y otoño.
           </p>

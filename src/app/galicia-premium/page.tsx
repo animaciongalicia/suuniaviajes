@@ -6,7 +6,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Galicia Premium — Experiencias exclusivas y viajes de lujo en Galicia",
+  title: "Galicia Premium — Viajes de lujo exclusivos",
   description:
     "Viajes premium en Galicia: alojamientos de lujo, gastronomía de autor, experiencias privadas y accesos exclusivos. Organizados por Suunia, tu agencia receptiva local.",
   alternates: { canonical: "https://suunia.com/galicia-premium" },

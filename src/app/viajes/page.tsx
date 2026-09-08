@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Viajes organizados en Galicia — Grupos, rutas y experiencias a medida",
+  title: "Viajes organizados en Galicia — Grupos y rutas",
   description:
     "Organizamos viajes a medida en Galicia: grupos, tours privados, grandes rutas y experiencias premium. Tu agencia receptiva local con cobertura en toda Galicia.",
   alternates: { canonical: "https://suunia.com/viajes" },

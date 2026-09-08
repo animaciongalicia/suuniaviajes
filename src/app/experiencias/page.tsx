@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Experiencias en Galicia — Gastronomía, náutica, cultura y naturaleza",
+  title: "Experiencias en Galicia — Gastronomía y más",
   description:
     "Experiencias únicas en Galicia: gastronomía y bodegas, actividades náuticas, excursiones privadas, cultura y naturaleza. Organizadas por Suunia, tu agencia receptiva local.",
   alternates: { canonical: "https://suunia.com/experiencias" },

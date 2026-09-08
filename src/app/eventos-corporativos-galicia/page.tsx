@@ -6,7 +6,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Eventos corporativos en Galicia — Congresos, convenciones y programas de empresa",
+  title: "Eventos corporativos en Galicia — Suunia DMC",
   description:
     "Organización de eventos corporativos en Galicia: congresos, convenciones, jornadas para directivos, programas de acompañantes, cenas de gala y experiencias para empleados. Suunia, agencia receptiva.",
   alternates: { canonical: "https://suunia.com/eventos-corporativos-galicia" },

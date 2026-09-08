@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Costa da Morte — Ruta completa de 2-3 días por la costa más salvaje de Galicia",
+  title: "Costa da Morte — Ruta completa por la costa salvaje",
   description:
     "Guía completa de la Costa da Morte: Malpica, Camariñas, Muxía, Fisterra, faros, acantilados, playas salvajes y dónde comer. Ruta de 2-3 días escrita por locales.",
   alternates: { canonical: "https://suunia.com/guias/costa-da-morte" },
