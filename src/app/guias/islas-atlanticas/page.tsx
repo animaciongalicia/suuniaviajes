@@ -651,9 +651,21 @@ export default function GuiaIslasAtlanticas() {
                 >
                   tours privados por Galicia
                 </Link>{" "}
-                que combinan las islas con las Rías Baixas, bodegas de Albariño
-                y gastronomía local. Nos encargamos de todo para que tu grupo
-                solo tenga que disfrutar.
+                que combinan las islas con las{" "}
+                <Link
+                  href="/guias/rias-baixas"
+                  className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+                >
+                  Rías Baixas
+                </Link>
+                , bodegas de Albariño y gastronomía local. Consulta{" "}
+                <Link
+                  href="/guias/cuando-viajar-galicia"
+                  className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+                >
+                  cuándo es la mejor época para visitar las islas
+                </Link>
+                . Nos encargamos de todo para que tu grupo solo tenga que disfrutar.
               </p>
             </div>
           </AnimateOnScroll>

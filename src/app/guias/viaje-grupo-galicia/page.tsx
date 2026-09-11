@@ -474,6 +474,13 @@ export default function GuiaViajeGrupo() {
             >
               eventos corporativos
             </Link>
+            . Si aún no tienes fechas, consulta nuestra guía sobre{" "}
+            <Link
+              href="/guias/cuando-viajar-galicia"
+              className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+            >
+              cuándo es la mejor época para viajar a Galicia
+            </Link>
             . Cuéntanos qué necesitas y te hacemos una propuesta sin compromiso.
           </p>
           <a

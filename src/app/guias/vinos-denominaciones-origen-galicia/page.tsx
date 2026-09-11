@@ -434,6 +434,23 @@ export default function GuiaVinosGalicia() {
         description="Cuéntanos qué DOs te interesan y qué tipo de experiencia buscas. Te preparamos un itinerario enológico completo a medida. Sin compromiso."
       />
 
+      {/* Cross-links */}
+      <section className="bg-gray-50 py-12">
+        <div className="mx-auto max-w-4xl px-4 text-center">
+          <p className="text-gray-600">
+            Descubre también nuestra guía de{" "}
+            <Link href="/guias/restaurantes-michelin-galicia" className="text-primary-600 underline hover:text-primary-800">
+              restaurantes Michelin en Galicia
+            </Link>{" "}
+            y la{" "}
+            <Link href="/guias/ribeira-sacra" className="text-primary-600 underline hover:text-primary-800">
+              Ribeira Sacra
+            </Link>
+            , una de las regiones vinícolas más espectaculares de Europa.
+          </p>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="section-padding">
         <div className="mx-auto max-w-4xl">

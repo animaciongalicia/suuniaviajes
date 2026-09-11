@@ -211,7 +211,7 @@ export default function GuiaRiasBaixas() {
             <h2 className="heading-section">Gastronomía: qué comer y dónde</h2>
             <div className="mt-8 space-y-6 text-gray-600 leading-relaxed">
               <p>
-                Las Rías Baixas son, junto con la Costa da Morte, la zona de Galicia con mayor tradición marisquera. Los productos estrella son el marisco fresco de las rías — mejillón, berberechos, almejas, navajas, zamburiñas, vieiras y pulpo — y el vino Albariño, que es la uva blanca emblemática de la denominación de origen Rías Baixas.
+                Las Rías Baixas son, junto con <Link href="/guias/costa-da-morte" className="text-atlantic-700 underline">la Costa da Morte</Link>, la zona de Galicia con mayor tradición marisquera. Los productos estrella son el marisco fresco de las rías — mejillón, berberechos, almejas, navajas, zamburiñas, vieiras y pulpo — y el vino Albariño, que es la uva blanca emblemática de la <Link href="/guias/vinos-denominaciones-origen-galicia" className="text-atlantic-700 underline">denominación de origen Rías Baixas</Link>.
               </p>
               <p>
                 En O Grove encontrarás marisquerías especializadas donde el producto llega directamente de la lonja. En Cambados, los restaurantes del centro histórico trabajan con una materia prima excepcional. En Pontevedra, la zona de tapeo alrededor de la Praza da Leña es una de las mejores de Galicia. Y en toda la zona, cualquier restaurante con aspecto modesto pero lleno de locales a mediodía es probablemente una buena elección.

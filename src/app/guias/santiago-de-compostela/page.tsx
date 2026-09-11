@@ -428,7 +428,19 @@ export default function GuiaSantiago() {
                 <Link href="/grandes-rutas-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">
                   grandes rutas de varios días
                 </Link>{" "}
-                que combinan Santiago con las Rías Baixas, la Ribeira Sacra o la Costa da Morte, y experiencias{" "}
+                que combinan Santiago con las{" "}
+                <Link href="/guias/rias-baixas" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">
+                  Rías Baixas
+                </Link>
+                , la{" "}
+                <Link href="/guias/ribeira-sacra" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">
+                  Ribeira Sacra
+                </Link>{" "}
+                o la{" "}
+                <Link href="/guias/costa-da-morte" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">
+                  Costa da Morte
+                </Link>
+                , y experiencias{" "}
                 <Link href="/galicia-premium" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">
                   premium
                 </Link>{" "}

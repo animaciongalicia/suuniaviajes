@@ -479,7 +479,35 @@ export default function GuiaCuandoViajar() {
             >
               viajes de grupo
             </Link>{" "}
-            durante todo el año.
+            durante todo el año. Explora nuestras guías de destino para decidir qué zona te interesa más:{" "}
+            <Link
+              href="/guias/rias-baixas"
+              className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+            >
+              Rías Baixas
+            </Link>
+            ,{" "}
+            <Link
+              href="/guias/costa-da-morte"
+              className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+            >
+              Costa da Morte
+            </Link>
+            ,{" "}
+            <Link
+              href="/guias/ribeira-sacra"
+              className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+            >
+              Ribeira Sacra
+            </Link>{" "}
+            o las{" "}
+            <Link
+              href="/guias/islas-atlanticas"
+              className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600"
+            >
+              Islas Atlánticas
+            </Link>
+            .
           </p>
           <a
             href="https://wa.me/34678288284"
