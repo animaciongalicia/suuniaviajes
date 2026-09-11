@@ -110,7 +110,7 @@ export default function LogisticaServiciosGalicia() {
                     Detrás de cada <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de grupo</Link>, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
                   </p>
                   <p>
-                    En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos corporativos</Link>, cubrimos toda la operativa.
+                    Como DMC local, en Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> o <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos corporativos</Link>, cubrimos toda la operativa.
                   </p>
                   <p>
                     Si eres una agencia de viajes que necesita un <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">receptivo fiable en Galicia</Link>, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
@@ -310,11 +310,7 @@ export default function LogisticaServiciosGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Servicios logísticos para viajes y eventos en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Servicios logísticos en Galicia: transporte VIP, barcos con patrón, coordinación de proveedores, organización de actividades y soporte para agencias.",

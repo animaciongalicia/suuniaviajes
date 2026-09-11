@@ -324,11 +324,7 @@ export default function GrandesRutasGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Grandes rutas organizadas por Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Itinerarios de varios días por Galicia diseñados a medida: costa atlántica, Rías Baixas, Ribeira Sacra, Camino de Santiago. Transporte, alojamiento, guías y experiencias incluidos.",

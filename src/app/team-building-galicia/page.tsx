@@ -171,7 +171,7 @@ export default function TeamBuildingGalicia() {
                 En Suunia diseñamos actividades de team building conectadas con el territorio gallego: no son dinámicas genéricas, son experiencias que solo pueden hacerse aquí. Cada actividad se adapta al perfil del grupo, los objetivos de la empresa y el tono del evento — desde competiciones de alto nivel para equipos comerciales hasta experiencias relajadas para encuentros directivos.
               </p>
               <p>
-                Las actividades pueden funcionar de forma independiente o integrarse en un <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de incentivos</Link>, un <Link href="/eventos-corporativos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">evento corporativo</Link> o un programa de varios días. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, nos encargamos de todo: diseño de la actividad, monitores profesionales, material, transporte, catering y coordinación.
+                Las actividades pueden funcionar de forma independiente o integrarse en un <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viaje de incentivos</Link>, un <Link href="/eventos-corporativos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">evento corporativo</Link> o un programa de varios días. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">DMC local en Galicia</Link>, nos encargamos de todo: diseño de la actividad, monitores profesionales, material, transporte, catering y coordinación.
               </p>
             </div>
           </AnimateOnScroll>
@@ -292,11 +292,7 @@ export default function TeamBuildingGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Actividades de team building para empresas en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Team building en Galicia: regatas, kayak, talleres de cocina, marisqueo, gymkanas, rutas de aventura y experiencias culturales. Actividades conectadas con el mar, la gastronomía y la naturaleza atlántica.",

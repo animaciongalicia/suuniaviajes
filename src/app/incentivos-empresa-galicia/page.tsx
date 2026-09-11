@@ -99,7 +99,7 @@ export default function IncentivosEmpresaGalicia() {
                     En Suunia diseñamos programas de incentivos para empresas que van más allá del típico hotel con spa y cena de gala. Creamos experiencias auténticas que conectan al equipo con el territorio: navegar por las rías, cocinar en grupo con un chef local, competir en una regata de veleros, recorrer viñedos al atardecer o descubrir los secretos de Santiago de Compostela con nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados guiados</Link>.
                   </p>
                   <p>
-                    Cada programa se diseña a medida según los objetivos de la empresa, el perfil del grupo, el presupuesto y las fechas. No vendemos paquetes cerrados: construimos experiencias que tienen sentido para cada equipo. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, nos encargamos de absolutamente todo: desde la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y el transporte</Link> hasta el último detalle. Para grupos más grandes, consulta también nuestros <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes organizados para grupos</Link>.
+                    Cada programa se diseña a medida según los objetivos de la empresa, el perfil del grupo, el presupuesto y las fechas. No vendemos paquetes cerrados: construimos experiencias que tienen sentido para cada equipo. Como DMC (agencia receptiva) <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">especializada en Galicia</Link>, nos encargamos de absolutamente todo: desde la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística y el transporte</Link> hasta el último detalle. Para grupos más grandes, consulta también nuestros <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes organizados para grupos</Link>.
                   </p>
                 </div>
               </div>
@@ -319,11 +319,7 @@ export default function IncentivosEmpresaGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Viajes de incentivos para empresas en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Programas de incentivos, team building y experiencias corporativas en Galicia. Diseño a medida, coordinación completa y experiencias premium.",

@@ -385,11 +385,7 @@ export default function GastronomiaBodegasGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Experiencias gastronómicas premium y visitas a bodegas en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Rutas gastronómicas por restaurantes con estrella Michelin, visitas a bodegas premium por denominación de origen, templos del producto, cenas privadas con chef y experiencias culinarias de lujo en Galicia.",

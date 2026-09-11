@@ -318,11 +318,7 @@ export default function CulturaNaturalezaGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Experiencias culturales y de naturaleza en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Camino de Santiago, patrimonio románico, pazos, castros celtas, parques naturales, bosques atlánticos, senderismo y observación de fauna en Galicia. Organizadas por una agencia receptiva local.",

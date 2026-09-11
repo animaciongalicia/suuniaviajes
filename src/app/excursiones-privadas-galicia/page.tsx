@@ -296,11 +296,7 @@ export default function ExcursionesPrivadasGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Excursiones privadas con guía local en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Excursiones privadas por Santiago, Costa da Morte, Rías Baixas, Ribeira Sacra, A Coruña y Lugo. Con guía local, transporte privado e itinerario a medida.",

@@ -121,11 +121,7 @@ export default function Experiencias() {
             description:
               "Experiencias únicas en Galicia: gastronomía y bodegas, actividades náuticas, excursiones privadas, cultura y naturaleza. Organizadas por Suunia.",
             url: "https://suunia.com/experiencias",
-            publisher: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            publisher: { "@id": "https://suunia.com/#organization" },
           }),
         }}
       />

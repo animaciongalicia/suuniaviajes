@@ -319,6 +319,37 @@ export default function GuiaRibeiraSacra() {
         </div>
       </section>
 
+      
+      {/* BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Inicio",
+                item: "https://suunia.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guías de viaje",
+                item: "https://suunia.com/guias",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Ribeira Sacra",
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -330,9 +361,11 @@ export default function GuiaRibeiraSacra() {
             description: "Guía completa de la Ribeira Sacra: cañones del Sil, viticultura heroica, bodegas de Mencía, monasterios románicos y consejos prácticos.",
             url: "https://suunia.com/guias/ribeira-sacra",
             image: "https://suunia.com/images/Ribeira-Sacra-Mundiplus.jpg",
-            author: { "@type": "Organization", name: "Suunia", url: "https://suunia.com" },
-            publisher: { "@type": "Organization", name: "Suunia", url: "https://suunia.com" },
+            author: { "@id": "https://suunia.com/#organization" },
+            publisher: { "@id": "https://suunia.com/#organization" },
             mainEntityOfPage: "https://suunia.com/guias/ribeira-sacra",
+            datePublished: "2026-09-02",
+            dateModified: "2026-09-11",
           }),
         }}
       />

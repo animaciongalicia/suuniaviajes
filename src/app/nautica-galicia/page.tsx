@@ -380,11 +380,7 @@ export default function NauticaGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Chárter náutico y rutas de navegación premium por Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Alquiler de yates y veleros premium en Galicia, rutas de navegación por las rías gallegas, travesías a las Islas Atlánticas y chárter de lujo de una semana con tripulación y gastronomía. Organizado por una agencia receptiva local.",

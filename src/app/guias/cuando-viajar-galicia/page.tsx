@@ -528,6 +528,37 @@ export default function GuiaCuandoViajar() {
         </div>
       </section>
 
+      
+      {/* BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Inicio",
+                item: "https://suunia.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guías de viaje",
+                item: "https://suunia.com/guias",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Cuándo viajar a Galicia",
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -541,11 +572,11 @@ export default function GuiaCuandoViajar() {
               description:
                 "Guía mes a mes para elegir la mejor época para viajar a Galicia según tus intereses.",
               url: "https://suunia.com/guias/cuando-viajar-galicia",
-              publisher: {
-                "@type": "Organization",
-                name: "Suunia",
-                url: "https://suunia.com",
-              },
+              author: { "@id": "https://suunia.com/#organization" },
+              publisher: { "@id": "https://suunia.com/#organization" },
+              mainEntityOfPage: "https://suunia.com/guias/cuando-viajar-galicia",
+              datePublished: "2026-09-02",
+              dateModified: "2026-09-11",
               image: "/images/viajes-grupos-naturaleza.jpg",
             },
             {

@@ -149,11 +149,7 @@ export default function Empresas() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Servicios corporativos y eventos de empresa en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Viajes de incentivos, team building y eventos corporativos en Galicia. Diseño a medida y coordinación completa por una agencia receptiva local.",

@@ -120,11 +120,7 @@ export default function Viajes() {
             description:
               "Viajes a medida en Galicia: grupos, tours privados, grandes rutas y experiencias premium. Organizados por Suunia, tu agencia receptiva local.",
             url: "https://suunia.com/viajes",
-            publisher: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            publisher: { "@id": "https://suunia.com/#organization" },
           }),
         }}
       />

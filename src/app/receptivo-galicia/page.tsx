@@ -253,11 +253,7 @@ export default function ReceptivoGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Agencia receptiva (DMC) en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "DMC local en Galicia: diseño de programas a medida, coordinación de viajes, selección de proveedores, guías locales y soporte en destino para grupos, empresas y agencias.",

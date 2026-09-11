@@ -417,11 +417,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Agencia receptiva en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: {
               "@type": "Place",
               name: "Galicia, España",

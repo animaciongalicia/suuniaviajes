@@ -245,11 +245,7 @@ export default function Guias() {
             description:
               "Guías de viaje escritas por el equipo de Suunia: rutas, destinos, gastronomía y consejos para viajar a Galicia.",
             url: "https://suunia.com/guias",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
           }),
         }}
       />

@@ -119,7 +119,7 @@ export default function ViajesGruposGalicia() {
                 Organizar un viaje de grupo es complicado. Coordinar horarios, gustos, presupuestos y logística para varias personas multiplica las decisiones y los posibles problemas. ¿Dónde comer para 20 personas sin reservar con semanas de antelación? ¿Qué transporte funciona para un grupo de 40? ¿Cómo asegurar que el programa gusta a todos?
               </p>
               <p>
-                En Suunia nos encargamos de todo eso. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva en Galicia</Link>, diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística completa</Link> y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
+                En Suunia nos encargamos de todo eso. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">DMC y agencia receptiva en Galicia</Link>, diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">logística completa</Link> y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
               </p>
               <p>
                 Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Para grupos pequeños o parejas, nuestros <Link href="/tours-privados-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">tours privados</Link> son la opción ideal. Para empresas que buscan motivar equipos, ofrecemos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos corporativos</Link>. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
@@ -311,11 +311,7 @@ export default function ViajesGruposGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Viajes organizados para grupos en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Organización completa de viajes para grupos en Galicia: tours privados, rutas culturales, experiencias gastronómicas, actividades marítimas y escapadas personalizadas.",

@@ -1,0 +1,726 @@
+# Suunia – Contenido completo del sitio web
+
+> Este archivo contiene el contenido textual completo de las páginas principales de suunia.com, agencia receptiva (DMC) en Galicia especializada en viajes privados a medida.
+
+
+---
+
+# Agencia receptiva (DMC) en Galicia
+
+URL: https://suunia.com/receptivo-galicia
+
+## ¿Qué es una agencia receptiva y por qué la necesitas?
+
+## ¿Por qué Galicia es un destino ideal?
+
+## Servicios que ofrecemos como receptivo en Galicia
+
+## Ejemplos de programas
+
+## Preguntas frecuentes
+
+Cuando un grupo, una empresa o una agencia de viajes quiere organizar un viaje a Galicia, se enfrenta a un problema común: no conoce el terreno. No sabe qué hoteles ofrecen la mejor relación calidad-precio, qué restaurantes están a la altura, qué actividades funcionan para su tipo de grupo, ni cómo coordinar todo para que el programa fluya sin contratiempos.
+
+Ahí es donde entra una agencia receptiva como Suunia. Somos el socio local que se encarga de toda la operativa en destino. Diseñamos el programa, seleccionamos los proveedores, gestionamos las reservas, coordinamos el transporte, proporcionamos guías y resolvemos cualquier imprevisto sobre el terreno. Desde viajes para grupos hasta tours privados personalizados, el cliente solo tiene que llegar y disfrutar.
+
+Una DMC (Destination Management Company) no es una agencia de viajes convencional. No vendemos vuelos ni paquetes cerrados. Lo que ofrecemos es conocimiento profundo del destino, una red de proveedores de confianza y la capacidad operativa para que todo funcione. Gestionamos toda la logística y servicios en Galicia, y también organizamos viajes de incentivos para empresas. Galicia es nuestro territorio, y lo conocemos como la palma de nuestra mano.
+
+Galicia combina gastronomía de primer nivel, paisajes atlánticos, patrimonio milenario y autenticidad. Un destino completo para cualquier tipo de viaje.
+
+Estos son algunos de los programas que hemos diseñado para nuestros clientes. Todos se adaptan según las necesidades y preferencias de cada grupo.
+
+---
+
+# Viajes organizados para grupos
+
+URL: https://suunia.com/viajes-grupos-galicia
+
+## Viajes de grupo diseñados para disfrutar, no para preocuparse
+
+## Cómo organizamos tu viaje
+
+## Tipos de viajes para grupos
+
+## ¿Qué incluyen nuestros viajes de grupo?
+
+## Preguntas frecuentes sobre viajes de grupo en Galicia
+
+Organizar un viaje de grupo es complicado. Coordinar horarios, gustos, presupuestos y logística para varias personas multiplica las decisiones y los posibles problemas. ¿Dónde comer para 20 personas sin reservar con semanas de antelación? ¿Qué transporte funciona para un grupo de 40? ¿Cómo asegurar que el programa gusta a todos?
+
+En Suunia nos encargamos de todo eso. Como agencia receptiva en Galicia, diseñamos el programa según las preferencias del grupo, reservamos todos los servicios, coordinamos la logística completa y proporcionamos soporte durante el viaje. Nuestro trabajo es que el grupo solo tenga que preocuparse de una cosa: disfrutar de Galicia.
+
+Trabajamos con grupos de cualquier tamaño: desde 8-10 personas hasta más de 100. Para grupos pequeños o parejas, nuestros tours privados son la opción ideal. Para empresas que buscan motivar equipos, ofrecemos viajes de incentivos corporativos. Atendemos a grupos de amigos, familias, asociaciones, clubes, colegios profesionales y cualquier colectivo que quiera vivir una experiencia de calidad en Galicia con la tranquilidad de tener todo organizado por profesionales locales.
+
+Un proceso claro y profesional para que desde el primer contacto hasta el último día todo fluya.
+
+Cada grupo es diferente. Por eso ofrecemos distintos tipos de experiencias que se pueden combinar en un programa único.
+
+ ))} ))} ¿Qué incluyen nuestros viajes de grupo? ))} Preguntas frecuentes sobre viajes de grupo en Galicia , , , , , , ].map((faq, i) => ( 
+
+---
+
+# Tours privados en Galicia
+
+URL: https://suunia.com/tours-privados-galicia
+
+## Experiencias personalizadas para descubrir Galicia de verdad
+
+## Nuestros tours destacados
+
+## Qué incluyen nuestros tours privados
+
+## Destinos que cubrimos en Galicia
+
+## Preguntas frecuentes sobre tours privados en Galicia
+
+Un tour privado no es simplemente un viaje con menos gente. Es la posibilidad de descubrir un destino a tu ritmo, según tus intereses, con alguien que conoce el terreno como la palma de su mano. En Suunia diseñamos cada experiencia desde cero, adaptándola a lo que realmente te motiva: gastronomía, naturaleza, patrimonio, vino, mar o una combinación de todo.
+
+Nuestros tours privados incluyen guía local profesional, transporte privado adaptado al grupo y un itinerario flexible que se puede ajustar sobre la marcha. No hay prisas, no hay autobuses turísticos y no hay visitas obligatorias a tiendas de souvenirs. Solo Galicia auténtica, contada por quienes la vivimos cada día.
+
+Trabajamos con parejas, familias, grupos de amigos y grupos reducidos de hasta 15-20 personas. Para grupos más grandes, nuestro servicio de viajes en grupo es la opción ideal. Para empresas que buscan premiar a sus equipos, organizamos viajes de incentivos. Como agencia receptiva local, cada tour se puede disfrutar como experiencia independiente o integrarse en un programa de varios días.
+
+Estas son algunas de las experiencias que más solicitan nuestros clientes. Todas se adaptan y personalizan según tus preferencias.
+
+Nuestros tours llegan a cualquier punto de Galicia. Estos son algunos de los destinos más solicitados.
+
+ ))} Preguntas frecuentes sobre tours privados en Galicia , , , , , , ].map((faq, i) => ( 
+
+---
+
+# Viajes de incentivos para empresas
+
+URL: https://suunia.com/incentivos-empresa-galicia
+
+## Galicia como destino de incentivos: mucho más que un viaje
+
+## ¿Por qué Galicia para un viaje de incentivos?
+
+## Actividades de team building en Galicia
+
+## Ejemplos de programas de incentivos
+
+## Eventos corporativos con MilEventosGalicia
+
+## Preguntas frecuentes sobre viajes de incentivos
+
+Un viaje de incentivos bien organizado es una de las herramientas más potentes para motivar equipos, premiar resultados y reforzar la cultura de empresa. Pero para que funcione de verdad, necesita un destino que sorprenda, una logística impecable y experiencias que dejen huella. Galicia ofrece todo eso.
+
+En Suunia diseñamos programas de incentivos para empresas que van más allá del típico hotel con spa y cena de gala. Creamos experiencias auténticas que conectan al equipo con el territorio: navegar por las rías, cocinar en grupo con un chef local, competir en una regata de veleros, recorrer viñedos al atardecer o descubrir los secretos de Santiago de Compostela con nuestros tours privados guiados.
+
+Cada programa se diseña a medida según los objetivos de la empresa, el perfil del grupo, el presupuesto y las fechas. No vendemos paquetes cerrados: construimos experiencias que tienen sentido para cada equipo. Como agencia receptiva en Galicia, nos encargamos de absolutamente todo: desde la logística y el transporte hasta el último detalle. Para grupos más grandes, consulta también nuestros viajes organizados para grupos.
+
+Experiencias diseñadas para fortalecer la cohesión de equipo en un entorno natural y estimulante.
+
+Estos programas son orientativos. Cada uno se adapta y personaliza según las necesidades de la empresa.
+
+Para eventos corporativos más complejos que incluyan producción, montaje, catering de gala, entretenimiento o escenografía, trabajamos con MilEventosGalicia, nuestra empresa partner especializada en la producción de eventos de empresa. Ellos se encargan de la parte de evento y nosotros de toda la logística de viaje, transporte y experiencias.
+
+Juntos cubrimos todo el espectro: desde un viaje de incentivos con cena de gala hasta una convención con jornadas de trabajo y actividades lúdicas. Una sola llamada para organizar todo.
+
+---
+
+# Servicios logísticos
+
+URL: https://suunia.com/logistica-servicios-galicia
+
+## Logística profesional en Galicia para viajes y eventos
+
+## Nuestros servicios logísticos
+
+## Nuestros partners logísticos
+
+## SeaGalicia
+
+## LuxeGalicia
+
+## Ventajas de trabajar con Suunia
+
+## Preguntas frecuentes sobre servicios logísticos
+
+Detrás de cada viaje de grupo, cada evento corporativo y cada experiencia turística hay una logística compleja que alguien tiene que gestionar. Transporte que funcione, proveedores que cumplan, reservas que estén confirmadas, permisos que estén tramitados y alguien en el terreno que resuelva lo que surja.
+
+En Suunia no solo diseñamos programas y experiencias: somos los que hacemos que todo funcione sobre el terreno. Nuestra red de proveedores seleccionados, nuestra capacidad operativa y nuestro conocimiento del territorio gallego nos permiten gestionar la logística de cualquier tipo de viaje o evento con la garantía de que todo saldrá según lo previsto. Ya sea para tours privados o programas de incentivos corporativos, cubrimos toda la operativa.
+
+Si eres una agencia de viajes que necesita un receptivo fiable en Galicia, una empresa que organiza un evento y necesita logística local, o un particular que quiere un viaje organizado sin preocupaciones, nuestros servicios logísticos cubren todas tus necesidades.
+
+ ))} ))} Nuestros partners logísticos Trabajamos con empresas especializadas en Galicia para ofrecer los mejores servicios en cada área.
+
+Nuestra empresa partner para experiencias náuticas. SeaGalicia dispone de una flota de veleros, catamaranes y lanchas con patrones profesionales que conocen cada rincón de las rías gallegas. Desde un paseo en velero para una pareja hasta una regata para 60 personas, SeaGalicia cubre cualquier necesidad náutica con profesionalidad y seguridad.
+
+Partner especializado en transporte premium en Galicia. LuxeGalicia ofrece vehículos de alta gama con conductores profesionales para traslados, servicios durante el viaje y rutas turísticas. Desde un traslado ejecutivo desde el aeropuerto hasta un servicio de autocar con guía para un grupo de 50 personas, LuxeGalicia garantiza puntualidad, confort y profesionalidad.
+
+---
+
+# Grandes rutas por Galicia
+
+URL: https://suunia.com/grandes-rutas-galicia
+
+## Galicia merece más de un día
+
+## Alojamientos con encanto en cada etapa
+
+## Nuestras rutas más solicitadas
+
+## Qué incluyen nuestras grandes rutas
+
+## Por qué hacer una gran ruta con Suunia
+
+## Preguntas frecuentes sobre grandes rutas
+
+Galicia no es un destino que se pueda entender en una visita rápida. Su costa tiene más de 1.600 kilómetros de acantilados, playas y rías. Su interior esconde cañones fluviales, bosques milenarios y viñedos imposibles. Su patrimonio abarca desde la catedral de Santiago hasta castros celtas de 2.000 años. Y su gastronomía es, por sí sola, motivo suficiente para un viaje de una semana.
+
+Las grandes rutas son programas de varios días diseñados para recorrer Galicia con calma, sin prisas, descubriendo cada zona con la profundidad que merece. No son circuitos turísticos al uso: son itinerarios creados a medida por un equipo local que conoce cada pueblo, cada restaurante y cada mirador que vale la pena.
+
+Como agencia receptiva en Galicia, nos encargamos de toda la organización: alojamiento, transporte privado, restaurantes, guías, actividades y logística. Cada ruta se puede disfrutar como tour privado para parejas y familias, o como programa para grupos de cualquier tamaño. También diseñamos rutas en formato Galicia Premium con alojamientos de lujo y experiencias exclusivas.
+
+Cada noche de la ruta es una experiencia en sí misma. Seleccionamos hoteles boutique, pazos rehabilitados, casas rurales de diseño y paradores históricos que complementan el viaje. No son solo sitios donde dormir: son parte del itinerario, elegidos por su ubicación, su carácter y su relación con el territorio.
+
+Estos itinerarios son propuestas base que adaptamos a cada grupo. Se pueden combinar, acortar, ampliar o modificar completamente.
+
+ ))} Pedir presupuesto para esta ruta ))} Qué incluyen nuestras grandes rutas ))} Por qué hacer una gran ruta con Suunia , , , ].map((item) => ( 
+
+---
+
+# Galicia Premium
+
+URL: https://suunia.com/galicia-premium
+
+## Galicia como nunca la has vivido
+
+## Qué incluye una experiencia premium
+
+## Programas premium de referencia
+
+## Por qué elegir Galicia Premium con Suunia
+
+## Preguntas frecuentes sobre Galicia Premium
+
+Galicia tiene todo lo que un viajero exigente puede buscar: una gastronomía que compite con las mejores regiones del mundo, una costa atlántica de una belleza salvaje que no se encuentra en el Mediterráneo, un patrimonio cultural milenario y una autenticidad que los destinos más conocidos han perdido hace tiempo. Lo que le faltaba era alguien que supiera mostrar todo eso al nivel que merece.
+
+Galicia Premium es nuestra línea de viajes para viajeros que buscan exclusividad, privacidad y experiencias que van más allá de lo convencional. No se trata solo de dormir en el mejor hotel o comer en el restaurante más caro: se trata de vivir Galicia desde dentro, con accesos que no están al alcance del turismo general y con la atención de un equipo que cuida cada detalle del viaje.
+
+Como agencia receptiva local, conocemos a los mejores proveedores, los rincones más exclusivos y las personas que hacen posible experiencias irrepetibles. Cada programa premium se diseña desde cero combinando tours privados con servicios de alta gama, y se puede integrar en una gran ruta por Galicia de varios días.
+
+Cada elemento del viaje está seleccionado para ofrecer lo mejor de Galicia. Sin concesiones.
+
+ ))} )} ); })} Programas premium de referencia Estos programas son propuestas orientativas. Cada viaje premium se diseña desde cero según las preferencias del viajero.
+
+---
+
+# Gastronomía y bodegas
+
+URL: https://suunia.com/gastronomia-bodegas-galicia
+
+## Galicia, destino gastronómico de primer nivel
+
+## Experiencias gastronómicas premium
+
+## Bodegas por denominación de origen
+
+## Programas gastronómicos de referencia
+
+## Por qué vivir la gastronomía gallega con Suunia
+
+## Preguntas frecuentes sobre gastronomía en Galicia
+
+Galicia es uno de los destinos gastronómicos más potentes de Europa. Más de una decena de restaurantes con estrella Michelin, cinco denominaciones de origen vinícolas con personalidad propia, un producto del mar que no tiene equivalente en ningún otro lugar del mundo y una tradición culinaria que convive con la vanguardia de los chefs más creativos de España. Pero lo que hace que la gastronomía gallega sea realmente especial no se encuentra solo en los restaurantes de manteles blancos: está también en la pulpería de pueblo, en el furancho donde sirven el vino de la última cosecha, en la marisquería de puerto donde el percebe llegó hace una hora y en la bodega familiar donde el enólogo te abre una botella que no está a la venta.
+
+En Suunia organizamos experiencias gastronómicas premium para viajeros que quieren conocer Galicia a través de su cocina, sus vinos y su producto. No se trata de comer bien — en Galicia eso es fácil —, se trata de acceder a los restaurantes, las bodegas y los productores que marcan la diferencia. Reservas preferentes en estrellas Michelin, cenas privadas con chef, visitas a bodegas que no abren al público, acceso a lonjas al amanecer y rutas diseñadas para recorrer Galicia parando en los mejores sitios de cada zona.
+
+Como agencia receptiva local, conocemos personalmente a los chefs, los bodegueros y los productores. Cada experiencia se puede integrar en una gran ruta por Galicia, un programa Galicia Premium, un tour privado o combinarse con una ruta de navegación por las rías.
+
+Estrellas Michelin, templos del producto y experiencias exclusivas. La gastronomía gallega al más alto nivel.
+
+ ))} ))} Bodegas por denominación de origen Cinco denominaciones de origen, cinco mundos vinícolas diferentes. Visitas privadas a bodegas de referencia con cata guiada por el enólogo.
+
+Propuestas orientativas que se diseñan a medida según las preferencias del viajero.
+
+---
+
+# Náutica en Galicia
+
+URL: https://suunia.com/nautica-galicia
+
+## Galicia desde el mar
+
+## Rutas de navegación por Galicia
+
+## Embarcaciones disponibles
+
+## Las rías gallegas: tu ruta de navegación
+
+## Qué incluyen nuestros chárters
+
+## Por qué navegar con Suunia
+
+## Preguntas frecuentes sobre navegación en Galicia
+
+Las rías gallegas son uno de los mejores escenarios de navegación de Europa: aguas protegidas entre montañas que caen al mar, pueblos marineros con puertos donde amarrar y cenar marisco a pie de muelle, islas declaradas Parque Nacional con playas desiertas de arena blanca, y una costa que cambia de carácter cada pocas millas. Navegar por Galicia es descubrir un destino que desde tierra solo se intuye.
+
+En Suunia organizamos experiencias náuticas premium para quienes quieren conocer Galicia de la forma más exclusiva: a bordo de un velero o un yate, parando en los mejores restaurantes y marisquerías de cada ría, fondeando en calas a las que solo se llega por mar y visitando pueblos, bodegas y mercados en cada escala. No es solo navegación: es una forma de viajar por Galicia donde el barco es tu hotel, tu medio de transporte y tu mirador privado.
+
+Como agencia receptiva local, conocemos cada ría, cada puerto, cada restaurante costero que merece una parada. Seleccionamos las mejores embarcaciones con tripulación profesional y diseñamos rutas que combinan la navegación con lo mejor de cada zona: gastronomía y bodegas, cultura y naturaleza, y todo lo que convierte un chárter en Galicia en algo que no se puede vivir en ningún otro lugar. Se puede integrar en una gran ruta por Galicia o en un programa Galicia Premium.
+
+Desde una escapada de fin de semana hasta un chárter de lujo de una semana recorriendo toda la costa. Cada ruta se adapta al grupo.
+
+ ))} Solicitar presupuesto ))} Embarcaciones disponibles Seleccionamos la embarcación según el número de personas, el tipo de experiencia y las preferencias del grupo. Todas con patrón profesional.
+
+Cada ría tiene su personalidad, sus restaurantes y sus rincones que solo se descubren desde el agua. Te ayudamos a elegir la ruta perfecta.
+
+ ))} Por qué navegar con Suunia , , , ].map((item) => ( 
+
+---
+
+# Excursiones privadas
+
+URL: https://suunia.com/excursiones-privadas-galicia
+
+## Tu excursión, a tu ritmo
+
+## Excursiones destacadas
+
+## Qué incluyen nuestras excursiones privadas
+
+## Por qué elegir Suunia para tu excursión privada
+
+## Preguntas frecuentes sobre excursiones privadas
+
+Las excursiones privadas son la forma más flexible de conocer Galicia. Guía local que conoce la zona de verdad, transporte privado con conductor profesional y un recorrido diseñado según lo que os interese: patrimonio, gastronomía, naturaleza, fotografía o una combinación de todo. Sin prisas, sin horarios rígidos, sin compartir con otros grupos.
+
+Se pueden reservar como experiencia independiente o integrarlas en un viaje organizado más amplio. También las incluimos en programas de incentivos de empresa, viajes en grupo y grandes rutas por Galicia. Para quienes buscan un nivel de exclusividad superior, las excursiones privadas se pueden elevar a formato Galicia Premium.
+
+Como agencia receptiva local, nuestros guías no son intérpretes que leen un guion: son profesionales que viven en Galicia, conocen cada rincón y adaptan la visita en tiempo real según las preguntas, la curiosidad y el ritmo de cada grupo.
+
+Estas son las rutas más solicitadas. Todas se personalizan según las preferencias de cada grupo. También diseñamos excursiones a medida por cualquier zona de Galicia.
+
+ ))} ); return ( ) : cardContent} ); })} Qué incluyen nuestras excursiones privadas ))} Por qué elegir Suunia para tu excursión privada , , , ].map((item) => ( 
+
+---
+
+# Cultura y naturaleza
+
+URL: https://suunia.com/cultura-naturaleza-galicia
+
+## Galicia por descubrir
+
+## Experiencias culturales
+
+## Experiencias de naturaleza
+
+## Por qué descubrir cultura y naturaleza con Suunia
+
+## Preguntas frecuentes sobre cultura y naturaleza
+
+Más allá de la gastronomía y la costa, Galicia guarda un patrimonio cultural y natural de primer nivel europeo. Desde el Camino de Santiago — una de las rutas culturales más importantes del mundo — hasta bosques atlánticos que parecen de otro tiempo, pasando por catedrales románicas, pazos señoriales, castros celtas, parques naturales y paisajes que sorprenden por su diversidad. Todo en un territorio compacto donde en una misma jornada puedes visitar un monasterio del siglo XII y caminar por un bosque milenario.
+
+Integramos estas experiencias en viajes organizados por Galicia, excursiones privadas, grandes rutas de varios días y programas de incentivos para empresas. También como experiencias sueltas para quienes ya están en Galicia y quieren profundizar en un tema concreto.
+
+Como agencia receptiva local, trabajamos con guías especializados en historia, arqueología, naturaleza y patrimonio que conocen cada rincón y hacen que la visita sea algo completamente diferente a seguir una audioguía.
+
+Un patrimonio milenario que abarca desde la Galicia celta hasta las grandes catedrales románicas y el Camino de Santiago.
+
+ ))} ); return ( ) : cardContent} ); })} Experiencias de naturaleza Parques nacionales, bosques atlánticos, acantilados, cañones fluviales y una biodiversidad que sorprende en cada rincón.
+
+ ))} ); return ( ) : cardContent} ); })} Por qué descubrir cultura y naturaleza con Suunia , , , ].map((item) => ( 
+
+---
+
+# Team building
+
+URL: https://suunia.com/team-building-galicia
+
+## Team building que deja huella
+
+## Qué incluyen nuestras actividades de team building
+
+## Preguntas frecuentes sobre team building
+
+Un buen team building no es una dinámica de oficina trasladada a un hotel con vistas. Es una experiencia real, en un entorno que saca a los equipos de su zona de confort y les hace vivir algo juntos que recordarán durante años. Galicia ofrece ese escenario: un mar atlántico donde aprender a navegar en equipo, una gastronomía que convierte cocinar en una competición memorable, bosques milenarios donde orientarse juntos y una tradición cultural que inspira actividades creativas imposibles en otro lugar.
+
+En Suunia diseñamos actividades de team building conectadas con el territorio gallego: no son dinámicas genéricas, son experiencias que solo pueden hacerse aquí. Cada actividad se adapta al perfil del grupo, los objetivos de la empresa y el tono del evento — desde competiciones de alto nivel para equipos comerciales hasta experiencias relajadas para encuentros directivos.
+
+Las actividades pueden funcionar de forma independiente o integrarse en un viaje de incentivos, un evento corporativo o un programa de varios días. Como agencia receptiva local, nos encargamos de todo: diseño de la actividad, monitores profesionales, material, transporte, catering y coordinación.
+
+ ))} Preguntas frecuentes sobre team building 
+
+---
+
+# Eventos corporativos
+
+URL: https://suunia.com/eventos-corporativos-galicia
+
+## Tu evento, nuestro territorio
+
+## Servicios para eventos corporativos
+
+## Por qué organizar tu evento corporativo con Suunia
+
+## Preguntas frecuentes sobre eventos corporativos
+
+Cuando una empresa organiza un evento en Galicia — un congreso, una convención, una jornada de trabajo o un viaje de equipo — necesita mucho más que un hotel y un salón. Necesita alguien en el terreno que conozca los mejores espacios, coordine el transporte, seleccione los restaurantes, organice el programa social y resuelva cualquier imprevisto sin que el organizador tenga que preocuparse de nada.
+
+En Suunia somos la agencia receptiva de referencia en Galicia para eventos de empresa. Nos encargamos de toda la logística, las experiencias y el programa social del evento. Para la producción técnica (montaje, escenografía, iluminación, audiovisual), trabajamos con MilEventosGalicia, nuestra empresa partner especializada. Juntos cubrimos todo el espectro.
+
+Nuestros servicios funcionan como solución integral para la empresa o como partner local para agencias de eventos nacionales que necesitan un receptivo de confianza en Galicia. En ambos casos, ofrecemos el mismo nivel de servicio: diseño a medida, coordinación impecable y conocimiento real del territorio. Todo se puede integrar con actividades de team building, programas de incentivos y experiencias Galicia Premium.
+
+Desde la logística de un congreso hasta un regalo de empresa para empleados. Todo lo que necesitas para que tu evento en Galicia funcione.
+
+ ))} )} ); })} Por qué organizar tu evento corporativo con Suunia , , , ].map((item) => ( 
+
+---
+
+# Rías Baixas
+
+URL: https://suunia.com/guias/rias-baixas
+
+## Qué ver en las Rías Baixas: la guía definitiva
+
+## Los pueblos imprescindibles
+
+## Las mejores playas de las Rías Baixas
+
+## Gastronomía: qué comer y dónde
+
+## Bodegas de Albariño que merece la pena visitar
+
+## Consejos prácticos
+
+## ¿Prefieres que organicemos tu viaje a las Rías Baixas?
+
+## Preguntas frecuentes sobre las Rías Baixas
+
+Cambados, O Grove, Sanxenxo, Combarro, las mejores playas, bodegas de Albariño y restaurantes con marisco fresco. Todo lo que hay que saber para recorrer las Rías Baixas con criterio.
+
+12 min de lectura Equipo Suunia Las Rías Baixas son la zona más conocida de Galicia y, probablemente, la que mejor resume todo lo que este territorio tiene para ofrecer: playas atlánticas de arena blanca, pueblos marineros que viven del mar, una gastronomía que gira alrededor del marisco y el Albariño, y un paisaje donde las rías se adentran en la tierra creando uno de los litorales más singulares de Europa.
+
+Esta guía no es una lista de lugares turísticos. Es lo que le contaríamos a un amigo que viene a pasar unos días: los pueblos que merecen la pena de verdad, las playas que no están en las guías convencionales, las bodegas donde catar un buen Albariño sin artificios y los restaurantes donde el marisco se come como se debe. Todo desde la experiencia de un equipo que organiza viajes por esta zona cada semana como agencia receptiva local.
+
+Las Rías Baixas se extienden desde Muros hasta la frontera con Portugal. Estos son los cinco puntos que no se pueden dejar fuera de ningún itinerario.
+
+Playas para todos los gustos: desde arenales kilométricos abiertos al Atlántico hasta calas protegidas entre pinos. La costa de las Rías Baixas tiene más de 700 playas.
+
+Las Rías Baixas son, junto con la Costa da Morte, la zona de Galicia con mayor tradición marisquera. Los productos estrella son el marisco fresco de las rías — mejillón, berberechos, almejas, navajas, zamburiñas, vieiras y pulpo — y el vino Albariño, que es la uva blanca emblemática de la denominación de origen Rías Baixas.
+
+En O Grove encontrarás marisquerías especializadas donde el producto llega directamente de la lonja. En Cambados, los restaurantes del centro histórico trabajan con una materia prima excepcional. En Pontevedra, la zona de tapeo alrededor de la Praza da Leña es una de las mejores de Galicia. Y en toda la zona, cualquier restaurante con aspecto modesto pero lleno de locales a mediodía es probablemente una buena elección.
+
+Si buscas una experiencia gastronómica más completa, organizamos rutas de gastronomía y bodegas que combinan visitas a lonjas, comidas en restaurantes seleccionados y catas en las mejores bodegas de Albariño.
+
+La DO Rías Baixas tiene más de 180 bodegas. Estas cinco ofrecen visitas de calidad con estilos muy diferentes entre sí.
+
+Esta guía te da el conocimiento para planificar tu viaje por tu cuenta. Pero si prefieres que nos encarguemos de todo — itinerario, alojamiento, restaurantes, bodegas, transporte y experiencias — eso es exactamente lo que hacemos.
+
+Diseñamos tours privados por las Rías Baixas adaptados a cada grupo, grandes rutas de varios días que combinan costa e interior, y experiencias premium con navegación privada, cenas con chef y visitas a bodegas cerradas al público. También organizamos experiencias náuticas por las rías.
+
+---
+
+# Costa da Morte
+
+URL: https://suunia.com/guias/costa-da-morte
+
+## Costa da Morte: ruta completa de 2-3 días
+
+## Los faros de la Costa da Morte
+
+## Consejos prácticos
+
+## ¿Prefieres que organicemos la ruta?
+
+## Preguntas frecuentes sobre la Costa da Morte
+
+Desde Malpica hasta Fisterra, recorriendo los acantilados más salvajes de Europa. Faros legendarios, playas desiertas, pueblos marineros y la puesta de sol más famosa de Galicia.
+
+15 min de lectura Equipo Suunia La Costa da Morte es la Galicia más salvaje. Un litoral de acantilados que caen a pico sobre el Atlántico, faros que llevan siglos guiando a los navegantes, playas kilométricas sin una sola construcción y pueblos marineros donde la vida sigue girando alrededor del puerto y la lonja. El nombre — «Costa de la Muerte» — viene de los más de 600 naufragios documentados en estas aguas, pero hoy lo que mata es la belleza del paisaje.
+
+Esta ruta recorre la Costa da Morte de norte a sur en 2-3 días, desde Malpica hasta Fisterra, pasando por Camariñas, Muxía y Carnota. Es una ruta que se puede hacer por libre en coche, pero también la organizamos como tour privado con guía local o como parte de una gran ruta por Galicia de varios días.
+
+La Costa da Morte tiene la mayor concentración de faros de toda la costa española. Estos cuatro son los más interesantes de visitar.
+
+Esta guía tiene toda la información que necesitas para recorrer la Costa da Morte por tu cuenta. Pero si prefieres no preocuparte de nada — transporte, alojamiento, restaurantes, guía que te cuente cada leyenda y cada naufragio — eso es exactamente lo que hacemos.
+
+Organizamos excursiones privadas de un día a Fisterra y Muxía, rutas de varios días por la costa atlántica y experiencias premium con alojamientos exclusivos y accesos que no están al alcance del turismo convencional.
+
+---
+
+# Ribeira Sacra
+
+URL: https://suunia.com/guias/ribeira-sacra
+
+## Ribeira Sacra: viñedos, cañones y monasterios
+
+## Los monasterios de la Ribeira Sacra
+
+## Bodegas que merece la pena visitar
+
+## Información práctica
+
+## ¿Prefieres que organicemos tu viaje a la Ribeira Sacra?
+
+## Preguntas frecuentes sobre la Ribeira Sacra
+
+La zona vinícola más espectacular de Europa. Cañones del Sil, viticultura heroica en bancales, monasterios románicos perdidos en el bosque y vinos de Mencía que no se encuentran fuera de aquí.
+
+14 min de lectura Equipo Suunia La Ribeira Sacra es probablemente el secreto mejor guardado de Galicia. Mientras las Rías Baixas y Santiago reciben millones de visitantes cada año, los cañones del Sil, los viñedos en bancales y los monasterios románicos de esta zona del interior pasan desapercibidos para la mayoría de los viajeros. Y eso, paradójicamente, es parte de su encanto.
+
+Esta guía recorre lo esencial de la Ribeira Sacra: el paisaje de los cañones, la viticultura heroica, los monasterios que le dan nombre (ribeira sacra = ribera sagrada, por la concentración de monasterios en las orillas del Sil) y las bodegas donde se puede catar el Mencía en su territorio. Todo desde el conocimiento de un equipo que organiza viajes por esta zona como agencia receptiva local.
+
+La concentración de monasterios en las riberas del Sil y del Miño es lo que dio nombre a esta zona: «ribera sagrada». Estos cuatro son los más interesantes de visitar.
+
+La DO Ribeira Sacra cuenta con más de 90 bodegas. Estas cuatro representan bien la diversidad de la zona y ofrecen visitas de calidad.
+
+La Ribeira Sacra se puede recorrer por libre, pero tener quien te organice las visitas a bodegas, el catamarán, los alojamientos y la ruta entre miradores y monasterios hace que el viaje sea otra cosa.
+
+Organizamos excursiones privadas de un día a la Ribeira Sacra desde Santiago o A Coruña, grandes rutas que combinan la Ribeira Sacra con la costa, y rutas de gastronomía y bodegas especializadas en la zona vinícola.
+
+---
+
+# Santiago de Compostela
+
+URL: https://suunia.com/guias/santiago-de-compostela
+
+## Santiago de Compostela más allá del Camino
+
+## El casco histórico más allá de la Catedral
+
+## Las calles y los paseos
+
+## El Mercado de Abastos
+
+## Dónde comer bien en Santiago
+
+## La vida nocturna compostelana
+
+## Excursiones desde Santiago
+
+## Consejos prácticos
+
+## Quieres que organicemos tu viaje a Santiago?
+
+## Preguntas frecuentes sobre Santiago de Compostela
+
+Ciudad universitaria, Patrimonio de la Humanidad y capital gastronómica. Todo lo que Santiago tiene para ofrecer cuando dejas de mirarlo solo como el final del Camino.
+
+13 min de lectura Equipo Suunia Inicio / Guías / Santiago de Compostela Santiago de Compostela es mucho más que el final del Camino. Es una ciudad universitaria con más de 40.000 estudiantes que le dan vida todo el año, una escena gastronómica que va mucho más allá de los menús turísticos, y un casco histórico declarado Patrimonio de la Humanidad por la UNESCO que esconde rincones que la mayoría de los visitantes nunca descubre.
+
+Esta guía no va del Camino de Santiago. Va de la ciudad que espera al final: las plazas que hay que ver con calma, el Mercado de Abastos donde los compostelanos compran desde 1873, los restaurantes donde se come de verdad, la vida nocturna que mueve una ciudad joven, y las excursiones que convierten a Santiago en la mejor base para explorar Galicia. Todo desde la experiencia de un equipo que vive aquí y organiza viajes por la zona como agencia receptiva local .
+
+El centro histórico de Santiago es Patrimonio de la Humanidad desde 1985. Pero la mayoría de los visitantes solo ven la Catedral y la Praza do Obradoiro. Estas son las paradas que no te puedes saltar.
+
+La Rúa do Franco y la Rúa do Vilar son las dos arterias principales del casco histórico, con soportales de piedra, tiendas y restaurantes a ambos lados. La Rúa do Franco es la más turística (y donde hay que ir con más cuidado al elegir restaurante); la Rúa do Vilar es algo más tranquila y tiene librerías, tiendas de artesanía y cafés con carácter.
+
+El Parque de la Alameda, al oeste del casco antiguo, ofrece las mejores vistas de la Catedral desde la distancia. El paseo entre robles centenarios, con la silueta de las torres recortada contra el cielo, es una de las estampas clásicas de Santiago. Al atardecer, la luz es excepcional.
+
+El Convento de San Francisco, según la tradición fundado por el propio San Francisco de Asís durante su peregrinación a Santiago en el siglo XIII, se encuentra junto al casco histórico y alberga hoy un hotel monumento. Su claustro gótico y la iglesia merecen una visita tranquila.
+
+El Mercado de Abastos de Santiago es el segundo lugar más visitado de la ciudad después de la Catedral, y probablemente el que mejor resume el carácter compostelano. Funciona de forma ininterrumpida desde 1873, y sigue siendo un mercado real: los compostelanos vienen aquí a hacer la compra, no a sacarse fotos.
+
+Encontrarás marisco fresco de las rías gallegas — percebes, navajas, zamburiñas, centolla —, verduras de temporada de las huertas del interior, queso de Tetilla con denominación de origen, miel de la zona y embutidos artesanales. Los puestos de flores dan color al conjunto.
+
+El concepto más interesante del mercado es la cocina do mercado: compras tu pescado o marisco en los puestos y los restaurantes que rodean el mercado te lo cocinan por un precio módico. Es una forma excelente de comer producto de primera calidad a precio razonable y vivir la experiencia completa.
+
+El mejor momento para visitarlo es por la mañana, especialmente los jueves y sábados, cuando las campesinas de la zona traen sus productos directamente: grelos, pimientos de Padrón, patatas, huevos de aldea y quesos frescos. La actividad empieza a decaer a partir de las 14:00.
+
+Santiago tiene una oferta gastronómica excelente si sabes dónde buscar. Una regla básica: evita los restaurantes de la Rúa do Franco que tienen fotos de los platos en la puerta. Estos cinco no fallan.
+
+Santiago es, ante todo, una ciudad universitaria. Con más de 40.000 estudiantes repartidos entre la Universidad de Santiago de Compostela (una de las más antiguas de España, fundada en 1495) y varios campus, la vida nocturna tiene una energía que muchos visitantes no esperan.
+
+La zona de vinos se concentra en torno a la Rúa do Franco y la Praza de Cervantes. Aquí encontrarás bares de vino donde tomar un Albariño o un Mencía de la Ribeira Sacra con una tapa a buen precio. El ambiente es tranquilo al principio de la noche y se anima a medida que avanza.
+
+Para música en directo, el casco histórico tiene varios locales con programación regular de música celta, folk y jazz. La tradición musical gallega está muy viva en Santiago y no es raro encontrar sesiones improvisadas en bares pequeños.
+
+La Rúa de San Clemente es la calle de referencia para la noche más tardía, con bares y pubs que cierran de madrugada y una clientela mayoritariamente local y universitaria. En verano, las terrazas de las plazas del casco antiguo — especialmente la Praza da Quintana y la Praza de Cervantes — se llenan hasta bien entrada la noche.
+
+Santiago es la mejor base para explorar Galicia. En menos de dos horas llegas a las Rías Baixas, la Costa da Morte, la Ribeira Sacra o A Coruña. Estas son las excursiones imprescindibles.
+
+Esta guía te da las claves para recorrer Santiago por tu cuenta. Pero si prefieres que nos encarguemos de todo — itinerario, alojamiento, restaurantes, transporte y experiencias — eso es exactamente lo que hacemos.
+
+Diseñamos tours privados por Santiago y Galicia adaptados a cada grupo, grandes rutas de varios días que combinan Santiago con las Rías Baixas, la Ribeira Sacra o la Costa da Morte, y experiencias premium con visitas exclusivas, cenas privadas y acceso a espacios que no están abiertos al público.
+
+- Santiago de Compostela
+
+---
+
+# Islas Atlánticas
+
+URL: https://suunia.com/guias/islas-atlanticas
+
+## Islas Atlánticas de Galicia: Cíes, Ons, Sálvora y Cortegada
+
+## Los cuatro archipiélagos
+
+## Cómo conseguir los permisos de visita
+
+## Ferris y accesos
+
+## La mejor época para visitar
+
+## Qué llevar a las islas
+
+## ¿Prefieres que organicemos tu excursión a las islas?
+
+## Preguntas frecuentes sobre las Islas Atlánticas
+
+), title: "Agua y comida", text: "Lleva agua y comida suficiente. En las Cíes y Ons hay alguna opción limitada de restauración, pero en Sálvora y Cortegada no hay nada. Los precios en las islas son elevados.", }, , , , ]; const faqs = [ , , , , ]; export default function GuiaIslasAtlanticas() Guía de rutas Islas Atlánticas de Galicia: Cíes, Ons, Sálvora y Cortegada Guía completa del Parque Nacional Marítimo-Terrestre de las Islas Atlánticas. Cuatro archipiélagos, permisos, ferris, playas, rutas de senderismo y todo lo que necesitas para planificar tu visita.
+
+10 min de lectura Equipo Suunia Inicio / Guías / Islas Atlánticas El Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia es el único parque nacional de Galicia y uno de los espacios naturales más valiosos de toda la costa atlántica europea. Lo forman cuatro archipiélagos — Cíes, Ons, Sálvora y Cortegada — repartidos entre las rías de Vigo, Pontevedra, Arousa y Muros-Noia, cada uno con un carácter y un paisaje completamente distintos.
+
+Esta guía recoge todo lo que necesitas para planificar tu visita: qué ofrece cada isla, cómo conseguir los permisos, desde dónde salen los ferris, qué rutas merece la pena hacer y los consejos prácticos que solo conoce quien organiza estas excursiones cada semana como agencia receptiva local .
+
+Playa de Rodas, Islas Cíes — elegida mejor playa del mundo por The Guardian
+
+Cada isla tiene su propio carácter. Desde la playa más famosa de Galicia hasta un bosque de laureles único en Europa, el Parque Nacional ofrece cuatro experiencias completamente diferentes.
+
+ ))} ))} Cómo conseguir los permisos de visita Para visitar las Islas Cíes, Ons y Sálvora es obligatorio obtener una autorización previa de la Xunta de Galicia. El permiso es gratuito y se tramita online en autorizacionislasgalicia.xunta.gal . Es imprescindible conseguir el permiso antes de comprar el billete del ferri: sin permiso no puedes embarcar.
+
+El sistema de permisos suele estar operativo desde Semana Santa hasta finales de septiembre. Fuera de esa temporada, el acceso está restringido o directamente cerrado, dependiendo de la isla y de las condiciones meteorológicas.
+
+Cada isla tiene sus propias rutas de acceso. Aquí tienes los puertos de salida y la frecuencia habitual en temporada alta.
+
+Pasarela hacia una de las calas de las Islas Cíes — acceso a pie desde el embarcadero
+
+La temporada de acceso a las islas va de Semana Santa a septiembre, aunque la disponibilidad de ferris y permisos depende de cada isla y de las condiciones meteorológicas.
+
+Septiembre es, sin duda, el mejor mes: el agua del Atlántico alcanza su temperatura máxima tras todo el verano, los permisos son más fáciles de conseguir, los ferris van menos llenos y la luz es perfecta para fotografía. La segunda quincena de junio es la otra ventana ideal.
+
+Julio y agosto funcionan bien si planificas con antelación, pero prepárate para compartir las islas con más gente y para pelear por los permisos, sobre todo los fines de semana. Entre semana la experiencia mejora notablemente.
+
+De octubre a Semana Santa las islas están mayoritariamente cerradas al público, salvo Cortegada, que es accesible todo el año.
+
+Las islas son espacios naturales protegidos con infraestructuras mínimas. Una buena preparación marca la diferencia entre una excursión perfecta y una jornada incómoda.
+
+Esta guía te da toda la información para planificar la visita por tu cuenta. Pero si prefieres que nos encarguemos de todo — permisos, ferris, guía, itinerario y logística — eso es exactamente lo que hacemos.
+
+Organizamos experiencias náuticas por las Islas Atlánticas con embarcación privada, excursiones privadas a las Cíes y Ons con guía local, y tours privados por Galicia que combinan las islas con las Rías Baixas, bodegas de Albariño y gastronomía local. Nos encargamos de todo para que tu grupo solo tenga que disfrutar.
+
+- Islas Atlánticas
+
+---
+
+# Restaurantes Michelin
+
+URL: https://suunia.com/guias/restaurantes-michelin-galicia
+
+## Los restaurantes con estrella Michelin de Galicia
+
+## Los restaurantes con estrella
+
+## Más allá de las estrellas
+
+## Rutas gastronómicas a medida
+
+## Preguntas frecuentes
+
+Quién está detrás, qué se come, cuánto cuesta y por qué la alta cocina gallega es una de las más interesantes de Europa en este momento.
+
+10 min de lectura Equipo Suunia Galicia lleva años consolidándose como uno de los territorios gastronómicos más relevantes de España. La combinación de un producto excepcional — marisco de ría, pescado del Atlántico, verduras de huerta, carnes de pasto, vinos con denominación de origen — con una generación de chefs que ha sabido reinterpretar la tradición sin traicionarla ha puesto a la cocina gallega en un nivel que pocos imaginaban hace una década.
+
+Esta guía recorre los restaurantes que la guía Michelin ha distinguido con una o dos estrellas en Galicia. No es una lista fría: contamos quién está detrás de cada cocina, qué hace especial su propuesta, cuánto cuesta comer allí y qué conviene saber antes de reservar. Todo desde la experiencia de un equipo que lleva años organizando experiencias gastronómicas por Galicia para viajeros exigentes.
+
+De los tres restaurantes con dos estrellas a las propuestas con una estrella repartidas por las cuatro provincias gallegas.
+
+La alta cocina es solo una parte de la escena gastronómica gallega. El verdadero tesoro está en la materia prima y en los miles de restaurantes, marisquerías y tabernas que la trabajan cada día.
+
+Organizar una ruta gastronómica por los Michelin de Galicia no es solo reservar mesa. Es diseñar un itinerario que combine los restaurantes con visitas a bodegas, mercados de abastos, lonjas de pescado y experiencias que den contexto a lo que se come en cada sitio. Que la ruta del vino en Rías Baixas prepare el paladar para la cena en Culler de Pau. Que la visita a la lonja de A Coruña al amanecer tenga sentido antes de comer en Árbore da Veira.
+
+Como agencia receptiva local, nos encargamos de todo: reservas en los restaurantes (algunas requieren contacto directo que no está al alcance del público general), transporte privado entre puntos, alojamiento en hoteles seleccionados y coordinación de cada jornada. El resultado es un viaje donde cada comida es parte de una experiencia más grande. También podemos integrar estas experiencias en un viaje Galicia Premium.
+
+---
+
+# Vinos y denominaciones de origen
+
+URL: https://suunia.com/guias/vinos-denominaciones-origen-galicia
+
+## Las 5 denominaciones de origen del vino gallego
+
+## Bodegas destacadas
+
+## Comparativa rápida
+
+## Cómo organizar una ruta del vino en Galicia
+
+## ¿Prefieres que organicemos tu ruta del vino?
+
+## Preguntas frecuentes sobre el vino gallego
+
+Rías Baixas, Ribeira Sacra, Valdeorras, Monterrei y Ribeiro: cinco regiones vinícolas protegidas, cada una con su microclima, sus uvas autóctonas y su personalidad. Guía completa para entender y disfrutar el vino de Galicia.
+
+11 min de lectura Equipo Suunia Inicio / Guías / Vinos de Galicia Galicia tiene cinco Denominaciones de Origen (DOs) — regiones vinícolas protegidas con identidad propia. Cada una responde a un microclima, un suelo y unas variedades de uva diferentes. El resultado es un mosaico de vinos que pocas regiones de Europa pueden igualar en diversidad para un territorio tan compacto.
+
+La vid lleva en Galicia más de 2.000 años — los romanos ya plantaron los primeros viñedos —, pero el mundo internacional del vino no empezó a prestarle atención hasta los años 90. Hoy, los blancos gallegos (especialmente Albariño, Godello y Treixadura) están entre los más emocionantes de Europa, y los tintos de Mencía de Ribeira Sacra se han convertido en un descubrimiento para enólogos de todo el mundo.
+
+Esta guía recorre las cinco DOs con criterio de local: qué las hace únicas, qué uvas definen cada zona, qué bodegas merece la pena visitar y cómo organizar una ruta del vino en Galicia de verdad.
+
+Las cinco DOs en un vistazo: uva principal, estilo de vino y carácter de cada zona.
+
+Recorrer las bodegas gallegas por tu cuenta es posible, pero requiere planificación. Estos son los puntos clave para que la experiencia funcione.
+
+Esta guía te da el conocimiento para planificar tu experiencia enológica en Galicia por tu cuenta. Pero si prefieres que nos encarguemos de todo — selección de bodegas, reservas, transporte con conductor, maridajes gastronómicos y alojamiento — eso es exactamente lo que hacemos como agencia receptiva local .
+
+Diseñamos rutas de gastronomía y bodegas a medida por las cinco DOs, con guía enológico y acceso a bodegas que no abren al público general. También ofrecemos experiencias premium que combinan catas privadas, cenas con chef y alojamiento en pazos.
+
+- Vinos de Galicia
+
+---
+
+# Cuándo viajar a Galicia
+
+URL: https://suunia.com/guias/cuando-viajar-galicia
+
+## Cuándo viajar a Galicia: la mejor época según lo que busques
+
+## Galicia estación por estación
+
+## La mejor época según lo que busques
+
+## Consejos prácticos sobre el clima
+
+## ¿Ya sabes cuándo vienes? Nosotros diseñamos el viaje
+
+## Preguntas frecuentes
+
+Galicia no es solo verano. Cada estación tiene su encanto, sus fiestas, sus productos de temporada y su luz. Una guía mes a mes para elegir el momento perfecto.
+
+8 min de lectura Inicio / Guías / Cuándo viajar Una de las preguntas que más nos hacen como agencia receptiva en Galicia es cuándo es el mejor momento para venir. La respuesta honesta es que depende de lo que busques. Galicia no tiene una temporada mala — tiene temporadas diferentes, cada una con sus propias ventajas.
+
+El clima atlántico hace que los cambios de estación se noten de verdad. No es lo mismo la Galicia de las hogueras de San Juan en junio que la de los magostos con castañas en noviembre, ni la de los viñedos en vendimia que la de las camelias floreciendo en marzo. Esta guía te ayuda a elegir la mejor fecha según lo que quieras hacer, ver y comer.
+
+ ))} ))} Los bosques atlánticos de Galicia alcanzan su máximo esplendor en primavera y otoño.
+
+Resumen rápido para elegir fecha en función de tus intereses principales.
+
+Una vez tengas las fechas, podemos encargarnos de todo: itinerario, alojamiento, transporte, restaurantes y experiencias adaptadas a la temporada. Organizamos tours privados , grandes rutas y viajes de grupo durante todo el año.
+
+- Cuándo viajar
+
+---
+
+# Cómo organizar un viaje en grupo
+
+URL: https://suunia.com/guias/viaje-grupo-galicia
+
+## Cómo organizar un viaje en grupo a Galicia
+
+## Los 6 pasos para organizar tu viaje
+
+## Los 5 errores más comunes al organizar viajes de grupo
+
+## Presupuesto orientativo
+
+## Actividades que funcionan bien en grupo
+
+## ¿Organizamos tu viaje de grupo?
+
+## Preguntas frecuentes
+
+Logística, transporte, alojamientos, restaurantes para grupos grandes y actividades que funcionan. Todo lo que necesitas saber antes de organizar un viaje de grupo.
+
+9 min de lectura Inicio / Guías / Viajes en grupo Galicia es un destino que funciona extraordinariamente bien para viajes de grupo. La combinación de gastronomía de primer nivel, paisajes espectaculares, patrimonio histórico y una infraestructura turística cada vez más preparada hace que los grupos que vienen una vez casi siempre repiten. Pero organizar un viaje para 20, 30 o 50 personas tiene sus particularidades.
+
+Como agencia receptiva en Galicia , llevamos años organizando viajes de grupo de todo tipo: asociaciones, empresas, familias, clubs de gastronomía, grupos escolares y viajes de incentivos. Esta guía recoge todo lo que hemos aprendido.
+
+Excursiones náuticas como la visita al Islote de Areoso funcionan muy bien en grupos.
+
+Estos rangos son orientativos y varían según temporada, tamaño del grupo y nivel de servicio. Pedimos presupuesto personalizado sin compromiso.
+
+Nos encargamos de todo: diseño del itinerario, reservas, transporte, guías, restaurantes y gestión del grupo sobre el terreno. Desde viajes de grupo hasta viajes de incentivos y eventos corporativos . Cuéntanos qué necesitas y te hacemos una propuesta sin compromiso.
+
+- Viajes en grupo

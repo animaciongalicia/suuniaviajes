@@ -92,7 +92,7 @@ export default function ToursPrivadosGalicia() {
                 Nuestros tours privados incluyen guía local profesional, <Link href="/logistica-servicios-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">transporte privado</Link> adaptado al grupo y un itinerario flexible que se puede ajustar sobre la marcha. No hay prisas, no hay autobuses turísticos y no hay visitas obligatorias a tiendas de souvenirs. Solo Galicia auténtica, contada por quienes la vivimos cada día.
               </p>
               <p>
-                Trabajamos con parejas, familias, grupos de amigos y grupos reducidos de hasta 15-20 personas. Para grupos más grandes, nuestro servicio de <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes en grupo</Link> es la opción ideal. Para empresas que buscan premiar a sus equipos, organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos</Link>. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva local</Link>, cada tour se puede disfrutar como experiencia independiente o integrarse en un programa de varios días.
+                Trabajamos con parejas, familias, grupos de amigos y grupos reducidos de hasta 15-20 personas. Para grupos más grandes, nuestro servicio de <Link href="/viajes-grupos-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes en grupo</Link> es la opción ideal. Para empresas que buscan premiar a sus equipos, organizamos <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">viajes de incentivos</Link>. Como <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">DMC local en Galicia</Link>, cada tour se puede disfrutar como experiencia independiente o integrarse en un programa de varios días.
               </p>
             </div>
           </AnimateOnScroll>
@@ -284,11 +284,7 @@ export default function ToursPrivadosGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Tours privados en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Tours privados y experiencias personalizadas en Galicia: Santiago, Costa da Morte, Rías Baixas, Islas Cíes, gastronomía y rutas del vino.",

@@ -82,14 +82,27 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": ["Organization", "TravelAgency"],
+              "@id": "https://suunia.com/#organization",
               name: "Suunia",
               url: "https://suunia.com",
-              logo: "https://suunia.com/images/logo-suunia.svg",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://suunia.com/images/logo-suunia.svg",
+              },
+              image: "https://suunia.com/images/hero-galicia.jpg",
               description:
-                "Agencia receptiva en Galicia especializada en viajes, experiencias y logística para grupos privados y empresas.",
+                "Agencia receptiva (DMC) en Galicia especializada en viajes privados a medida, experiencias únicas y organización local para grupos, empresas y agencias de viajes.",
               telephone: "+34678288284",
               email: "info@suunia.com",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Ronda de Montealto, 4 – 5ºA",
+                addressLocality: "A Coruña",
+                addressRegion: "Galicia",
+                postalCode: "15002",
+                addressCountry: "ES",
+              },
               areaServed: {
                 "@type": "Place",
                 name: "Galicia, España",
@@ -97,6 +110,7 @@ export default function RootLayout({
               serviceType: [
                 "Agencia receptiva",
                 "DMC",
+                "Destination Management Company",
                 "Viajes en grupo",
                 "Tours privados",
                 "Incentivos empresas",

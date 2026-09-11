@@ -138,7 +138,7 @@ export default function EventosCorporativosGalicia() {
                 Cuando una empresa organiza un evento en Galicia — un congreso, una convención, una jornada de trabajo o un viaje de equipo — necesita mucho más que un hotel y un salón. Necesita alguien en el terreno que conozca los mejores espacios, coordine el transporte, seleccione los restaurantes, organice el programa social y resuelva cualquier imprevisto sin que el organizador tenga que preocuparse de nada.
               </p>
               <p>
-                En Suunia somos la <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">agencia receptiva de referencia en Galicia</Link> para eventos de empresa. Nos encargamos de toda la logística, las experiencias y el programa social del evento. Para la producción técnica (montaje, escenografía, iluminación, audiovisual), trabajamos con MilEventosGalicia, nuestra empresa partner especializada. Juntos cubrimos todo el espectro.
+                En Suunia somos la <Link href="/receptivo-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">DMC de referencia en Galicia</Link> para eventos de empresa. Nos encargamos de toda la logística, las experiencias y el programa social del evento. Para la producción técnica (montaje, escenografía, iluminación, audiovisual), trabajamos con MilEventosGalicia, nuestra empresa partner especializada. Juntos cubrimos todo el espectro.
               </p>
               <p>
                 Nuestros servicios funcionan como solución integral para la empresa o como partner local para agencias de eventos nacionales que necesitan un receptivo de confianza en Galicia. En ambos casos, ofrecemos el mismo nivel de servicio: diseño a medida, coordinación impecable y conocimiento real del territorio. Todo se puede integrar con <Link href="/team-building-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">actividades de team building</Link>, <Link href="/incentivos-empresa-galicia" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">programas de incentivos</Link> y experiencias <Link href="/galicia-premium" className="text-atlantic-700 underline decoration-atlantic-300 underline-offset-2 hover:decoration-atlantic-600">Galicia Premium</Link>.
@@ -273,11 +273,7 @@ export default function EventosCorporativosGalicia() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Eventos corporativos y servicios para empresas en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Organización de eventos corporativos en Galicia: congresos, convenciones, jornadas directivas, programas de acompañantes, cenas de gala, regalos para empleados y experiencias de empresa.",

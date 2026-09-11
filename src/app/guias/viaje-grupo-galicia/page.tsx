@@ -523,6 +523,37 @@ export default function GuiaViajeGrupo() {
         </div>
       </section>
 
+      
+      {/* BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Inicio",
+                item: "https://suunia.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guías de viaje",
+                item: "https://suunia.com/guias",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Viaje en grupo a Galicia",
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -536,11 +567,11 @@ export default function GuiaViajeGrupo() {
               description:
                 "Guía práctica completa para organizar viajes de grupo a Galicia: logística, transporte, alojamiento, restaurantes y actividades.",
               url: "https://suunia.com/guias/viaje-grupo-galicia",
-              publisher: {
-                "@type": "Organization",
-                name: "Suunia",
-                url: "https://suunia.com",
-              },
+              author: { "@id": "https://suunia.com/#organization" },
+              publisher: { "@id": "https://suunia.com/#organization" },
+              mainEntityOfPage: "https://suunia.com/guias/viaje-grupo-galicia",
+              datePublished: "2026-09-02",
+              dateModified: "2026-09-11",
               image: "/images/viajes-grupos-hero.jpg",
             },
             {

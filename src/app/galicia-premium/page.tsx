@@ -315,11 +315,7 @@ export default function GaliciaPremium() {
             "@context": "https://schema.org",
             "@type": "Service",
             serviceType: "Viajes premium y experiencias exclusivas en Galicia",
-            provider: {
-              "@type": "Organization",
-              name: "Suunia",
-              url: "https://suunia.com",
-            },
+            provider: { "@id": "https://suunia.com/#organization" },
             areaServed: { "@type": "Place", name: "Galicia, España" },
             description:
               "Viajes premium en Galicia con alojamientos de lujo, gastronomía de autor, experiencias privadas y accesos exclusivos. Programas a medida organizados por una agencia receptiva local.",
