@@ -605,7 +605,7 @@ export default function GuiaCuandoViajar() {
               mainEntityOfPage: "https://suunia.com/guias/cuando-viajar-galicia",
               datePublished: "2026-09-02",
               dateModified: "2026-09-11",
-              image: "/images/viajes-grupos-naturaleza.jpg",
+              image: "https://suunia.com/images/viajes-grupos-naturaleza.jpg",
             },
             {
               "@context": "https://schema.org",

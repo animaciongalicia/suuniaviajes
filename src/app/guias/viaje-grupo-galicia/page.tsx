@@ -579,7 +579,7 @@ export default function GuiaViajeGrupo() {
               mainEntityOfPage: "https://suunia.com/guias/viaje-grupo-galicia",
               datePublished: "2026-09-02",
               dateModified: "2026-09-11",
-              image: "/images/viajes-grupos-hero.jpg",
+              image: "https://suunia.com/images/viajes-grupos-hero.jpg",
             },
             {
               "@context": "https://schema.org",
